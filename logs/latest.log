@@ -1,468 +1,164 @@
-[13:57:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[13:57:06] [Server thread/INFO]: Loading properties
-[13:57:06] [Server thread/INFO]: Default game type: SURVIVAL
-[13:57:06] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[13:57:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:57:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:57:06] [Server thread/INFO]: Debug logging is disabled
-[13:57:06] [Server thread/INFO]: Generating keypair
-[13:57:06] [Server thread/INFO]: Starting Minecraft server on 192.99.70.193:25565
-[13:57:06] [Server thread/INFO]: Using epoll channel type
-[13:57:07] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:57:07] [Server thread/ERROR]: Could not load 'plugins/MGSkyWars.jar' in folder 'plugins'
+[20:20:37] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:20:37] [Server thread/INFO]: Loading properties
+[20:20:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:37] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:20:37] [Server thread/INFO]: Debug logging is disabled
+[20:20:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:20:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:20:37] [Server thread/INFO]: Generating keypair
+[20:20:38] [Server thread/INFO]: Starting Minecraft server on 192.168.0.101:25565
+[20:20:38] [Server thread/INFO]: Using default channel type
+[20:20:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:20:38] [Server thread/ERROR]: Could not load 'plugins\MGSkyWars.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: MinigamesLib
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-[13:57:07] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[13:57:07] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[13:57:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[13:57:07] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[13:57:07] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
-[13:57:07] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[13:57:07] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[13:57:07] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:57:07] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[13:57:07] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[13:57:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:57:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:57:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:57:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:57:07] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:57:07] [Server thread/INFO]: Preparing level "world"
-[13:57:07] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:57:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:57:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:57:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:57:07] [Server thread/INFO]: Mob Spawn Range: 4
-[13:57:07] [Server thread/INFO]: Anti X-Ray: true
-[13:57:07] [Server thread/INFO]: 	Engine Mode: 1
-[13:57:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:57:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:57:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:57:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:57:07] [Server thread/INFO]: Random Lighting Updates: false
-[13:57:07] [Server thread/INFO]: Structure Info Saving: true
-[13:57:07] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:57:07] [Server thread/INFO]: Max Entity Collisions: 8
-[13:57:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:57:07] [Server thread/INFO]: Max TNT Explosions: 100
-[13:57:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:57:07] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:57:07] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:57:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:57:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:57:07] [Server thread/INFO]: View Distance: 10
-[13:57:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:57:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:57:07] [Server thread/INFO]: Clear tick list: false
-[13:57:07] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:57:07] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2835611764693024549)
-[13:57:08] [Server thread/INFO]: Preparing spawn area: 24%
-[13:57:09] [Server thread/INFO]: Preparing spawn area: 59%
-[13:57:10] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[13:57:10] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[13:57:10] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[13:57:10] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[13:57:10] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[13:57:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[13:57:11] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[13:57:11] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[13:57:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
-[13:57:11] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
-[13:57:11] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
-[13:57:11] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
-[13:57:11] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
-[13:57:11] [Server thread/INFO]: -------- World Settings For [Lobby] --------
-[13:57:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:57:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:57:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:57:11] [Server thread/INFO]: Mob Spawn Range: 4
-[13:57:11] [Server thread/INFO]: Anti X-Ray: true
-[13:57:11] [Server thread/INFO]: 	Engine Mode: 1
-[13:57:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:57:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:57:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:57:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:57:11] [Server thread/INFO]: Random Lighting Updates: false
-[13:57:11] [Server thread/INFO]: Structure Info Saving: true
-[13:57:11] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:57:11] [Server thread/INFO]: Max Entity Collisions: 8
-[13:57:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:57:11] [Server thread/INFO]: Max TNT Explosions: 100
-[13:57:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:57:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:57:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:57:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:57:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:57:11] [Server thread/INFO]: View Distance: 10
-[13:57:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:57:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:57:11] [Server thread/INFO]: Clear tick list: false
-[13:57:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:57:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5821576765273950202)
-[13:57:12] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
-[13:57:12] [Server thread/INFO]: -------- World Settings For [work] --------
-[13:57:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:57:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:57:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:57:12] [Server thread/INFO]: Mob Spawn Range: 4
-[13:57:12] [Server thread/INFO]: Anti X-Ray: true
-[13:57:12] [Server thread/INFO]: 	Engine Mode: 1
-[13:57:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:57:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:57:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:57:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:57:12] [Server thread/INFO]: Random Lighting Updates: false
-[13:57:12] [Server thread/INFO]: Structure Info Saving: true
-[13:57:12] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:57:12] [Server thread/INFO]: Max Entity Collisions: 8
-[13:57:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:57:12] [Server thread/INFO]: Max TNT Explosions: 100
-[13:57:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:57:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:57:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:57:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:57:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:57:12] [Server thread/INFO]: View Distance: 10
-[13:57:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:57:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:57:12] [Server thread/INFO]: Clear tick list: false
-[13:57:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:57:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3081921282634678907)
-[13:57:13] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[13:57:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:57:13] [Server thread/INFO]: Done (6.511s)! For help, type "help" or "?"
-[13:57:13] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
-[13:57:14] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
-[13:59:53] [Thread-10/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[13:59:53] [Server thread/INFO]: Rukia[/138.59.120.150:6581] logged in with entity id 88 at ([world]216.5, 69.0, 260.5)
-[14:00:03] [Server thread/INFO]: Rukia has just earned the achievement [Taking Inventory]
-[14:01:21] [Server thread/INFO]: Opped rukia
-[14:01:47] [Server thread/INFO]: Rukia lost connection: Disconnected
-[14:01:47] [Server thread/INFO]: Rukia left the game.
-[14:03:17] [Thread-11/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[14:03:17] [Server thread/INFO]: Rukia[/138.59.120.150:6419] logged in with entity id 90 at ([world]237.42384252030317, 64.0, 260.9604772513185)
-[14:03:44] [Server thread/INFO]: Rukia issued server command: /gamode 1
-[14:03:57] [Server thread/INFO]: Rukia issued server command: /gamemode 1
-[14:03:57] [Server thread/INFO]: [Rukia: Set own game mode to Creative Mode]
-[14:04:53] [Thread-12/INFO]: UUID of player totalmentenoob is 343a008c-71ae-3434-aaf5-4b0874a3ae6c
-[14:04:53] [Server thread/INFO]: totalmentenoob[/189.81.239.3:55641] logged in with entity id 91 at ([world]221.5, 63.0, 261.5)
-[14:05:17] [Server thread/INFO]: totalmentenoob has just earned the achievement [Taking Inventory]
-[14:05:17] [Server thread/WARN]: totalmentenoob moved too quickly! -11.471217122217581,0.0,1.386386783085925 (-11.471217122217581, 0.0, 1.386386783085925)
-[14:06:14] [Server thread/INFO]: Rukia issued server command: /op totalmentenoob
-[14:06:14] [Server thread/INFO]: [Rukia: Opped totalmentenoob]
-[14:06:35] [Server thread/INFO]: totalmentenoob issued server command: /gamemode 1
-[14:06:35] [Server thread/INFO]: [totalmentenoob: Set own game mode to Creative Mode]
-[14:07:10] [Server thread/INFO]: Rukia issued server command: /mv tp Lobby
-[14:07:20] [Server thread/INFO]: totalmentenoob issued server command: /tp rukia
-[14:07:20] [Server thread/INFO]: [totalmentenoob: Teleported totalmentenoob to Rukia]
-[14:08:24] [Server thread/INFO]: totalmentenoob lost connection: Disconnected
-[14:08:24] [Server thread/INFO]: totalmentenoob left the game.
-[14:08:48] [Thread-13/INFO]: UUID of player ZPekena_Jenny_LK is 59002451-baa0-3fa2-8583-f79ce5faca96
-[14:08:48] [Server thread/INFO]: ZPekena_Jenny_LK[/201.88.182.5:51262] logged in with entity id 240 at ([world]210.5, 63.0, 264.5)
-[14:09:17] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<ZPekena_Jenny_LK> oi[m
-[14:09:25] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:09:54] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<ZPekena_Jenny_LK> oi[m
-[14:10:15] [Server thread/INFO]: ZPekena_Jenny_LK has just earned the achievement [Taking Inventory]
-[14:10:31] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<ZPekena_Jenny_LK> oi[m
-[14:10:37] [Server thread/INFO]: Rukia issued server command: /op Zpekena_Jenny_LK
-[14:10:37] [Server thread/INFO]: [Rukia: Opped Zpekena_Jenny_LK]
-[14:10:44] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemmode 1
-[14:10:51] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[14:10:51] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[14:10:57] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:10:57] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:14:37] [Server thread/INFO]: Rukia issued server command: /TIME SET 0
-[14:14:54] [Server thread/INFO]: Rukia issued server command: /time set 0
-[14:14:54] [Server thread/INFO]: [Rukia: Set the time to 0]
-[14:16:42] [Server thread/INFO]: Rukia issued server command: /tpa Zpekena_Jenny_LK
-[14:17:08] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[14:17:08] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[14:19:53] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /spawnpoint
-[14:19:53] [Server thread/INFO]: [ZPekena_Jenny_LK: Set ZPekena_Jenny_LK's spawn point to (-161, 4, 118)]
-[14:22:07] [Server thread/INFO]: Rukia lost connection: Disconnected
-[14:22:07] [Server thread/INFO]: Rukia left the game.
-[14:22:12] [Thread-14/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[14:22:12] [Server thread/INFO]: Rukia[/138.59.120.150:6142] logged in with entity id 1784 at ([Lobby]-142.28447831044457, 111.84696699671744, 103.34737458304117)
-[14:22:34] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[14:22:34] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[14:25:46] [Server thread/INFO]: Rukia issued server command: /time set 0
-[14:25:46] [Server thread/INFO]: [Rukia: Set the time to 0]
-[14:25:47] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[14:26:04] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:26:04] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:26:47] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[14:26:47] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[14:27:21] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:27:21] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:27:37] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:27:37] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:29:02] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:29:02] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:34:05] [Server thread/INFO]: Rukia issued server command: /time set 0
-[14:34:05] [Server thread/INFO]: [Rukia: Set the time to 0]
-[14:34:29] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock -60 118 62
-[14:36:01] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock -67 108 50 grass
-[14:36:01] [Server thread/INFO]: [ZPekena_Jenny_LK: Block placed]
-[14:36:10] [Server thread/INFO]: Rukia issued server command: /setblock -31 222 105 1
-[14:36:10] [Server thread/INFO]: [Rukia: There is no such block with name minecraft:1]
-[14:36:16] [Server thread/INFO]: Rukia issued server command: /setblock -31 222 105
-[14:36:47] [Server thread/INFO]: Rukia issued server command: /setblock -31 222 105 grass
-[14:36:47] [Server thread/INFO]: [Rukia: Block placed]
-[14:37:31] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> spawnpoint[m
-[14:37:49] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> spawnpoint[m
-[14:37:56] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> spawnpoint[m
-[14:37:56] [Server thread/INFO]: Rukia issued server command: /spawnpoint
-[14:37:56] [Server thread/INFO]: [Rukia: Set Rukia's spawn point to (-31, 223, 105)]
-[14:37:57] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> spawnpoint[m
-[14:38:13] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /pawnpoint
-[14:38:21] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /spawnpoint
-[14:38:21] [Server thread/INFO]: [ZPekena_Jenny_LK: Set ZPekena_Jenny_LK's spawn point to (-67, 111, 50)]
-[14:38:32] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[14:38:32] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[14:39:13] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> kill[m
-[14:39:16] [Server thread/INFO]: Rukia issued server command: /kill
-[14:39:16] [Server thread/INFO]: Rukia fell out of the world
-[14:39:16] [Server thread/INFO]: [Rukia: Killed Rukia]
-[14:39:18] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /kill
-[14:39:18] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[14:39:18] [Server thread/INFO]: [ZPekena_Jenny_LK: Killed ZPekena_Jenny_LK]
-[14:39:37] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[14:39:37] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[14:39:41] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[14:39:41] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[14:39:45] [Server thread/INFO]: ZPekena_Jenny_LK fell from a high place
-[14:40:13] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[14:40:13] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[14:41:28] [Server thread/INFO]: Rukia issued server command: /tp -31 222 105
-[14:41:28] [Server thread/INFO]: [Rukia: Teleported Rukia to -30.5, 222.0, 105.5]
-[14:41:42] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[14:41:42] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[14:41:53] [Server thread/INFO]: Rukia issued server command: /tp -31 222 105
-[14:41:53] [Server thread/INFO]: [Rukia: Teleported Rukia to -30.5, 222.0, 105.5]
-[14:42:03] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:42:03] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:42:22] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock -67 108 50 grass
-[14:42:22] [Server thread/INFO]: [ZPekena_Jenny_LK: Block placed]
-[14:42:28] [Server thread/INFO]: Rukia issued server command: /setblock -31 222 105 grass
-[14:42:28] [Server thread/INFO]: [Rukia: Block placed]
-[14:42:36] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /kill
-[14:42:36] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[14:42:36] [Server thread/INFO]: [ZPekena_Jenny_LK: Killed ZPekena_Jenny_LK]
-[14:44:25] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[14:44:25] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[14:59:55] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock grass
-[15:07:23] [Server thread/INFO]: Rukia issued server command: /time set 0
-[15:07:23] [Server thread/INFO]: [Rukia: Set the time to 0]
-[15:11:06] [Server thread/INFO]: Rukia issued server command: /tp -112 222 96
-[15:11:06] [Server thread/INFO]: [Rukia: Teleported Rukia to -111.5, 222.0, 96.5]
-[15:11:27] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /spawnpoint
-[15:11:27] [Server thread/INFO]: [ZPekena_Jenny_LK: Set ZPekena_Jenny_LK's spawn point to (-35, 223, 100)]
-[15:11:42] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[15:11:42] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[15:12:22] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[15:12:22] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[15:14:20] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[15:14:20] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[15:15:02] [Server thread/INFO]: Rukia issued server command: /setblock -111 222 96 Netherrack
-[15:15:02] [Server thread/INFO]: [Rukia: There is no such block with name minecraft:Netherrack]
-[15:15:09] [Server thread/INFO]: Rukia issued server command: /clear
-[15:15:09] [Server thread/INFO]: [Rukia: Cleared the inventory of Rukia, removing 1 items]
-[15:15:31] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<Rukia> .................................[m
-[15:16:09] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock grass
-[15:16:40] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock 117 221 88 grass
-[15:16:40] [Server thread/INFO]: [ZPekena_Jenny_LK: Cannot place block outside of the world]
-[15:16:54] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /setblock 117 221 88 grass
-[15:16:54] [Server thread/INFO]: [ZPekena_Jenny_LK: Cannot place block outside of the world]
-[15:17:55] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /kill
-[15:17:55] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[15:17:55] [Server thread/INFO]: [ZPekena_Jenny_LK: Killed ZPekena_Jenny_LK]
-[15:19:20] [Server thread/INFO]: Rukia issued server command: /setblock -200 222 106 gass
-[15:19:20] [Server thread/INFO]: [Rukia: There is no such block with name minecraft:gass]
-[15:19:26] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[15:19:26] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[15:19:28] [Server thread/INFO]: Rukia issued server command: /setblock -200 222 106 netherrack
-[15:19:28] [Server thread/INFO]: [Rukia: Block placed]
-[15:19:37] [Server thread/INFO]: Rukia issued server command: /set time 0
-[15:19:43] [Server thread/INFO]: Rukia issued server command: /time set 0
-[15:19:43] [Server thread/INFO]: [Rukia: Set the time to 0]
-[15:25:32] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[15:25:32] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[15:25:41] [Server thread/INFO]: Rukia lost connection: Timed out
-[15:25:41] [Server thread/INFO]: Rukia left the game.
-[15:25:53] [Server thread/WARN]: ZPekena_Jenny_LK was kicked for floating too long!
-[15:25:53] [Server thread/INFO]: ZPekena_Jenny_LK lost connection: Flying is not enabled on this server
-[15:25:53] [Server thread/INFO]: ZPekena_Jenny_LK left the game.
-[15:25:53] [Server thread/WARN]: handleDisconnection() called twice
-[15:26:02] [Thread-15/INFO]: UUID of player ZPekena_Jenny_LK is 59002451-baa0-3fa2-8583-f79ce5faca96
-[15:26:02] [Server thread/INFO]: ZPekena_Jenny_LK[/201.88.182.5:51538] logged in with entity id 10961 at ([Lobby]-202.4781562829441, 209.9750308149894, 92.24920897376471)
-[15:26:08] [Server thread/WARN]: ZPekena_Jenny_LK was kicked for floating too long!
-[15:26:08] [Server thread/INFO]: ZPekena_Jenny_LK lost connection: Flying is not enabled on this server
-[15:26:08] [Server thread/INFO]: ZPekena_Jenny_LK left the game.
-[15:26:08] [Server thread/WARN]: handleDisconnection() called twice
-[15:26:12] [Thread-16/INFO]: UUID of player ZPekena_Jenny_LK is 59002451-baa0-3fa2-8583-f79ce5faca96
-[15:26:12] [Server thread/INFO]: ZPekena_Jenny_LK[/201.88.182.5:51541] logged in with entity id 10974 at ([Lobby]-202.2883075256135, 224.40372812814357, 98.11877969505127)
-[15:26:17] [Thread-17/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[15:26:17] [Server thread/INFO]: Rukia[/138.59.120.150:6700] logged in with entity id 10975 at ([Lobby]-209.83569445646094, 223.0, 101.89031507427555)
-[15:26:23] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[15:26:23] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[15:32:47] [Server thread/INFO]: Rukia issued server command: /time set 0
-[15:32:47] [Server thread/INFO]: [Rukia: Set the time to 0]
-[15:45:49] [Server thread/INFO]: Rukia issued server command: /time set 0
-[15:45:49] [Server thread/INFO]: [Rukia: Set the time to 0]
-[15:49:22] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[15:49:22] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[15:50:08] [Server thread/INFO]: Rukia issued server command: //hcyl 35:5 28
-[15:50:21] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[15:50:21] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[15:52:01] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /toggledownfall
-[15:52:01] [Server thread/INFO]: [ZPekena_Jenny_LK: Toggled downfall]
-[15:53:04] [Server thread/INFO]: Rukia issued server command: //hcyl 35:5 50
-[15:53:50] [Server thread/INFO]: Rukia issued server command: //undo
-[15:54:02] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[15:54:02] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[15:54:41] [Server thread/INFO]: Rukia issued server command: //hcyl 35:5 49
-[15:55:26] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> liga[m
-[15:55:46] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> liga[m
-[15:56:57] [Server thread/INFO]: Rukia issued server command: //undo
-[15:57:13] [Server thread/INFO]: Rukia issued server command: //hcyl 35:5 40
-[15:58:06] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /time set 0
-[15:58:06] [Server thread/INFO]: [ZPekena_Jenny_LK: Set the time to 0]
-[15:59:43] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /kill
-[15:59:43] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[15:59:43] [Server thread/INFO]: [ZPekena_Jenny_LK: Killed ZPekena_Jenny_LK]
-[16:00:05] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: //hcyl 35:5 28
-[16:00:48] [Server thread/INFO]: Rukia issued server command: //undo
-[16:01:00] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp
-[16:01:07] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp ZPekena_Jenny_LK
-[16:01:07] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to ZPekena_Jenny_LK]
-[16:03:37] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[16:03:37] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:05:07] [Server thread/INFO]: Rukia issued server command: //copy
-[16:05:30] [Server thread/INFO]: Rukia issued server command: //copy
-[16:07:51] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[16:07:51] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:08:04] [Server thread/INFO]: Rukia issued server command: //copy
-[16:08:11] [Server thread/INFO]: Rukia issued server command: //coopy
-[16:08:17] [Server thread/INFO]: Rukia issued server command: //copy
-[16:08:40] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /chunkinfo
-[16:09:13] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: / time set 0
-[16:09:14] [Server thread/INFO]: Rukia issued server command: //copy
-[16:09:29] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /time set 0
-[16:09:29] [Server thread/INFO]: [ZPekena_Jenny_LK: Set the time to 0]
-[16:10:09] [Server thread/INFO]: Rukia issued server command: //copy
-[16:10:40] [Server thread/INFO]: Rukia issued server command: //paste
-[16:10:51] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp ZPekena_Jenny_LK Rukia
-[16:10:51] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:11:46] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[16:11:46] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[16:12:02] [Server thread/INFO]: Rukia issued server command: //paste
-[16:12:13] [Server thread/INFO]: Rukia issued server command: //paste
-[16:12:25] [Server thread/INFO]: Rukia issued server command: //paste
-[16:12:36] [Server thread/INFO]: Rukia issued server command: //paste
-[16:12:49] [Server thread/INFO]: Rukia issued server command: //paste
-[16:13:02] [Server thread/INFO]: Rukia issued server command: //paste
-[16:13:13] [Server thread/INFO]: Rukia issued server command: //paste
-[16:13:22] [Server thread/INFO]: Rukia issued server command: //paste
-[16:17:33] [Server thread/INFO]: Rukia issued server command: //hcyl 35:5 40
-[16:19:53] [Server thread/INFO]: Rukia issued server command: //undo
-[16:20:31] [Server thread/INFO]: Rukia issued server command: /time set 0
-[16:20:31] [Server thread/INFO]: [Rukia: Set the time to 0]
-[16:21:43] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /spawnpoint
-[16:21:43] [Server thread/INFO]: [ZPekena_Jenny_LK: Set ZPekena_Jenny_LK's spawn point to (-201, 223, 110)]
-[16:21:53] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[16:21:53] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:22:47] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[16:22:47] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:22:55] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia
-[16:22:55] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported ZPekena_Jenny_LK to Rukia]
-[16:23:16] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /time set 0
-[16:23:16] [Server thread/INFO]: [ZPekena_Jenny_LK: Set the time to 0]
-[16:23:23] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /time set 0
-[16:23:23] [Server thread/INFO]: [ZPekena_Jenny_LK: Set the time to 0]
-[16:23:25] [Server thread/INFO]: Rukia issued server command: /spawnpoint
-[16:23:25] [Server thread/INFO]: [Rukia: Set Rukia's spawn point to (-89, 4, 79)]
-[16:23:29] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /time set 0
-[16:23:29] [Server thread/INFO]: [ZPekena_Jenny_LK: Set the time to 0]
-[16:23:40] [Server thread/INFO]: Rukia issued server command: /time set 0
-[16:23:40] [Server thread/INFO]: [Rukia: Set the time to 0]
-[16:26:04] [Server thread/INFO]: Rukia lost connection: Timed out
-[16:26:04] [Server thread/INFO]: Rukia left the game.
-[16:28:48] [Thread-18/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[16:28:48] [Server thread/INFO]: Rukia[/138.59.120.150:6085] logged in with entity id 16402 at ([Lobby]-85.38793231277177, 4.0, 51.92935270106974)
-[16:33:14] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> pera[m
-[16:35:18] [Server thread/INFO]: Rukia issued server command: /time set 0
-[16:35:18] [Server thread/INFO]: [Rukia: Set the time to 0]
-[16:44:14] [Server thread/INFO]: Rukia issued server command: /time set 0
-[16:44:14] [Server thread/INFO]: [Rukia: Set the time to 0]
-[16:44:38] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /tp Rukia ZPekena_Jenny_LK
-[16:44:38] [Server thread/INFO]: [ZPekena_Jenny_LK: Teleported Rukia to ZPekena_Jenny_LK]
-[17:02:26] [Server thread/INFO]: Rukia lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
-[17:02:26] [Server thread/INFO]: Rukia left the game.
-[17:02:55] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:02:58] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:02:59] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:03:00] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:03:01] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:03:02] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:03:03] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> oq aconteceu??[m
-[17:03:12] [Server thread/INFO]: [[0;37;1mLobby[0;37;1m]<ZPekena_Jenny_LK> fala alguma coisa[m
-[17:05:29] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /kill
-[17:05:29] [Server thread/INFO]: ZPekena_Jenny_LK fell out of the world
-[17:05:29] [Server thread/INFO]: [ZPekena_Jenny_LK: Killed ZPekena_Jenny_LK]
-[17:09:10] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[17:09:10] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[17:09:14] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[17:09:14] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[17:11:22] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[17:11:22] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[17:13:13] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[17:13:13] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[17:13:17] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[17:13:17] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[17:13:34] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 2
-[17:13:34] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Adventure Mode]
-[17:13:52] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[17:13:52] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[17:14:13] [Server thread/INFO]: ZPekena_Jenny_LK issued server command: /gamemode 1
-[17:14:13] [Server thread/INFO]: [ZPekena_Jenny_LK: Set own game mode to Creative Mode]
-[17:17:08] [Server thread/INFO]: ZPekena_Jenny_LK lost connection: Disconnected
-[17:17:08] [Server thread/INFO]: ZPekena_Jenny_LK left the game.
-[17:18:24] [Thread-19/INFO]: UUID of player ZPekena_Jenny_LK is 59002451-baa0-3fa2-8583-f79ce5faca96
-[17:18:24] [Server thread/INFO]: ZPekena_Jenny_LK[/201.88.182.5:51831] logged in with entity id 21835 at ([Lobby]-75.09709954427714, 19.763452192594727, 47.90717974437001)
-[17:18:57] [Server thread/INFO]: ZPekena_Jenny_LK lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
-[17:18:57] [Server thread/INFO]: ZPekena_Jenny_LK left the game.
-[17:39:32] [Thread-20/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
-[17:39:32] [Server thread/INFO]: Rukia[/138.59.120.222:12290] logged in with entity id 21889 at ([Lobby]-62.61726850045298, 5.510721718054635, 81.95906126245808)
-[17:40:25] [Server thread/INFO]: Rukia issued server command: /gamemode 0
-[17:40:25] [Server thread/INFO]: [Rukia: Set own game mode to Survival Mode]
-[17:41:55] [Server thread/INFO]: Rukia issued server command: /gamemode 1
-[17:41:55] [Server thread/INFO]: [Rukia: Set own game mode to Creative Mode]
-[17:42:25] [Server thread/INFO]: Rukia issued server command: /time set 0
-[17:42:25] [Server thread/INFO]: [Rukia: Set the time to 0]
-[17:44:21] [Server thread/INFO]: Rukia lost connection: Timed out
-[17:44:21] [Server thread/INFO]: Rukia left the game.
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[20:20:38] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[20:20:38] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[20:20:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[20:20:38] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[20:20:38] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[20:20:38] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[20:20:38] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[20:20:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:20:38] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[20:20:38] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[20:20:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:20:38] [Server thread/INFO]: Preparing level "world"
+[20:20:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:20:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:20:38] [Server thread/INFO]: Max Entity Collisions: 8
+[20:20:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:20:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:20:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:20:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:20:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:20:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:20:38] [Server thread/INFO]: Clear tick list: false
+[20:20:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:20:38] [Server thread/INFO]: View Distance: 10
+[20:20:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:20:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:20:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:20:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:20:38] [Server thread/INFO]: Random Lighting Updates: false
+[20:20:38] [Server thread/INFO]: Max TNT Explosions: 100
+[20:20:38] [Server thread/INFO]: Mob Spawn Range: 4
+[20:20:38] [Server thread/INFO]: Structure Info Saving: true
+[20:20:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:20:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:20:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:20:38] [Server thread/INFO]: Anti X-Ray: true
+[20:20:38] [Server thread/INFO]: 	Engine Mode: 1
+[20:20:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:20:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:20:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2835611764693024549)
+[20:20:39] [Server thread/INFO]: Preparing spawn area: 69%
+[20:20:40] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[20:20:40] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:20:40] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:20:40] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:20:40] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:20:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[20:20:41] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:20:41] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:20:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[20:20:41] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:20:41] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[20:20:41] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+[20:20:41] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
+[20:20:41] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[20:20:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:20:41] [Server thread/INFO]: Max Entity Collisions: 8
+[20:20:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:20:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:20:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:20:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:20:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:20:41] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:20:41] [Server thread/INFO]: Clear tick list: false
+[20:20:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:20:41] [Server thread/INFO]: View Distance: 10
+[20:20:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:20:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:20:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:20:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:20:41] [Server thread/INFO]: Random Lighting Updates: false
+[20:20:41] [Server thread/INFO]: Max TNT Explosions: 100
+[20:20:41] [Server thread/INFO]: Mob Spawn Range: 4
+[20:20:41] [Server thread/INFO]: Structure Info Saving: true
+[20:20:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:20:41] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:20:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:20:41] [Server thread/INFO]: Anti X-Ray: true
+[20:20:41] [Server thread/INFO]: 	Engine Mode: 1
+[20:20:41] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:20:41] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:20:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5821576765273950202)
+[20:20:42] [Server thread/INFO]: Preparing spawn area for Lobby, 73%
+[20:20:43] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
+[20:20:43] [Server thread/INFO]: -------- World Settings For [work] --------
+[20:20:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:20:43] [Server thread/INFO]: Max Entity Collisions: 8
+[20:20:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:20:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:20:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:20:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:20:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:20:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:20:43] [Server thread/INFO]: Clear tick list: false
+[20:20:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:20:43] [Server thread/INFO]: View Distance: 10
+[20:20:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:20:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:20:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:20:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:20:43] [Server thread/INFO]: Random Lighting Updates: false
+[20:20:43] [Server thread/INFO]: Max TNT Explosions: 100
+[20:20:43] [Server thread/INFO]: Mob Spawn Range: 4
+[20:20:43] [Server thread/INFO]: Structure Info Saving: true
+[20:20:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:20:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:20:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:20:43] [Server thread/INFO]: Anti X-Ray: true
+[20:20:43] [Server thread/INFO]: 	Engine Mode: 1
+[20:20:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:20:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:20:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3081921282634678907)
+[20:20:43] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[20:20:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:20:43] [Server thread/INFO]: Done (5,134s)! For help, type "help" or "?"
+[20:20:43] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[20:20:44] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[20:22:29] [Thread-10/INFO]: UUID of player Rukia is b3d0390d-c374-3048-a078-f90d60a144f8
+[20:22:29] [Server thread/INFO]: Rukia[/192.168.0.101:52139] logged in with entity id 78 at ([Lobby]-199.54984359018846, 230.93632568664208, 106.2613715238456)
+[22:32:46] [Server thread/INFO]: Rukia lost connection: Internal Exception: java.io.IOException: Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[22:32:47] [Server thread/INFO]: Rukia left the game.
