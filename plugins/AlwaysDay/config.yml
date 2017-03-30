@@ -1,0 +1,13 @@
+enabled: true
+worlds:
+  day:
+  - world
+  - skywars
+  night: []
+  calm:
+  - world
+  - skywars
+  storm: []
+updates:
+  autoupdate: true
+  remind: true

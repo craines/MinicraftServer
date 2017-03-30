@@ -79,3 +79,55 @@
 2017-03-22 20:20:41 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
 2017-03-22 20:20:43 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
 2017-03-22 20:20:43 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.
+2017-03-24 10:22:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-03-24 10:22:25 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-03-24 10:22:25 [INFO] [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
+2017-03-24 10:22:26 [INFO] [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
+2017-03-24 10:22:27 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2017-03-24 11:09:59 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-03-24 11:09:59 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-03-24 11:09:59 [INFO] [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
+2017-03-24 11:10:00 [INFO] [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
+2017-03-24 11:10:01 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2017-03-24 11:12:46 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & generator: CleanroomGenerator
+2017-03-24 11:12:49 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-03-24 11:12:49 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-03-24 11:12:49 [INFO] [Multiverse-Core] New Spawn for 'skywars' is Located at: skywars:0.00,65.00,0.00:0.00:0.00
+2017-03-24 16:18:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-03-24 16:18:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-03-24 16:18:16 [INFO] [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
+2017-03-24 16:18:18 [INFO] [Multiverse-Core] Loading World & Settings - 'work' - Env: NORMAL - Type: NORMAL & seed: -3081921282634678907
+2017-03-24 16:18:18 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 8664589516529596130 & generator: CleanroomGenerator
+2017-03-24 16:18:19 [INFO] [Multiverse-Core] 4 - World(s) loaded.
+2017-03-24 16:24:10 [INFO] [Multiverse-Core] Loading World & Settings - 'teste' - Env: NORMAL - Type: NORMAL & generator: VoidGenerator
+2017-03-24 16:24:11 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-03-24 16:24:11 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-03-24 16:24:11 [INFO] [Multiverse-Core] New Spawn for 'teste' is Located at: teste:0.00,65.00,0.00:0.00:0.00
+2017-03-24 16:30:07 [INFO] [Multiverse-Core] World 'teste' was unloaded from memory.
+2017-03-24 16:30:07 [INFO] [Multiverse-Core] World 'teste' was removed from config.yml
+2017-03-24 16:30:07 [INFO] [Multiverse-Core] World teste was DELETED.
+2017-03-24 16:32:21 [INFO] [Multiverse-Core] Loading World & Settings - 'backUp' - Env: NORMAL - Type: NORMAL & generator: VoidGenerator
+2017-03-24 16:32:22 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-03-24 16:32:22 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-03-24 16:32:22 [INFO] [Multiverse-Core] New Spawn for 'backUp' is Located at: backUp:0.00,65.00,0.00:0.00:0.00
+2017-03-24 16:40:24 [INFO] [Multiverse-Core] World 'skywars' was unloaded from memory.
+2017-03-24 16:40:24 [INFO] [Multiverse-Core] World 'skywars' was removed from config.yml
+2017-03-24 16:40:24 [INFO] [Multiverse-Core] World skywars was DELETED.
+2017-03-24 16:41:00 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & generator: VoidGenerator
+2017-03-24 16:41:01 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-03-24 16:41:01 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-03-24 16:41:01 [INFO] [Multiverse-Core] New Spawn for 'skywars' is Located at: skywars:0.00,65.00,0.00:0.00:0.00
+2017-03-24 16:43:01 [INFO] [Multiverse-Core] World 'backUp' was unloaded from memory.
+2017-03-24 16:43:01 [INFO] [Multiverse-Core] World 'backUp' was removed from config.yml
+2017-03-24 16:43:01 [INFO] [Multiverse-Core] World backUp was DELETED.
+2017-03-24 16:44:44 [INFO] [Multiverse-Core] World 'work' was unloaded from memory.
+2017-03-24 16:44:44 [INFO] [Multiverse-Core] World 'work' was removed from config.yml
+2017-03-24 16:44:44 [INFO] [Multiverse-Core] World work was DELETED.
+2017-03-24 17:00:37 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-03-24 17:00:37 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-03-24 17:00:37 [INFO] [Multiverse-Core] Loading World & Settings - 'Lobby' - Env: NORMAL - Type: NORMAL & seed: 5821576765273950202
+2017-03-24 17:00:38 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-03-24 17:00:38 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2017-03-24 17:57:28 [INFO] [Multiverse-Core] World 'Lobby' was unloaded from memory.
+2017-03-24 17:57:28 [INFO] [Multiverse-Core] World 'Lobby' was removed from config.yml
+2017-03-24 17:57:28 [INFO] [Multiverse-Core] World Lobby was DELETED.
