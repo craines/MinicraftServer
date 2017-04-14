@@ -1,0 +1,9 @@
+skywars:
+  name: SkyWars
+  world: skywars
+  x: 0.5105882410115861
+  y: 65.0
+  z: -0.4854132738142297
+  yaw: -176.63062
+  pitch: 1.6761732
+  lore: '&2Venha_Para_o_Lobby_de_SkyWars'

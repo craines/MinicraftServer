@@ -1,6 +1,792 @@
-[05:03:20] [Craft Scheduler Thread - 1097/INFO]: [Vault] Checking for Updates ... 
-[05:03:21] [Craft Scheduler Thread - 1097/INFO]: [Vault] No new version available
-[11:03:26] [Craft Scheduler Thread - 1146/INFO]: [Vault] Checking for Updates ... 
-[11:03:27] [Craft Scheduler Thread - 1146/INFO]: [Vault] No new version available
-[12:56:13] [Thread-4/INFO]: Stopping server
-[12:56:13] [Thread-4/INFO]: [ColoredTags] Disabling ColoredTags v2.1.3
+[14:10:33] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:10:33] [Server thread/INFO]: Loading properties
+[14:10:33] [Server thread/INFO]: Default game type: SURVIVAL
+[14:10:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:10:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:10:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:10:34] [Server thread/INFO]: Debug logging is disabled
+[14:10:34] [Server thread/INFO]: Generating keypair
+[14:10:34] [Server thread/INFO]: Starting Minecraft server on 192.99.70.193:25565
+[14:10:34] [Server thread/INFO]: Using epoll channel type
+[14:10:34] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:10:34] [Server thread/ERROR]: Could not load 'plugins/MGSkyWars.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: MinigamesLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[14:10:35] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[14:10:35] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[14:10:35] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[14:10:35] [Server thread/INFO]: [AlwaysDay] Loading AlwaysDay v2.2.8
+[14:10:35] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[14:10:35] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.0
+[14:10:35] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[14:10:35] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[14:10:35] [Server thread/INFO]: [ClickWarp] Loading ClickWarp v1.3.5
+[14:10:35] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.21-SNAPSHOT (build 1463)
+[14:10:35] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
+[14:10:35] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
+[14:10:35] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[14:10:35] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0
+[14:10:35] [Server thread/INFO]: VoidGenerator has been enabled!
+[14:10:35] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[14:10:35] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[14:10:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:10:35] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[14:10:35] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[14:10:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:10:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:10:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:10:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:10:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:10:35] [Server thread/INFO]: Preparing level "world"
+[14:10:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:10:35] [Server thread/INFO]: Mob Spawn Range: 4
+[14:10:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:10:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:10:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:10:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:10:35] [Server thread/INFO]: Anti X-Ray: true
+[14:10:35] [Server thread/INFO]: 	Engine Mode: 1
+[14:10:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:10:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:10:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:10:35] [Server thread/INFO]: Random Lighting Updates: false
+[14:10:35] [Server thread/INFO]: Structure Info Saving: true
+[14:10:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:10:35] [Server thread/INFO]: Max Entity Collisions: 8
+[14:10:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:10:35] [Server thread/INFO]: Max TNT Explosions: 100
+[14:10:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:10:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:10:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:10:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:10:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:10:35] [Server thread/INFO]: View Distance: 10
+[14:10:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:10:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:10:35] [Server thread/INFO]: Clear tick list: false
+[14:10:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:10:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2835611764693024549)
+[14:10:36] [Server thread/INFO]: Preparing spawn area: 34%
+[14:10:37] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[14:10:37] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[14:10:37] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:10:37] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[14:10:37] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[14:10:37] [Server thread/INFO]: [AlwaysDay] Enabling AlwaysDay v2.2.8
+[14:10:37] [Server thread/INFO]: [AlwaysDay] AlwaysDay v2.2.8 is now enabled.
+[14:10:37] [Server thread/INFO]: Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+[14:10:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[14:10:37] [pool-7-thread-1/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[14:10:37] [pool-7-thread-1/WARN]: [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
+[14:10:38] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[14:10:38] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[14:10:38] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[14:10:38] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[14:10:38] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[14:10:38] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+[14:10:38] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+[14:10:38] [Server thread/INFO]: -------- World Settings For [skywars] --------
+[14:10:38] [Server thread/INFO]: Mob Spawn Range: 4
+[14:10:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:10:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:10:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:10:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:10:38] [Server thread/INFO]: Anti X-Ray: true
+[14:10:38] [Server thread/INFO]: 	Engine Mode: 1
+[14:10:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:10:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:10:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:10:38] [Server thread/INFO]: Random Lighting Updates: false
+[14:10:38] [Server thread/INFO]: Structure Info Saving: true
+[14:10:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:10:38] [Server thread/INFO]: Max Entity Collisions: 8
+[14:10:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:10:38] [Server thread/INFO]: Max TNT Explosions: 100
+[14:10:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:10:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:10:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:10:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:10:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:10:38] [Server thread/INFO]: View Distance: 10
+[14:10:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:10:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:10:38] [Server thread/INFO]: Clear tick list: false
+[14:10:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:10:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7508262552445591995)
+[14:10:39] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'TotalmenteGamer' - Env: THE_END - Type: NORMAL & seed: 9188147237864160582
+[14:10:39] [Server thread/INFO]: -------- World Settings For [TotalmenteGamer] --------
+[14:10:39] [Server thread/INFO]: Mob Spawn Range: 4
+[14:10:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:10:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:10:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:10:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:10:39] [Server thread/INFO]: Anti X-Ray: true
+[14:10:39] [Server thread/INFO]: 	Engine Mode: 1
+[14:10:39] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:10:39] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:10:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:10:39] [Server thread/INFO]: Random Lighting Updates: false
+[14:10:39] [Server thread/INFO]: Structure Info Saving: true
+[14:10:39] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:10:39] [Server thread/INFO]: Max Entity Collisions: 8
+[14:10:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:10:39] [Server thread/INFO]: Max TNT Explosions: 100
+[14:10:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:10:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:10:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:10:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:10:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:10:39] [Server thread/INFO]: View Distance: 10
+[14:10:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:10:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:10:39] [Server thread/INFO]: Clear tick list: false
+[14:10:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:10:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9188147237864160582)
+[14:10:40] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[14:10:40] [Server thread/INFO]: [ClickWarp] Enabling ClickWarp v1.3.5
+[14:10:40] [Server thread/INFO]: [ClickWarp] Metrics started!
+[14:10:40] [Server thread/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer enabled.
+[14:10:40] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.21-SNAPSHOT (build 1463)
+[14:10:40] [Server thread/ERROR]: [Citizens] v2.0.21-SNAPSHOT (build 1463) is not compatible with Minecraft v1_8_R3 - try upgrading or downgrading Citizens. Disabling.
+[14:10:40] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.21-SNAPSHOT (build 1463)
+[14:10:40] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
+[14:10:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:10:40] [Server thread/INFO]: Done (5.406s)! For help, type "help" or "?"
+[14:10:40] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[14:10:40] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[14:15:32] [Thread-12/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[14:15:33] [Server thread/INFO]: dudanq[/138.59.120.221:3605] logged in with entity id 24 at ([world]430.13098847395963, 144.17359615066295, 431.46699090405343)
+[14:15:37] [Server thread/INFO]: dudanq lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
+[14:15:37] [Server thread/INFO]: dudanq left the game.
+[14:19:01] [Thread-13/INFO]: UUID of player Pesadao_Gamer is 5258bf0e-7dae-3122-bfb1-09423f249d5b
+[14:19:01] [Server thread/INFO]: Pesadao_Gamer[/177.98.226.162:27271] logged in with entity id 31 at ([world]211.5, 195.0, 262.5)
+[14:19:11] [Server thread/INFO]: Pesadao_Gamer has just earned the achievement [Taking Inventory]
+[14:19:13] [Server thread/INFO]: Pesadao_Gamer lost connection: Disconnected
+[14:19:13] [Server thread/INFO]: Pesadao_Gamer left the game.
+[14:20:52] [Thread-14/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[14:20:52] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27308] logged in with entity id 32 at ([world]443.30000001192093, 151.5, 432.69999998807907)
+[14:20:56] [Thread-15/INFO]: UUID of player anthonynoob is 878c5922-b0e8-35d2-ae51-fa51edc0f972
+[14:20:56] [Server thread/INFO]: anthonynoob[/189.81.236.161:56307] logged in with entity id 37 at ([world]212.5, 202.0, 260.5)
+[14:21:05] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob
+[14:21:05] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to anthonynoob]
+[14:21:30] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:21:30] [Server thread/INFO]: [TotalmenteGamer: Teleported anthonynoob to TotalmenteGamer]
+[14:22:10] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:22:10] [Server thread/INFO]: [TotalmenteGamer: Teleported anthonynoob to TotalmenteGamer]
+[14:22:15] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:22:15] [Server thread/INFO]: [TotalmenteGamer: Teleported anthonynoob to TotalmenteGamer]
+[14:23:27] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:23:27] [Server thread/INFO]: [TotalmenteGamer: Teleported anthonynoob to TotalmenteGamer]
+[14:23:42] [Server thread/INFO]: anthonynoob fell out of the world
+[14:24:06] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player anthonynoob &8[YT]
+[14:24:13] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> aperta tab[m
+[14:24:24] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:24:24] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:24:33] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> gosto?[m
+[14:27:00] [Server thread/INFO]: anthonynoob issued server command: /gamemode 1
+[14:29:38] [Server thread/INFO]: anthonynoob lost connection: Timed out
+[14:29:38] [Server thread/INFO]: anthonynoob left the game.
+[14:30:31] [Server thread/INFO]: TotalmenteGamer issued server command: /help
+[14:30:36] [Server thread/INFO]: TotalmenteGamer issued server command: /help 2
+[14:30:49] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:30:49] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:30:58] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:30:58] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:31:28] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:31:28] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:32:00] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:32:00] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:32:27] [Thread-16/INFO]: UUID of player totalmentenoob is 343a008c-71ae-3434-aaf5-4b0874a3ae6c
+[14:32:27] [Server thread/INFO]: totalmentenoob[/189.81.236.161:56634] logged in with entity id 70 at ([skywars]17.489049510126435, 9.947610367382143, -39.80548565909947)
+[14:32:46] [Server thread/INFO]: totalmentenoob fell out of the world
+[14:32:52] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:32:52] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:32:58] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:32:58] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:33:21] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player totalmentenoob &8[ZoemEsseCara]
+[14:33:43] [Server thread/INFO]: totalmentenoob fell out of the world
+[14:34:26] [Server thread/INFO]: totalmentenoob was shot by TotalmenteGamer
+[14:34:49] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player totalmentenoob &8[ZoemEsseCara][YT]
+[14:35:04] [Server thread/INFO]: totalmentenoob fell out of the world
+[14:35:19] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player totalmentenoob &8[Foque-me]
+[14:36:06] [Server thread/INFO]: totalmentenoob fell from a high place
+[14:38:05] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemdoe 1
+[14:38:09] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:38:09] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:38:22] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:38:22] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:38:37] [Server thread/WARN]: totalmentenoob moved wrongly!
+[14:39:30] [Server thread/INFO]: totalmentenoob was shot by TotalmenteGamer
+[14:41:19] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:41:19] [Server thread/INFO]: [TotalmenteGamer: The entity UUID provided is in an invalid format]
+[14:41:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob
+[14:41:31] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to totalmentenoob]
+[14:41:31] [Server thread/INFO]: TotalmenteGamer fell from a high place
+[14:42:29] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:42:29] [Server thread/INFO]: [TotalmenteGamer: The entity UUID provided is in an invalid format]
+[14:43:52] [Server thread/INFO]: TotalmenteGamer issued server command: /tp anthonynoob TotalmenteGamer
+[14:43:52] [Server thread/INFO]: [TotalmenteGamer: The entity UUID provided is in an invalid format]
+[14:43:54] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob
+[14:43:54] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to totalmentenoob]
+[14:43:54] [Server thread/INFO]: TotalmenteGamer fell from a high place
+[14:45:27] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> aind ata ai:??[m
+[14:47:13] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:47:13] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:47:14] [Server thread/INFO]: totalmentenoob fell from a high place
+[14:47:29] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:47:29] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:47:34] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:47:34] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:47:43] [Server thread/INFO]: totalmentenoob was shot by TotalmenteGamer
+[14:49:53] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:49:53] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:01] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:01] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:04] [Server thread/INFO]: totalmentenoob fell from a high place
+[14:50:17] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:17] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:25] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:25] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:50] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:50] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:56] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:56] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:50:58] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:50:58] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:51:03] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:51:03] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:51:07] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:51:07] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:51:09] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:51:09] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:51:12] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:51:12] [Server thread/INFO]: [TotalmenteGamer: Teleported totalmentenoob to TotalmenteGamer]
+[14:51:25] [Server thread/INFO]: totalmentenoob lost connection: Disconnected
+[14:51:25] [Server thread/INFO]: totalmentenoob left the game.
+[14:51:27] [Server thread/INFO]: TotalmenteGamer issued server command: /tp totalmentenoob TotalmenteGamer
+[14:51:27] [Server thread/INFO]: [TotalmenteGamer: The entity UUID provided is in an invalid format]
+[14:52:07] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[14:52:07] [Server thread/INFO]: TotalmenteGamer left the game.
+[14:52:23] [Thread-17/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[14:52:23] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27267] logged in with entity id 523 at ([skywars]3.7050028708198455, 84.0, 0.30532176088065527)
+[14:53:18] [Server thread/INFO]: TotalmenteGamer issued server command: /kill
+[14:53:18] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[14:53:18] [Server thread/INFO]: [TotalmenteGamer: Killed §4[Admin]TotalmenteGamer]
+[14:53:32] [Server thread/INFO]: TotalmenteGamer issued server command: /kill
+[14:53:32] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[14:53:32] [Server thread/INFO]: [TotalmenteGamer: Killed §4[Admin]TotalmenteGamer]
+[14:54:12] [Server thread/INFO]: TotalmenteGamer issued server command: /kill
+[14:54:12] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[14:54:12] [Server thread/INFO]: [TotalmenteGamer: Killed §4[Admin]TotalmenteGamer]
+[14:54:33] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[14:54:43] [Server thread/INFO]: TotalmenteGamer issued server command: /warp pvp
+[14:55:10] [Server thread/INFO]: TotalmenteGamer issued server command: /warp pvp
+[14:55:26] [Thread-18/INFO]: UUID of player puw is 706db279-0a3e-36e7-a62d-9f7db970d52c
+[14:55:26] [Server thread/INFO]: puw[/189.62.237.46:60148] logged in with entity id 533 at ([world]221.5, 195.0, 257.5)
+[14:55:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[14:55:31] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[14:55:35] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:55:35] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:55:39] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:55:39] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:55:45] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[14:55:45] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[14:55:58] [Server thread/INFO]: puw issued server command: /gamemode 1
+[14:56:27] [Server thread/INFO]: puw has just earned the achievement [Taking Inventory]
+[14:56:30] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:56:30] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:57:01] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[14:57:01] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[14:57:06] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[14:57:06] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[14:57:33] [Server thread/INFO]: TotalmenteGamer issued server command: /kick puw
+[14:57:33] [Server thread/INFO]: puw lost connection: Kicked by an operator.
+[14:57:33] [Server thread/INFO]: puw left the game.
+[14:57:33] [Server thread/INFO]: [TotalmenteGamer: Kicked puw from the game]
+[14:57:33] [Server thread/WARN]: handleDisconnection() called twice
+[14:58:29] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[14:58:29] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[14:59:13] [Thread-19/INFO]: UUID of player puw is 706db279-0a3e-36e7-a62d-9f7db970d52c
+[14:59:13] [Server thread/INFO]: puw[/189.62.237.46:60187] logged in with entity id 552 at ([world]446.64252090264523, 147.0, 435.2855099020428)
+[15:00:15] [Server thread/INFO]: TotalmenteGamer issued server command: /warp pvp
+[15:00:23] [Server thread/INFO]: puw was burned to death
+[15:00:32] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:00:32] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:01:26] [Thread-20/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[15:01:26] [Server thread/INFO]: dudanq[/138.59.120.221:3857] logged in with entity id 580 at ([world]430.13098847395963, 143.97759614684827, 431.46699090405343)
+[15:01:31] [Server thread/INFO]: TotalmenteGamer issued server command: /kick puw
+[15:01:31] [Server thread/INFO]: puw lost connection: Kicked by an operator.
+[15:01:31] [Server thread/INFO]: puw left the game.
+[15:01:31] [Server thread/INFO]: [TotalmenteGamer: Kicked puw from the game]
+[15:01:31] [Server thread/WARN]: handleDisconnection() called twice
+[15:01:46] [Thread-21/INFO]: UUID of player puw is 706db279-0a3e-36e7-a62d-9f7db970d52c
+[15:01:46] [Server thread/INFO]: puw[/189.62.237.46:60211] logged in with entity id 581 at ([world]460.69999998807907, 144.0, 451.69999998807907)
+[15:01:46] [Server thread/INFO]: dudanq issued server command: /gamemode 1
+[15:01:46] [Server thread/INFO]: [dudanq: Set own game mode to Creative Mode]
+[15:02:04] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> dudanq oi[m
+[15:02:07] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:02:07] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:02:17] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> dudanq cv e a dona[m
+[15:02:17] [Server thread/INFO]: dudanq lost connection: Internal Exception: java.io.IOException: Error while writev(...): Connection reset by peer
+[15:02:17] [Server thread/INFO]: dudanq left the game.
+[15:02:34] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:02:34] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:03:00] [Thread-22/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[15:03:00] [Server thread/INFO]: dudanq[/138.59.120.221:3192] logged in with entity id 585 at ([world]430.13098847395963, 143.97759614684827, 431.46699090405343)
+[15:03:13] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:03:13] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:03:20] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> oi[m
+[15:03:21] [Server thread/WARN]: dudanq moved too quickly! -26.35883060410987,-0.022403853151729436,-15.442373095833489 (-26.35883060410987, -0.022403853151729436, -15.442373095833489)
+[15:03:27] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> posso ser o admin[m
+[15:03:43] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 3
+[15:03:43] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Spectator Mode]
+[15:03:53] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<dudanq> quem e tu[m
+[15:04:13] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> eu achei se ip na internet[m
+[15:04:14] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:04:14] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:04:25] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<dudanq> mentiroso[m
+[15:04:48] [Server thread/INFO]: TotalmenteGamer issued server command: /tell puw fala o atirado
+[15:04:51] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> foi o atirador que mandou[m
+[15:05:00] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:05:00] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:05:02] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<dudanq> ata[m
+[15:05:06] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<dudanq> pq[m
+[15:05:09] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:05:09] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:05:16] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<puw> posso ser o admin[m
+[15:05:17] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0 dudanq
+[15:05:17] [Server thread/INFO]: [TotalmenteGamer: Set dudanq's game mode to Survival Mode]
+[15:05:30] [Server thread/INFO]: dudanq lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
+[15:05:30] [Server thread/INFO]: dudanq left the game.
+[15:05:37] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> :D[m
+[15:05:39] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> pvpv[m
+[15:05:41] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> pvpv[m
+[15:06:08] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> nao quebra[m
+[15:06:25] [Server thread/INFO]: puw lost connection: Disconnected
+[15:06:25] [Server thread/INFO]: puw left the game.
+[15:06:47] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:06:47] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:07:04] [Thread-23/INFO]: UUID of player puw is 706db279-0a3e-36e7-a62d-9f7db970d52c
+[15:07:04] [Server thread/INFO]: puw[/189.62.237.46:60313] logged in with entity id 609 at ([world]457.0063601955992, 144.0, 429.15341203187427)
+[15:07:24] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:07:24] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:08:33] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:08:33] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:09:12] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:09:12] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:11:01] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw
+[15:11:01] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to puw]
+[15:11:09] [Server thread/INFO]: puw was slain by TotalmenteGamer
+[15:11:16] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:11:16] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:11:22] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:11:22] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:11:58] [Server thread/INFO]: TotalmenteGamer issued server command: /warp skywars
+[15:12:03] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:12:03] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:12:11] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:12:11] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:15:01] [Server thread/INFO]: TotalmenteGamer fell from a high place
+[15:15:21] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:15:41] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:16:15] [Server thread/INFO]: puw fell out of the world
+[15:16:21] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:16:21] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:16:22] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:16:25] [Server thread/INFO]: puw fell out of the world
+[15:16:36] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:16:36] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:16:39] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:16:39] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:16:43] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:16:43] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:16:47] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:16:47] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:16:47] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:16:54] [Server thread/INFO]: puw fell out of the world
+[15:17:02] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:02] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:17:04] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:04] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:17:06] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:17:07] [Server thread/INFO]: puw fell out of the world
+[15:17:23] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:23] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:17:27] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[15:17:27] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:27] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:17:30] [Server thread/INFO]: puw fell out of the world
+[15:17:32] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:32] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:17:49] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:17:49] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:18:00] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:18:00] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:18:07] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:18:07] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:18:12] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:18:12] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:18:32] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:18:32] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:18:38] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:18:38] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:19:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:19:31] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:19:34] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:19:34] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:19:34] [Server thread/INFO]: puw fell from a high place
+[15:19:38] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:19:38] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:20:35] [Server thread/INFO]: puw fell out of the world
+[15:20:35] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:20:38] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:20:38] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:20:42] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:20:42] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:26] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:26] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:27] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:27] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:29] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:29] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:31] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:34] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:34] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:35] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:35] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:37] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:37] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:40] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:40] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:41] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:41] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:43] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:43] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:44] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:44] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:45] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:45] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:47] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:47] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:49] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:49] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:50] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:50] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:52] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:52] [Server thread/INFO]: [TotalmenteGamer: Teleported puw to TotalmenteGamer]
+[15:21:52] [Server thread/INFO]: puw lost connection: Disconnected
+[15:21:52] [Server thread/INFO]: puw left the game.
+[15:21:54] [Server thread/INFO]: TotalmenteGamer issued server command: /tp puw TotalmenteGamer
+[15:21:54] [Server thread/INFO]: [TotalmenteGamer: The entity UUID provided is in an invalid format]
+[15:22:05] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[15:22:05] [Server thread/INFO]: TotalmenteGamer left the game.
+[15:24:07] [Thread-24/INFO]: UUID of player puw is 706db279-0a3e-36e7-a62d-9f7db970d52c
+[15:24:07] [Server thread/INFO]: puw[/189.62.237.46:60632] logged in with entity id 757 at ([skywars]45.221654914232964, 118.9679807717387, -17.839821712970775)
+[15:24:14] [Server thread/INFO]: puw lost connection: Disconnected
+[15:24:14] [Server thread/INFO]: puw left the game.
+[15:30:36] [Thread-25/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[15:30:36] [Server thread/INFO]: XxGENNYxX[/189.62.237.46:60911] logged in with entity id 758 at ([world]225.5, 195.0, 266.5)
+[15:30:54] [Server thread/INFO]: XxGENNYxX issued server command: /admin
+[15:31:10] [Server thread/INFO]: XxGENNYxX issued server command: /warp lobby
+[15:31:15] [Server thread/INFO]: XxGENNYxX issued server command: /warp
+[15:31:18] [Server thread/INFO]: XxGENNYxX lost connection: Disconnected
+[15:31:18] [Server thread/INFO]: XxGENNYxX left the game.
+[15:32:32] [Thread-26/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[15:32:33] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27425] logged in with entity id 759 at ([skywars]21.313068767145626, 65.0, 2.218793900542053)
+[15:33:52] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[15:33:52] [Server thread/INFO]: TotalmenteGamer left the game.
+[15:33:56] [Thread-27/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[15:33:56] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27441] logged in with entity id 765 at ([skywars]-16.51967283345168, 84.0, 4.30000001192093)
+[15:36:46] [Thread-28/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[15:36:46] [Server thread/INFO]: XxGENNYxX[/189.62.237.46:61312] logged in with entity id 769 at ([world]220.66166630219465, 63.0, 258.45241105754167)
+[15:36:51] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:36:51] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:37:01] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:37:01] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:38:04] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX &2[SeFodaCara]
+[15:38:34] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX
+[15:38:37] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX.
+[15:38:40] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX .
+[15:38:53] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX &5[Mod]
+[15:39:05] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player XxGENNYxX .
+[15:39:08] [Server thread/INFO]: XxGENNYxX issued server command: /gamemdoe 1
+[15:40:16] [Server thread/INFO]: XxGENNYxX died
+[15:42:59] [Server thread/INFO]: XxGENNYxX fell out of the world
+[15:43:23] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<XxGENNYxX> oi[m
+[15:43:29] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> oi[m
+[15:45:27] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> ?[m
+[15:46:46] [Server thread/INFO]: TotalmenteGamer issued server command: /kick XxGENNYxX AFK
+[15:46:46] [Server thread/INFO]: XxGENNYxX lost connection: AFK
+[15:46:46] [Server thread/INFO]: XxGENNYxX left the game.
+[15:46:46] [Server thread/INFO]: [TotalmenteGamer: Kicked XxGENNYxX from the game: 'AFK']
+[15:46:46] [Server thread/WARN]: handleDisconnection() called twice
+[15:47:41] [Thread-29/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[15:47:41] [Server thread/INFO]: XxGENNYxX[/189.62.237.46:61819] logged in with entity id 813 at ([skywars]23.13298108480026, 65.015625, -3.9605935367085556)
+[15:48:09] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:48:09] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:48:14] [Server thread/INFO]: XxGENNYxX fell out of the world
+[15:48:15] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:48:18] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:48:18] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:48:18] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:48:19] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:48:19] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:48:49] [Server thread/INFO]: XxGENNYxX fell out of the world
+[15:49:18] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:49:18] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:49:26] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:49:26] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:49:29] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:49:29] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:49:44] [Server thread/INFO]: XxGENNYxX issued server command: /kilkl
+[15:49:52] [Server thread/INFO]: XxGENNYxX issued server command: /kill
+[15:50:00] [Server thread/INFO]: XxGENNYxX lost connection: Disconnected
+[15:50:00] [Server thread/INFO]: XxGENNYxX left the game.
+[15:51:23] [Thread-30/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[15:51:23] [Server thread/INFO]: XxGENNYxX[/189.62.237.46:62001] logged in with entity id 873 at ([skywars]21.480508340755478, 66.0, 10.699999988079071)
+[15:51:36] [Server thread/INFO]: XxGENNYxX drowned
+[15:52:20] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> oq e porra[m
+[15:52:36] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[15:52:36] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:53:04] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[15:53:04] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[15:53:04] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:54:26] [Server thread/INFO]: TotalmenteGamer issued server command: /tell oi
+[15:54:35] [Server thread/INFO]: TotalmenteGamer issued server command: /tell XxGENNYxX fala
+[15:55:40] [Thread-31/INFO]: UUID of player GoogleGlasses is e917776f-9abe-314b-825b-d7b284de9920
+[15:55:41] [Server thread/INFO]: GoogleGlasses[/187.182.87.103:52674] logged in with entity id 985 at ([world]227.5, 195.0, 263.5)
+[15:55:48] [Server thread/INFO]: XxGENNYxX issued server command: /tell TotalmenteGamer da / admin pra eu servr ajudante
+[15:55:56] [Server thread/INFO]: GoogleGlasses issued server command: /warp lobby
+[15:56:08] [Server thread/INFO]: GoogleGlasses issued server command: /warp lobby
+[15:56:08] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[15:56:08] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[15:56:08] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:56:08] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[15:56:17] [Server thread/INFO]: TotalmenteGamer issued server command: /warp pvp
+[15:56:22] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[15:56:22] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[15:56:22] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:56:22] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[15:56:33] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:56:33] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:56:59] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[15:56:59] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[15:57:19] [Server thread/INFO]: XxGENNYxX died
+[15:57:27] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[15:57:27] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[15:57:27] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[15:57:27] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[15:57:32] [Server thread/INFO]: GoogleGlasses issued server command: /kit
+[15:58:04] [Thread-32/INFO]: UUID of player Sr_Coala157 is 350809d7-cbab-393f-8c24-234cdb18383c
+[15:58:04] [Server thread/INFO]: Sr_Coala157[/201.6.228.249:5313] logged in with entity id 997 at ([world]218.5, 195.0, 266.5)
+[15:58:04] [Server thread/INFO]: GoogleGlasses has just earned the achievement [Taking Inventory]
+[15:58:14] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157 TotalmenteGamer
+[15:58:14] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[15:58:34] [Server thread/INFO]: Sr_Coala157 has just earned the achievement [Taking Inventory]
+[15:58:42] [Server thread/INFO]: .XxGENNYxX has just earned the achievement [Taking Inventory]
+[15:59:08] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[15:59:08] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[15:59:13] [Server thread/INFO]: XxGENNYxX lost connection: Disconnected
+[15:59:13] [Server thread/INFO]: XxGENNYxX left the game.
+[15:59:54] [Thread-33/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[15:59:54] [Server thread/INFO]: XxGENNYxX[/189.62.237.46:62340] logged in with entity id 1046 at ([world]460.69999998807907, 144.0, 450.8589728636532)
+[16:00:01] [Server thread/INFO]: XxGENNYxX was slain by Sr_Coala157
+[16:00:07] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:00:07] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:00:07] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:00:07] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:02:46] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:02:46] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:02:46] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:02:46] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:02:46] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:02:47] [Server thread/WARN]: XxGENNYxX moved wrongly!
+[16:02:48] [Server thread/INFO]: XxGENNYxX was shot by GoogleGlasses
+[16:02:55] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:02:55] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:03:03] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[16:03:03] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:03:06] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[16:03:06] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[16:03:56] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:03:56] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:03:56] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:03:56] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:03:56] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:04:00] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[16:04:00] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:04:11] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:04:11] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:04:13] [Server thread/INFO]: XxGENNYxX was slain by GoogleGlasses
+[16:04:17] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:04:17] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:04:17] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:04:17] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:04:21] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[16:04:23] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:04:23] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:04:23] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:04:23] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:04:25] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[16:04:47] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[16:04:47] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[16:06:07] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:06:07] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:06:07] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:06:07] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:06:07] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:06:13] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:06:13] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:06:13] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:06:13] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:06:13] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:06:13] [Server thread/INFO]: XxGENNYxX was slain by TotalmenteGamer
+[16:06:19] [Server thread/INFO]: TotalmenteGamer issued server command: /tp XxGENNYxX TotalmenteGamer
+[16:06:19] [Server thread/INFO]: [TotalmenteGamer: Teleported XxGENNYxX to TotalmenteGamer]
+[16:06:31] [Server thread/INFO]: XxGENNYxX lost connection: Disconnected
+[16:06:31] [Server thread/INFO]: XxGENNYxX left the game.
+[16:06:36] [Server thread/INFO]: TotalmenteGamer issued server command: /kick @a
+[16:06:36] [Server thread/INFO]: [TotalmenteGamer: That player cannot be found]
+[16:06:43] [Server thread/INFO]: TotalmenteGamer issued server command: /kick @a Fugindo
+[16:06:43] [Server thread/INFO]: [TotalmenteGamer: That player cannot be found]
+[16:06:46] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:06:46] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:06:51] [Server thread/INFO]: TotalmenteGamer issued server command: /kick @a Fugindo
+[16:06:51] [Server thread/INFO]: [TotalmenteGamer: That player cannot be found]
+[16:06:58] [Server thread/INFO]: TotalmenteGamer issued server command: /kick GoogleGlasses correndo
+[16:06:58] [Server thread/INFO]: GoogleGlasses lost connection: correndo
+[16:06:58] [Server thread/INFO]: GoogleGlasses left the game.
+[16:06:58] [Server thread/INFO]: [TotalmenteGamer: Kicked GoogleGlasses from the game: 'correndo']
+[16:06:58] [Server thread/WARN]: handleDisconnection() called twice
+[16:07:04] [Thread-34/INFO]: UUID of player GoogleGlasses is e917776f-9abe-314b-825b-d7b284de9920
+[16:07:04] [Server thread/INFO]: GoogleGlasses[/187.182.87.103:52691] logged in with entity id 1268 at ([world]380.25851574524484, 69.0, 436.8552976676112)
+[16:07:06] [Server thread/INFO]: TotalmenteGamer issued server command: /kick Sr_Coala157 correndo
+[16:07:06] [Server thread/INFO]: Sr_Coala157 lost connection: correndo
+[16:07:06] [Server thread/INFO]: Sr_Coala157 left the game.
+[16:07:06] [Server thread/INFO]: [TotalmenteGamer: Kicked Sr_Coala157 from the game: 'correndo']
+[16:07:06] [Server thread/WARN]: handleDisconnection() called twice
+[16:07:10] [Thread-35/INFO]: UUID of player Sr_Coala157 is 350809d7-cbab-393f-8c24-234cdb18383c
+[16:07:10] [Server thread/INFO]: Sr_Coala157[/201.6.228.249:5372] logged in with entity id 1269 at ([world]364.59741433654216, 73.0, 373.69999998807907)
+[16:07:13] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:07:13] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:07:13] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:07:13] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:07:16] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[16:07:16] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[16:07:28] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
+[16:07:28] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
+[16:07:28] [Server thread/INFO]: [TotalmenteGamer: Teleported GoogleGlasses to TotalmenteGamer]
+[16:07:28] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:07:29] [Server thread/INFO]: GoogleGlasses was slain by Sr_Coala157
+[16:08:01] [Server thread/INFO]: GoogleGlasses lost connection: Disconnected
+[16:08:01] [Server thread/INFO]: GoogleGlasses left the game.
+[16:08:09] [Server thread/INFO]: TotalmenteGamer was slain by Sr_Coala157
+[16:08:28] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> oi[m
+[16:08:35] [Server thread/INFO]: TotalmenteGamer issued server command: /waypoint
+[16:08:44] [Server thread/INFO]: TotalmenteGamer issued server command: /warps
+[16:08:51] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist on
+[16:08:51] [Server thread/INFO]: [TotalmenteGamer: Turned on the whitelist]
+[16:08:54] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add
+[16:09:00] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add dudanq
+[16:09:00] [Server thread/INFO]: [TotalmenteGamer: Added dudanq to the whitelist]
+[16:09:05] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add TotalmenteGamer
+[16:09:05] [Server thread/INFO]: [TotalmenteGamer: Added TotalmenteGamer to the whitelist]
+[16:09:08] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157
+[16:09:08] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to Sr_Coala157]
+[16:09:20] [Server thread/INFO]: TotalmenteGamer was slain by Sr_Coala157
+[16:09:28] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:09:28] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:09:35] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157
+[16:09:35] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to Sr_Coala157]
+[16:10:01] [Server thread/INFO]: TotalmenteGamer issued server command: /clear @a
+[16:10:01] [Server thread/INFO]: [TotalmenteGamer: Cleared the inventory of TotalmenteGamer, removing 3 items]
+[16:10:01] [Server thread/INFO]: [TotalmenteGamer: Cleared the inventory of Sr_Coala157, removing 512 items]
+[16:10:38] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[16:10:38] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[16:13:47] [Thread-36/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[16:13:47] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5363b411[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62656): You are not whitelisted on this server!
+[16:13:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@5363b411[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62656) lost connection: You are not whitelisted on this server!
+[16:13:53] [Thread-37/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[16:13:53] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@70c80b87[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62657): You are not whitelisted on this server!
+[16:13:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@70c80b87[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62657) lost connection: You are not whitelisted on this server!
+[16:14:53] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157
+[16:14:53] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to Sr_Coala157]
+[16:15:03] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157
+[16:15:03] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to Sr_Coala157]
+[16:15:34] [Server thread/INFO]: Sr_Coala157 fell from a high place
+[16:15:41] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157 TotalmenteGamer
+[16:15:41] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:15:56] [Thread-38/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[16:15:56] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@60af15e6[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62723): You are not whitelisted on this server!
+[16:15:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@60af15e6[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62723) lost connection: You are not whitelisted on this server!
+[16:15:58] [Server thread/INFO]: Sr_Coala157 was slain by TotalmenteGamer
+[16:16:00] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157 TotalmenteGamer
+[16:16:02] [Server thread/INFO]: TotalmenteGamer issued server command: /tp Sr_Coala157 TotalmenteGamer
+[16:16:02] [Server thread/INFO]: [TotalmenteGamer: Teleported Sr_Coala157 to TotalmenteGamer]
+[16:16:08] [Thread-39/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[16:16:08] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@79fff991[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62747): You are not whitelisted on this server!
+[16:16:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@79fff991[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62747) lost connection: You are not whitelisted on this server!
+[16:16:12] [Server thread/INFO]: Sr_Coala157 was slain by TotalmenteGamer
+[16:16:13] [Thread-40/INFO]: UUID of player XxGENNYxX is 356fa388-3b95-3d9b-8424-2f43f10a6bea
+[16:16:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1dbb797e[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62748): You are not whitelisted on this server!
+[16:16:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@1dbb797e[id=356fa388-3b95-3d9b-8424-2f43f10a6bea,name=XxGENNYxX,properties={},legacy=false] (/189.62.237.46:62748) lost connection: You are not whitelisted on this server!
+[16:16:17] [Server thread/INFO]: TotalmenteGamer issued server command: /kick Sr_Coala157
+[16:16:17] [Server thread/INFO]: Sr_Coala157 lost connection: Kicked by an operator.
+[16:16:17] [Server thread/INFO]: Sr_Coala157 left the game.
+[16:16:17] [Server thread/INFO]: [TotalmenteGamer: Kicked Sr_Coala157 from the game]
+[16:16:17] [Server thread/WARN]: handleDisconnection() called twice
+[16:16:18] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[16:16:18] [Server thread/INFO]: TotalmenteGamer left the game.
+[16:16:27] [Thread-41/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[16:16:27] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27317] logged in with entity id 1442 at ([world]445.09765866718755, 156.0, 433.43228582013614)
+[16:16:38] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:16:38] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:17:30] [Server thread/INFO]: TotalmenteGamer issued server command: /warp skywars
+[16:17:53] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[16:17:53] [Server thread/INFO]: TotalmenteGamer left the game.
+[16:23:06] [Thread-42/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[16:23:06] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27273] logged in with entity id 1465 at ([skywars]-16.41813529331631, 90.0, 1.3941707183978032)
+[16:33:47] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
+[16:33:47] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
+[16:33:54] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
+[16:33:54] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
+[16:37:29] [Server thread/INFO]: TotalmenteGamer lost connection: Timed out
+[16:37:29] [Server thread/INFO]: TotalmenteGamer left the game.
+[17:33:41] [Thread-43/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
+[17:33:41] [Server thread/INFO]: TotalmenteGamer[/177.98.226.162:27431] logged in with entity id 1494 at ([skywars]-0.6733474622635535, 82.0625, 0.37586033678350644)
+[17:38:30] [Server thread/INFO]: TotalmenteGamer fell out of the world
+[17:39:03] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
+[17:39:03] [Server thread/INFO]: TotalmenteGamer left the game.
+[17:53:10] [Thread-4/INFO]: Stopping server
+[17:53:10] [Thread-4/INFO]: [ColoredTags] Disabling ColoredTags v2.1.3
+[17:53:10] [Thread-4/INFO]: [ClickWarp] Disabling ClickWarp v1.3.5
+[17:53:10] [Thread-4/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer disabled.
+[17:53:10] [Thread-4/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[17:53:10] [Thread-4/INFO]: [Multiverse-Core] - Disabled
