@@ -5,25 +5,27 @@ Warp:
   NoExist: '&7Der Warp &6{warp} &7existiert nicht.'
   NotEnoughMoney: '&7Du hast nicht genug Geld! Du brauchst &6{price} {currency}&7!'
   Success: '&7[&6Warp&7] Du wurdest zum Warp &6{warp} &7teleportiert.'
-  SuccessPrice: '&7[&6Warp&7] Du wurdest fÃ¼r &6{price} {currency} &7zum Warp &6{warp}
-    &7teleportiert.'
+  SuccessPrice: "&7[&6Warp&7] Du wurdest f\xc3\u0192\xc2\xbcr &6{price} {currency}\
+    \ &7zum Warp &6{warp} &7teleportiert."
 Setwarp:
-  InvalidName: '&cUngÃ¼ltiger Warpname!'
+  InvalidName: "&cUng\xc3\u0192\xc2\xbcltiger Warpname!"
   Success: '&7Der Warp &6{warp} &7wurde erfolgreich gesetzt.'
   NeedNumber: '&7Du musst eine Zahl angeben! Beispiel: ''&6/setwarp warp 1&7'''
   InvalidItem: '&cUnbekanntes Item!'
   WrongItemFormat: '&7Du darfst nur Items im Format "&656&7" oder "&635:4&7" angeben!'
 Delwarp:
-  Success: '&7Der Warp &6{warp} &7wurde erfolgreich gelÃ¶scht!'
+  Success: "&7Der Warp &6{warp} &7wurde erfolgreich gel\xc3\u0192\xc2\xb6scht!"
 Editwarp:
   ItemSuccess: '&7Der Warp &6{warp} &7wird nun als Item "&6{item}&7" bei &6/invwarp
     &7dargestellt!'
-  LoreSuccess: '&7Dem Warp &6{warp} &7wurde erfolgreich die Lore "&6{lore}&7" hinzugefÃ¼gt.'
-  PriceSuccess: '&7Dem Warp &6{warp} &7wurde erfolgreich der Preis &6{price} {currency}
-    &7hinzugefÃ¼gt.'
+  LoreSuccess: "&7Dem Warp &6{warp} &7wurde erfolgreich die Lore \"&6{lore}&7\" hinzugef\xc3\
+    \u0192\xc2\xbcgt."
+  PriceSuccess: "&7Dem Warp &6{warp} &7wurde erfolgreich der Preis &6{price} {currency}\
+    \ &7hinzugef\xc3\u0192\xc2\xbcgt."
 SignWarp:
   SpecifyWarp: '&7[&6SignWarp&7] &cBitte gib einen Warp in &6Line 2 &cein!'
-  Success: '&7[&6SignWarp&7] Warpschild fÃ¼r den Warp &6{warp} &7erfolgreich erstellt!'
+  Success: "&7[&6SignWarp&7] Warpschild f\xc3\u0192\xc2\xbcr den Warp &6{warp} &7erfolgreich\
+    \ erstellt!"
 Invwarp:
   TooManyWarps: '&7Es gibt zu viele Warps! :O'
 InvTP:
@@ -37,7 +39,7 @@ Delay:
   TeleportCanceled: '&cDer Teleport wurde abgebrochen! Du darfst dich nicht bewegen!'
 Various:
   PluginReloaded: '&7[&6ClickWarp&7] Plugin neugeladen.'
-  ErrorFileSaving: '&cFehler beim Speichern der Datei! Schau in die Konsole fÃ¼r weitere
-    Informationen!'
+  ErrorFileSaving: "&cFehler beim Speichern der Datei! Schau in die Konsole f\xc3\u0192\
+    \xc2\xbcr weitere Informationen!"
   NoPermission: '&cKeine Erlaubnis!'
-  OnlyPlayers: '&cNur Spieler kÃ¶nnen diesen Befehl benutzen.'
+  OnlyPlayers: "&cNur Spieler k\xc3\u0192\xc2\xb6nnen diesen Befehl benutzen."

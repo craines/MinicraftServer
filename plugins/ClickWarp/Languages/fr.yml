@@ -1,42 +1,58 @@
 # [Clickwarp] Plugin by comniemeer | Color codes: http://ess.khhq.net/mc/ | French translated by Shlaten and me ;)
 Warp:
-  NoWarps: '&7Actuellement, aucun warp est dÃ©finie!'
+  NoWarps: "&7Actuellement, aucun warp est d\xc3\u0192\xc2\xa9finie!"
   List: '&7Il suivons actuellement ces warps:'
   NoExist: '&7Le warp "&6test&7" n''existe pas.'
   NotEnoughMoney: '&7Tu n''as pas assez d''argent! Tu as besoin de &6{price} {currency}&7!'
-  Success: '&7[&6Warp&7] Tu as Ã©tÃ© tÃ©lÃ©portÃ© au warp &6{warp}&7.'
-  SuccessPrice: '&7Tu as tÃ©lÃ©portÃ© au warp &6{warp} &7 pour &6{price} {currency}&7.'
+  Success: "&7[&6Warp&7] Tu as \xc3\u0192\xc2\xa9t\xc3\u0192\xc2\xa9 t\xc3\u0192\xc2\
+    \xa9l\xc3\u0192\xc2\xa9port\xc3\u0192\xc2\xa9 au warp &6{warp}&7."
+  SuccessPrice: "&7Tu as t\xc3\u0192\xc2\xa9l\xc3\u0192\xc2\xa9port\xc3\u0192\xc2\xa9\
+    \ au warp &6{warp} &7 pour &6{price} {currency}&7."
 Setwarp:
   InvalidName: '&cNom invalide!'
-  Success: '&7Le warp &6{warp} &7a Ã©tÃ© crÃ©Ã© avec succÃ¨s.'
-  NeedNumber: '&7Tu dois prÃ©ciser un nombre! Exemple: "&6/setwarp warp 1&7"'
+  Success: "&7Le warp &6{warp} &7a \xc3\u0192\xc2\xa9t\xc3\u0192\xc2\xa9 cr\xc3\u0192\
+    \xc2\xa9\xc3\u0192\xc2\xa9 avec succ\xc3\u0192\xc2\xa8s."
+  NeedNumber: "&7Tu dois pr\xc3\u0192\xc2\xa9ciser un nombre! Exemple: \"&6/setwarp\
+    \ warp 1&7\""
   InvalidItem: '&cItem inconnu!'
-  WrongItemFormat: Tu peux prÃ©ciser uniquement les articles en format "&656&7" ou "&635:4&7"!
+  WrongItemFormat: "Tu peux pr\xc3\u0192\xc2\xa9ciser uniquement les articles en format\
+    \ \"&656&7\" ou \"&635:4&7\"!"
 Delwarp:
-  Success: '&7Le warp &6{warp} &7a Ã©tÃ© supprimÃ© avec succÃ¨s!'
+  Success: "&7Le warp &6{warp} &7a \xc3\u0192\xc2\xa9t\xc3\u0192\xc2\xa9 supprim\xc3\
+    \u0192\xc2\xa9 avec succ\xc3\u0192\xc2\xa8s!"
 Editwarp:
-  ItemSuccess: '&7Le warp &6{warp} &7sera affichÃ© avec l''item "&6{item}&7" Ã  &6/invwarp&7!'
+  ItemSuccess: "&7Le warp &6{warp} &7sera affich\xc3\u0192\xc2\xa9 avec l'item \"\
+    &6{item}&7\" \xc3\u0192\xc2\_ &6/invwarp&7!"
   LoreSuccess: '&7Le warp &6{warp} &7a maintenant la description "&6{lore}&7" sur
     &6/invwarp&7!'
-  PriceSuccess: '&7Le warp &6{warp} &7coÃ»te maintenant &6{price} {currency}&7.'
+  PriceSuccess: "&7Le warp &6{warp} &7co\xc3\u0192\xc2\xbbte maintenant &6{price}\
+    \ {currency}&7."
 SignWarp:
-  SpecifyWarp: '&7[&6SignWarp&7] &cPrÃ©ciser un warp Ã  la &6ligne 2&c!'
-  Success: '&7[&6SignWarp&7] Le panneau pour le warp &6{warp} &7a Ã©tÃ© crÃ©Ã© avec
-    succÃ¨s!'
+  SpecifyWarp: "&7[&6SignWarp&7] &cPr\xc3\u0192\xc2\xa9ciser un warp \xc3\u0192\xc2\
+    \_ la &6ligne 2&c!"
+  Success: "&7[&6SignWarp&7] Le panneau pour le warp &6{warp} &7a \xc3\u0192\xc2\xa9\
+    t\xc3\u0192\xc2\xa9 cr\xc3\u0192\xc2\xa9\xc3\u0192\xc2\xa9 avec succ\xc3\u0192\
+    \xc2\xa8s!"
 Invwarp:
   TooManyWarps: Il ya trop de warps! :O
 InvTP:
   NoPlayers: '&7Actuellement, il n''y a aucun joueur &7en ligne!'
   TooManyPlayers: Il ya trop de joueurs en ligne! :O
-  Success: '&7[&6TP&7] Tu as Ã©tÃ© tÃ©lÃ©portÃ© au joueur &6{player}&7.'
+  Success: "&7[&6TP&7] Tu as \xc3\u0192\xc2\xa9t\xc3\u0192\xc2\xa9 t\xc3\u0192\xc2\
+    \xa9l\xc3\u0192\xc2\xa9port\xc3\u0192\xc2\xa9 au joueur &6{player}&7."
   NotOnline: '&7[&6TP&7] Le joueur &6{player} &7n''est pas en ligne.'
 Delay:
-  Delay: '&7Tu seras tÃ©lÃ©porter en &6{delay} secondes&7!'
-  DoNotMove: '&6Ne bougez pas! &7Tu seras tÃ©lÃ©porter en &6{delay} secondes&7!'
-  TeleportCanceled: '&cLa tÃ©lÃ©portation a Ã©tÃ© annulÃ©e, parce que tu as bougÃ©!'
+  Delay: "&7Tu seras t\xc3\u0192\xc2\xa9l\xc3\u0192\xc2\xa9porter en &6{delay} secondes&7!"
+  DoNotMove: "&6Ne bougez pas! &7Tu seras t\xc3\u0192\xc2\xa9l\xc3\u0192\xc2\xa9porter\
+    \ en &6{delay} secondes&7!"
+  TeleportCanceled: "&cLa t\xc3\u0192\xc2\xa9l\xc3\u0192\xc2\xa9portation a \xc3\u0192\
+    \xc2\xa9t\xc3\u0192\xc2\xa9 annul\xc3\u0192\xc2\xa9e, parce que tu as boug\xc3\
+    \u0192\xc2\xa9!"
 Various:
-  PluginReloaded: '&7[&6ClickWarp&7] Le plugin a Ã©tÃ© rechargÃ©.'
+  PluginReloaded: "&7[&6ClickWarp&7] Le plugin a \xc3\u0192\xc2\xa9t\xc3\u0192\xc2\
+    \xa9 recharg\xc3\u0192\xc2\xa9."
   ErrorFileSaving: '&cErreur enregistrement d''un fichier! Regardez dans la console
     pour plus d''informations!'
   NoPermission: '&cAucune permission!'
-  OnlyPlayers: '&cSeul les joueurs sont autorisÃ©s Ã  utiliser cette commande.'
+  OnlyPlayers: "&cSeul les joueurs sont autoris\xc3\u0192\xc2\xa9s \xc3\u0192\xc2\_\
+    \ utiliser cette commande."

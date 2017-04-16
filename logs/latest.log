@@ -1,251 +1,254 @@
-[15:23:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[15:23:29] [Server thread/INFO]: Loading properties
-[15:23:29] [Server thread/INFO]: Default game type: SURVIVAL
-[15:23:29] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[15:23:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:23:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:23:29] [Server thread/INFO]: Debug logging is disabled
-[15:23:29] [Server thread/INFO]: Generating keypair
-[15:23:29] [Server thread/INFO]: Starting Minecraft server on 192.99.70.193:25565
-[15:23:29] [Server thread/INFO]: Using epoll channel type
-[15:23:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[15:23:30] [Server thread/ERROR]: Could not load 'plugins/Admin-Commands [Free].jar' in folder 'plugins'
+[19:31:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:31:50] [Server thread/INFO]: Loading properties
+[19:31:50] [Server thread/INFO]: Default game type: SURVIVAL
+[19:31:50] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:31:50] [Server thread/INFO]: Debug logging is disabled
+[19:31:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:31:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:31:50] [Server thread/INFO]: Generating keypair
+[19:31:50] [Server thread/INFO]: Starting Minecraft server on 192.168.0.101:25565
+[19:31:50] [Server thread/INFO]: Using default channel type
+[19:31:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:31:51] [Server thread/ERROR]: Could not load 'plugins\ChangeSkin.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[19:31:51] [Server thread/ERROR]: Could not load 'plugins\Admin-Commands [Free].jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ActionBarAPI
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-[15:23:30] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
-[15:23:30] [Server thread/INFO]: [AlwaysDay] Loading AlwaysDay v2.2.8
-[15:23:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[15:23:30] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.0
-[15:23:30] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[15:23:30] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[15:23:30] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v2.1
-[15:23:30] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[15:23:30] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
-[15:23:30] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
-[15:23:30] [Server thread/INFO]: [CBBan] Loading CBBan v0.1
-[15:23:30] [Server thread/INFO]: [ClickWarp] Loading ClickWarp v1.3.5
-[15:23:30] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.21-SNAPSHOT (build 1463)
-[15:23:30] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
-[15:23:30] [Server thread/INFO]: [Skywars] Loading Skywars v2.0
-[15:23:30] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.2-b1542
-[15:23:30] [Server thread/INFO]: [MinigamesLib] Loading MinigamesLib v1.13.1
-[15:23:30] [Server thread/INFO]: [MGSkyWars] Loading MGSkyWars v1.5.2
-[15:23:30] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
-[15:23:30] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
-[15:23:30] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0
-[15:23:30] [Server thread/INFO]: VoidGenerator has been enabled!
-[15:23:30] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[15:23:30] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[15:23:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:23:30] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[15:23:30] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[15:23:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:23:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:23:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:23:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:23:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[15:23:30] [Server thread/INFO]: Preparing level "world"
-[15:23:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:23:30] [Server thread/INFO]: Mob Spawn Range: 4
-[15:23:30] [Server thread/INFO]: Anti X-Ray: true
-[15:23:30] [Server thread/INFO]: 	Engine Mode: 1
-[15:23:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[15:23:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[15:23:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:23:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[15:23:30] [Server thread/INFO]: Random Lighting Updates: false
-[15:23:30] [Server thread/INFO]: Structure Info Saving: true
-[15:23:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[15:23:30] [Server thread/INFO]: Max Entity Collisions: 8
-[15:23:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[15:23:30] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:30] [Server thread/INFO]: View Distance: 10
-[15:23:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[15:23:30] [Server thread/INFO]: Clear tick list: false
-[15:23:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2835611764693024549)
-[15:23:32] [Server thread/INFO]: Preparing spawn area: 41%
-[15:23:32] [Server thread/INFO]: [AlwaysDay] Enabling AlwaysDay v2.2.8
-[15:23:32] [Server thread/INFO]: [AlwaysDay] AlwaysDay v2.2.8 is now enabled.
-[15:23:32] [Server thread/INFO]: Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
-[15:23:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[15:23:32] [pool-5-thread-1/WARN]: [Fatal Error] :1:1: Premature end of file.
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[19:31:51] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[19:31:51] [Server thread/INFO]: [AlwaysDay] Loading AlwaysDay v2.2.8
+[19:31:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[19:31:51] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.0
+[19:31:51] [Server thread/INFO]: [BarAPI] Loading BarAPI v3.3
+[19:31:51] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:31:51] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[19:31:51] [Server thread/INFO]: [DemonTag] Loading DemonTag v1.0
+[19:31:51] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[19:31:51] [Server thread/INFO]: [TagAPI] Loading TagAPI v3.0.5
+[19:31:51] [Server thread/INFO]: [CBBan] Loading CBBan v0.1
+[19:31:51] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[19:31:51] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[19:31:51] [Server thread/INFO]: [ClickWarp] Loading ClickWarp v1.3.5
+[19:31:51] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.21-SNAPSHOT (build 1463)
+[19:31:51] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
+[19:31:51] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.2-b1542
+[19:31:51] [Server thread/INFO]: [MinigamesLib] Loading MinigamesLib v1.13.1
+[19:31:51] [Server thread/INFO]: [MGSkyWars] Loading MGSkyWars v1.5.2
+[19:31:51] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
+[19:31:51] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[19:31:51] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0
+[19:31:51] [Server thread/INFO]: VoidGenerator has been enabled!
+[19:31:51] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[19:31:51] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:31:51] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:31:51] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:31:51] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[19:31:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:31:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:31:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:31:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:31:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:31:52] [Server thread/INFO]: Preparing level "lobby"
+[19:31:52] [Server thread/INFO]: -------- World Settings For [lobby] --------
+[19:31:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:31:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:31:52] [Server thread/INFO]: View Distance: 10
+[19:31:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:31:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:31:52] [Server thread/INFO]: Clear tick list: false
+[19:31:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:31:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:31:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:31:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:31:52] [Server thread/INFO]: Max Entity Collisions: 8
+[19:31:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:31:52] [Server thread/INFO]: Anti X-Ray: true
+[19:31:52] [Server thread/INFO]: 	Engine Mode: 1
+[19:31:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:31:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:31:52] [Server thread/INFO]: Mob Spawn Range: 4
+[19:31:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:31:52] [Server thread/INFO]: Structure Info Saving: true
+[19:31:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:31:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:31:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:31:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:31:52] [Server thread/INFO]: Random Lighting Updates: false
+[19:31:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:31:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:31:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[19:31:53] [Server thread/INFO]: Preparing spawn area: 65%
+[19:31:53] [Server thread/INFO]: [AlwaysDay] Enabling AlwaysDay v2.2.8
+[19:31:53] [Server thread/INFO]: [AlwaysDay] AlwaysDay v2.2.8 is now enabled.
+[19:31:53] [Server thread/INFO]: Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+[19:31:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[19:31:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:31:54] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:31:54] [Server thread/INFO]: [BarAPI] Enabling BarAPI v3.3
+[19:31:54] [Server thread/INFO]: [BarAPI] Loaded
+[19:31:54] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:31:54] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:31:54] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:31:54] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:31:54] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:31:54] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[19:31:54] [Server thread/INFO]: [DemonTag] Enabling DemonTag v1.0
+[19:31:54] [Server thread/INFO]: �aDemonTag On
+[19:31:54] [Server thread/INFO]: [TagAPI] Enabling TagAPI v3.0.5
+[19:31:54] [Server thread/WARN]: [TagAPI] Inconsistency found: Potential mod detected. TagAPI may not run properly. Let's try it anyway!
+[19:31:54] [Server thread/INFO]: [TagAPI] It looks like you're using a mod, but it's claiming to be "CraftBukkit" when I ask it.
+[19:31:54] [Server thread/INFO]: [TagAPI] When I check the version string I get "git-Spigot-21fe707-e1ebe52 (MC: 1.8.8)" which doesn't sound like CraftBukkit to me (Could be wrong!).
+[19:31:54] [Server thread/INFO]: [TagAPI] The above (or below, if your log reads in reverse) message DOES NOT mean there is a problem with TagAPI. Don't panic. Just breathe!
+[19:31:54] [Server thread/ERROR]: [TagAPI] Could not find support for this CraftBukkit version (v1_8_R3). Check for an update or pester mbaxter.
+[19:31:54] [Server thread/INFO]: [TagAPI] Update hopefully available at http://dev.bukkit.org/server-mods/tag
+[19:31:54] [Server thread/INFO]: [TagAPI] Disabling TagAPI v3.0.5
+[19:31:54] [Server thread/INFO]: [CBBan] Enabling CBBan v0.1
+[19:31:54] [Server thread/INFO]: [0;33;22m-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-[m
+[19:31:54] [Server thread/INFO]: [0;31;22m[CBBan] [0;32;22mHabilitado![m
+[19:31:54] [Server thread/INFO]: [0;31;22m[CBBan] [0;32;22mVersao: 0.5[m
+[19:31:54] [Server thread/INFO]: [0;31;22m[CBBan] [0;36;1mCriador: CatuBR[m
+[19:31:54] [Server thread/INFO]: [0;33;22m-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-[m
+[19:31:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[19:31:54] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[19:31:54] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[19:31:54] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+[19:31:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:31:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:31:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:31:54] [Server thread/INFO]: View Distance: 10
+[19:31:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:31:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:31:54] [Server thread/INFO]: Clear tick list: false
+[19:31:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:31:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:31:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:31:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:31:54] [Server thread/INFO]: Max Entity Collisions: 8
+[19:31:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:31:54] [Server thread/INFO]: Anti X-Ray: true
+[19:31:54] [Server thread/INFO]: 	Engine Mode: 1
+[19:31:54] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:31:54] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:31:54] [Server thread/INFO]: Mob Spawn Range: 4
+[19:31:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:31:54] [Server thread/INFO]: Structure Info Saving: true
+[19:31:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:31:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:31:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:31:54] [Server thread/INFO]: Max TNT Explosions: 100
+[19:31:54] [Server thread/INFO]: Random Lighting Updates: false
+[19:31:54] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:31:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:31:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2835611764693024549)
+[19:31:54] [pool-4-thread-1/WARN]: [Fatal Error] :1:1: Fim prematuro do arquivo.
 
-[15:23:32] [pool-5-thread-1/WARN]: [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
-[15:23:33] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:23:33] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[15:23:33] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[15:23:33] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[15:23:33] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[15:23:33] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[15:23:33] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[15:23:33] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[15:23:33] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v2.1
-[15:23:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
-[15:23:34] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[15:23:34] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[15:23:34] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[15:23:34] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[15:23:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[15:23:34] [Server thread/INFO]: [WorldGuard] Loading region data...
-[15:23:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
-[15:23:34] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
-[15:23:34] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
-[15:23:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
-[15:23:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
-[15:23:34] [Server thread/INFO]: -------- World Settings For [skywars] --------
-[15:23:34] [Server thread/INFO]: Mob Spawn Range: 4
-[15:23:34] [Server thread/INFO]: Anti X-Ray: true
-[15:23:34] [Server thread/INFO]: 	Engine Mode: 1
-[15:23:34] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[15:23:34] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[15:23:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:23:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[15:23:34] [Server thread/INFO]: Random Lighting Updates: false
-[15:23:34] [Server thread/INFO]: Structure Info Saving: true
-[15:23:34] [Server thread/INFO]: Sending up to 10 chunks per packet
-[15:23:34] [Server thread/INFO]: Max Entity Collisions: 8
-[15:23:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[15:23:34] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:34] [Server thread/INFO]: View Distance: 10
-[15:23:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:34] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[15:23:34] [Server thread/INFO]: Clear tick list: false
-[15:23:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7508262552445591995)
-[15:23:35] [Server thread/INFO]: [WorldGuard] (skywars) TNT ignition is PERMITTED.
-[15:23:35] [Server thread/INFO]: [WorldGuard] (skywars) Lighters are PERMITTED.
-[15:23:35] [Server thread/INFO]: [WorldGuard] (skywars) Lava fire is blocked.
-[15:23:35] [Server thread/INFO]: [WorldGuard] (skywars) Fire spread is UNRESTRICTED.
-[15:23:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skywars'
-[15:23:35] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'TotalmenteGamer' - Env: THE_END - Type: NORMAL & seed: 9188147237864160582
-[15:23:35] [Server thread/INFO]: -------- World Settings For [TotalmenteGamer] --------
-[15:23:35] [Server thread/INFO]: Mob Spawn Range: 4
-[15:23:35] [Server thread/INFO]: Anti X-Ray: true
-[15:23:35] [Server thread/INFO]: 	Engine Mode: 1
-[15:23:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[15:23:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[15:23:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[15:23:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[15:23:35] [Server thread/INFO]: Random Lighting Updates: false
-[15:23:35] [Server thread/INFO]: Structure Info Saving: true
-[15:23:35] [Server thread/INFO]: Sending up to 10 chunks per packet
-[15:23:35] [Server thread/INFO]: Max Entity Collisions: 8
-[15:23:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[15:23:35] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:35] [Server thread/INFO]: View Distance: 10
-[15:23:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[15:23:35] [Server thread/INFO]: Clear tick list: false
-[15:23:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:35] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9188147237864160582)
-[15:23:36] [Server thread/INFO]: [WorldGuard] (TotalmenteGamer) TNT ignition is PERMITTED.
-[15:23:36] [Server thread/INFO]: [WorldGuard] (TotalmenteGamer) Lighters are PERMITTED.
-[15:23:36] [Server thread/INFO]: [WorldGuard] (TotalmenteGamer) Lava fire is blocked.
-[15:23:36] [Server thread/INFO]: [WorldGuard] (TotalmenteGamer) Fire spread is UNRESTRICTED.
-[15:23:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'TotalmenteGamer'
-[15:23:36] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[15:23:36] [Server thread/INFO]: [CBBan] Enabling CBBan v0.1
-[15:23:36] [Server thread/INFO]: [0;33;22m-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-[m
-[15:23:36] [Server thread/INFO]: [0;31;22m[CBBan] [0;32;22mHabilitado![m
-[15:23:36] [Server thread/INFO]: [0;31;22m[CBBan] [0;32;22mVersao: 0.5[m
-[15:23:36] [Server thread/INFO]: [0;31;22m[CBBan] [0;36;1mCriador: CatuBR[m
-[15:23:36] [Server thread/INFO]: [0;33;22m-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-[m
-[15:23:36] [Server thread/INFO]: [ClickWarp] Enabling ClickWarp v1.3.5
-[15:23:36] [Server thread/INFO]: [ClickWarp] Metrics started!
-[15:23:36] [Server thread/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer enabled.
-[15:23:36] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.21-SNAPSHOT (build 1463)
-[15:23:36] [Server thread/ERROR]: [Citizens] v2.0.21-SNAPSHOT (build 1463) is not compatible with Minecraft v1_8_R3 - try upgrading or downgrading Citizens. Disabling.
-[15:23:36] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.21-SNAPSHOT (build 1463)
-[15:23:36] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
-[15:23:36] [Server thread/INFO]: [Skywars] Enabling Skywars v2.0
-[15:23:36] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m51[0;37;22m cage(s)![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m1[0;37;22m chest type(s)![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m22[0;37;22m kit![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m50[0;37;22m trail(s)![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m5[0;37;22m shops![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m53[0;37;22m achievement(s)![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m6[0;37;22m broadcaster message![m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded the mystery box settings![m
-[15:23:37] [Server thread/INFO]: [0;31;1m=======================================[m
-[15:23:37] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] [0;32;1mPlugin has been enabled (v2.0)[m
-[15:23:37] [Server thread/INFO]: [0;31;1m=======================================[m
-[15:23:37] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.2-b1542
-[15:23:37] [Server thread/INFO]: [AuthMe] SQLite driver loaded
-[15:23:37] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[15:23:37] [Server thread/INFO]: [AuthMe] Hooked into PermissionsEx!
-[15:23:37] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
-[15:23:37] [Server thread/INFO]: [AuthMe] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
-[15:23:37] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[15:23:37] [Server thread/INFO]: [AuthMe] Development builds are available on our jenkins, thanks to f14stelt.
-[15:23:37] [Server thread/INFO]: [AuthMe] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
-[15:23:37] [Server thread/INFO]: [AuthMe] AuthMe 5.2 build n.1542 correctly enabled!
-[15:23:37] [Server thread/INFO]: [MinigamesLib] Enabling MinigamesLib v1.13.1
-[15:23:37] [Server thread/INFO]: [0;31;1m[21mLoaded MinigamesAPI. We're on v1_8_R3.[m
-[15:23:37] [Server thread/ERROR]: [MinigamesLib] [MinigamesLib] - No Economy (Vault) dependency found! Disabling Economy.
-[15:23:37] [Server thread/INFO]: [MGSkyWars] Enabling MGSkyWars v1.5.2
-[15:23:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:23:38] [Server thread/INFO]: Done (7.468s)! For help, type "help" or "?"
-[15:23:38] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
-[15:23:38] [Craft Scheduler Thread - 6/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Found a new available version! [0;35;1mdownload at http://goo.gl/GpTbwN[m
-[15:23:38] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
-[15:23:38] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m0[0;37;22m arena(s)![m
-[15:23:38] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Loaded [0;36;1m0[0;37;22m join sign(s)![m
-[15:23:38] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Updating leaderboards...[m
-[15:23:38] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Couldn't find any valid top sign to update![m
-[15:23:38] [Server thread/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] No Holographic leaderboard was set either, cancelling the task![m
-[15:23:40] [Server thread/INFO]: Found 0 arenas.
-[15:24:04] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
+[19:31:54] [pool-4-thread-1/WARN]: [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
+[19:31:55] [Server thread/INFO]: Preparing spawn area for world, 73%
+[19:31:56] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+[19:31:56] [Server thread/INFO]: -------- World Settings For [skywars] --------
+[19:31:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:31:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:31:56] [Server thread/INFO]: View Distance: 10
+[19:31:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:31:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:31:56] [Server thread/INFO]: Clear tick list: false
+[19:31:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:31:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:31:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:31:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:31:56] [Server thread/INFO]: Max Entity Collisions: 8
+[19:31:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:31:56] [Server thread/INFO]: Anti X-Ray: true
+[19:31:56] [Server thread/INFO]: 	Engine Mode: 1
+[19:31:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:31:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:31:56] [Server thread/INFO]: Mob Spawn Range: 4
+[19:31:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:31:56] [Server thread/INFO]: Structure Info Saving: true
+[19:31:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:31:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:31:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:31:56] [Server thread/INFO]: Max TNT Explosions: 100
+[19:31:56] [Server thread/INFO]: Random Lighting Updates: false
+[19:31:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:31:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:31:56] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7508262552445591995)
+[19:31:56] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: FLAT & seed: 0
+[19:31:56] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:31:56] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[19:31:57] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is blocked.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[19:31:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:31:57] [Server thread/INFO]: [WorldGuard] (skywars) TNT ignition is PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (skywars) Lighters are PERMITTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (skywars) Lava fire is blocked.
+[19:31:57] [Server thread/INFO]: [WorldGuard] (skywars) Fire spread is UNRESTRICTED.
+[19:31:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skywars'
+[19:31:57] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:31:57] [Server thread/INFO]: [ClickWarp] Enabling ClickWarp v1.3.5
+[19:31:57] [Server thread/INFO]: [ClickWarp] Metrics started!
+[19:31:57] [Server thread/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer enabled.
+[19:31:57] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.21-SNAPSHOT (build 1463)
+[19:31:57] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[19:31:57] [Server thread/ERROR]: [Citizens] v2.0.21-SNAPSHOT (build 1463) is not compatible with Minecraft v1_8_R3 - try upgrading or downgrading Citizens. Disabling.
+[19:31:57] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.21-SNAPSHOT (build 1463)
+[19:31:57] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
+[19:31:57] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.2-b1542
+[19:31:57] [Server thread/INFO]: [AuthMe] SQLite driver loaded
+[19:31:57] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:31:57] [Server thread/INFO]: [AuthMe] Hooked into PermissionsEx!
+[19:31:57] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[19:31:57] [Server thread/INFO]: [AuthMe] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[19:31:58] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[19:31:58] [Server thread/INFO]: [AuthMe] Development builds are available on our jenkins, thanks to f14stelt.
+[19:31:58] [Server thread/INFO]: [AuthMe] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[19:31:58] [Server thread/INFO]: [AuthMe] AuthMe 5.2 build n.1542 correctly enabled!
+[19:31:58] [Server thread/INFO]: [MinigamesLib] Enabling MinigamesLib v1.13.1
+[19:31:58] [Server thread/INFO]: [0;31;1m[21mLoaded MinigamesAPI. We're on v1_8_R3.[m
+[19:31:58] [Server thread/ERROR]: [MinigamesLib] [MinigamesLib] - No Economy (Vault) dependency found! Disabling Economy.
+[19:31:58] [Server thread/INFO]: [MGSkyWars] Enabling MGSkyWars v1.5.2
+[19:31:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:31:58] [Server thread/INFO]: Done (6,608s)! For help, type "help" or "?"
+[19:31:58] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
+[19:31:58] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
+[19:32:01] [Server thread/INFO]: Found 0 arenas.
+[19:32:07] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
 org.bukkit.event.EventException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
@@ -258,110 +261,21 @@ org.bukkit.event.EventException
 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
 Caused by: java.lang.NullPointerException
 	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
 	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_121]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	... 11 more
-[15:24:04] [Thread-14/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
-[15:24:05] [Server thread/INFO]: dudanq[/138.59.120.207:29040] logged in with entity id 37 at ([skywars]253.24237139305046, 140.0, 40.53408017108147)
-[15:24:11] [Server thread/INFO]: dudanq lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
-[15:24:11] [Server thread/INFO]: dudanq left the game.
-[15:24:17] [Thread-15/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[15:24:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@61f92a5a[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:52496): You are not whitelisted on this server!
-[15:24:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@61f92a5a[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:52496) lost connection: You are not whitelisted on this server!
-[15:25:19] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[15:25:19] [Thread-16/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
-[15:25:19] [Server thread/INFO]: dudanq[/138.59.120.207:29183] logged in with entity id 39 at ([skywars]253.24237139305046, 140.0, 40.53408017108147)
-[15:25:34] [Craft Scheduler Thread - 0/INFO]: [AuthMe] dudanq logged in!
-[15:33:38] [Craft Scheduler Thread - 0/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[15:35:55] [Thread-17/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
-[15:35:55] [Server thread/INFO]: TotalmenteGamer[/191.250.209.168:27375] logged in with entity id 46 at ([skywars]16.920430378372238, 107.13249680881245, 175.96984130745892)
-[15:36:05] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> pq desligou no skype?[m
-[15:36:11] [Craft Scheduler Thread - 0/INFO]: [AuthMe] TotalmenteGamer logged in!
-[15:36:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq
-[15:36:31] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to dudanq]
-[15:36:48] [Server thread/INFO]: TotalmenteGamer issued server command: /help
-[15:36:52] [Server thread/INFO]: TotalmenteGamer issued server command: /help 2
-[15:37:03] [Server thread/INFO]: TotalmenteGamer issued server command: /help MinigamesLib
-[15:37:08] [Server thread/INFO]: TotalmenteGamer issued server command: /party
-[15:37:19] [Server thread/INFO]: TotalmenteGamer issued server command: /start
-[15:37:23] [Server thread/INFO]: TotalmenteGamer issued server command: /mapi
-[15:37:57] [Server thread/INFO]: TotalmenteGamer issued server command: /mapi
-[15:38:07] [Server thread/INFO]: TotalmenteGamer issued server command: /help MGSkyWars
-[15:38:10] [Server thread/INFO]: TotalmenteGamer issued server command: /sw
-[15:38:56] [Server thread/INFO]: TotalmenteGamer issued server command: /sw setenabled
-[15:39:16] [Server thread/INFO]: TotalmenteGamer issued server command: /sw setenabled Summer True
-[15:39:38] [Server thread/INFO]: TotalmenteGamer issued server command: /sw start Summer
-[15:39:50] [Server thread/INFO]: TotalmenteGamer issued server command: /help
-[15:39:55] [Server thread/INFO]: TotalmenteGamer issued server command: /help 2
-[15:40:06] [Server thread/INFO]: TotalmenteGamer issued server command: /help Skywars
-[15:40:11] [Server thread/INFO]: TotalmenteGamer issued server command: /skywars
-[15:40:25] [Server thread/INFO]: TotalmenteGamer issued server command: /sw leave
-[15:40:32] [Server thread/INFO]: TotalmenteGamer issued server command: /sw Autojoin
-[15:40:42] [Server thread/INFO]: TotalmenteGamer issued server command: /sw admin
-[15:40:47] [Server thread/INFO]: TotalmenteGamer issued server command: /sw admin
-[15:41:17] [Server thread/INFO]: TotalmenteGamer issued server command: /sw join
-[15:43:17] [Thread-18/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[15:43:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@79ccf6b4[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:52783): You are not whitelisted on this server!
-[15:43:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@79ccf6b4[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:52783) lost connection: You are not whitelisted on this server!
-[15:43:38] [Craft Scheduler Thread - 11/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[15:43:43] [Server thread/INFO]: dudanq issued server command: /sw
-[15:43:45] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> Summer[m
-[15:44:02] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> Summer[m
-[15:44:04] [Server thread/INFO]: dudanq issued server command: /sw setspawn
-[15:44:16] [Server thread/INFO]: dudanq issued server command: /sw setspawn Pantanal
-[15:45:31] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[15:45:34] [Server thread/INFO]: dudanq issued server command: /sw
-[15:47:10] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:47:10] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:47:59] [Server thread/INFO]: dudanq issued server command: /sw setlobby Pantanal
-[15:48:17] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[15:48:26] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:48:26] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:48:37] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:48:37] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:48:40] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:48:40] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:48:41] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:48:41] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:49:00] [Server thread/INFO]: dudanq issued server command: /mv list
-[15:49:09] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:49:09] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:49:09] [Server thread/INFO]: dudanq issued server command: /mv list
-[15:49:59] [Server thread/INFO]: dudanq issued server command: /sw
-[15:50:27] [Server thread/INFO]: dudanq issued server command: /sw setmainlobby
-[15:50:37] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[15:50:47] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:50:47] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:51:07] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to CBBan v0.1
+[19:32:07] [Thread-15/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[19:32:07] [Server thread/INFO]: dudanq[/192.168.0.101:65263] logged in with entity id 115 at ([lobby]-140.5, 10.0, -40.5)
+[19:32:21] [Craft Scheduler Thread - 0/INFO]: [AuthMe] dudanq logged in!
+[19:32:33] [Server thread/INFO]: dudanq issued server command: /mv tp lobby
+[19:32:43] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to CBBan v0.1
 org.bukkit.event.EventException
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
@@ -370,939 +284,21 @@ org.bukkit.event.EventException
 	at net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1084) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
 Caused by: java.lang.NullPointerException
 	at me.catubr.Bans.Eventos.mutamentos(Eventos.java:163) ~[?:?]
 	at me.catubr.Bans.AoEntrar.mute(AoEntrar.java:64) ~[?:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_121]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	... 11 more
-[15:51:07] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<dudanq> up 1[m
-[15:51:13] [Server thread/INFO]: dudanq issued server command: /up 1
-[15:52:19] [Server thread/INFO]: dudanq issued server command: /sw setbounds Pantanal high
-[15:52:31] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:52:31] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:52:47] [Server thread/INFO]: dudanq issued server command: /up 1
-[15:52:47] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:52:47] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:53:12] [Server thread/INFO]: dudanq issued server command: /sw setbounds Pantanal low
-[15:53:15] [Server thread/INFO]: dudanq issued server command: /sw
-[15:53:38] [Craft Scheduler Thread - 13/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[15:53:47] [Server thread/INFO]: dudanq issued server command: /sw savearena Pantanal
-[15:53:47] [Server thread/INFO]: [MinigamesLib] BOUNDS: 27 89 15
-[15:53:47] [Server thread/INFO]: [MinigamesLib] BLOCKS TO SAVE: 36045
-[15:53:48] [Server thread/INFO]: [MinigamesLib] saved
-[15:55:08] [Server thread/INFO]: dudanq issued server command: /sw setmaxplayers Pantanal 8
-[15:55:56] [Server thread/INFO]: dudanq issued server command: /sw setminplayers Pantanal 4
-[15:55:57] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags
-[15:56:29] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist on
-[15:56:29] [Server thread/INFO]: [TotalmenteGamer: Turned on the whitelist]
-[15:56:41] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add dudanq
-[15:56:41] [Server thread/INFO]: [TotalmenteGamer: Added dudanq to the whitelist]
-[15:56:52] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add TotalmenteGamer
-[15:56:52] [Server thread/INFO]: [TotalmenteGamer: Added TotalmenteGamer to the whitelist]
-[15:56:52] [Thread-19/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[15:56:53] [Server thread/INFO]: atiradorfgsa[/143.208.247.216:27952] logged in with entity id 55 at ([world]382.06630045182544, 76.35572585361292, 408.38546729846894)
-[15:56:54] [Thread-20/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[15:56:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@201b2721[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27953): §4The same username is already playing on the server!
-[15:56:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@201b2721[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27953) lost connection: §4The same username is already playing on the server!
-[15:57:01] [Server thread/INFO]: TotalmenteGamer issued server command: /kick atiradorfgsa perai
-[15:57:01] [Server thread/INFO]: [0;31;22m[21mKICK: [0;33;1mO Jogador [0;31;1matiradorfgsa[0;33;1m foi kickado motivo [0;31;1mperai[m
-[15:57:01] [Server thread/INFO]: atiradorfgsa lost connection: §cVoce Foi Kickado! 
- Motivo: perai
- §cPor: §7TotalmenteGamer
-[15:57:01] [Server thread/INFO]: atiradorfgsa left the game.
-[15:57:16] [Thread-21/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[15:57:16] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@47aef74a[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27960): You are not whitelisted on this server!
-[15:57:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@47aef74a[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27960) lost connection: You are not whitelisted on this server!
-[15:57:19] [Server thread/INFO]: TotalmenteGamer issued server command: /inwarp
-[15:57:22] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[15:57:26] [Server thread/INFO]: dudanq issued server command: /sw list
-[15:57:33] [Server thread/WARN]: handleDisconnection() called twice
-[15:57:39] [Server thread/INFO]: TotalmenteGamer issued server command: /swlist
-[15:57:43] [Server thread/INFO]: TotalmenteGamer issued server command: /sw list
-[15:57:52] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[15:58:06] [Thread-22/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[15:58:06] [Server thread/INFO]: atiradorfgsa[/143.208.247.216:27980] logged in with entity id 60 at ([world]382.06630045182544, 76.35572585361292, 408.38546729846894)
-[15:58:12] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:58:12] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:58:19] [Server thread/INFO]: atiradorfgsa issued server command: //set 0
-[15:58:24] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[15:58:24] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[15:58:34] [Server thread/INFO]: [AuthMe] atiradorfgsa registered 143.208.247.216
-[15:58:34] [Craft Scheduler Thread - 16/INFO]: [AuthMe] atiradorfgsa logged in!
-[15:58:48] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> loko esses plugins[m
-[15:58:56] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> ne[m
-[15:59:03] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> mui to[m
-[15:59:08] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> o irmao da duda mim ajudou a coloca :)[m
-[15:59:08] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> top*[m
-[15:59:25] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> gosto do meu nome ??[m
-[15:59:28] [Server thread/INFO]: TotalmenteGamer issued server command: /sw list
-[15:59:41] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0
-[15:59:41] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
-[15:59:44] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0 @a
-[15:59:44] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Survival Mode]
-[15:59:44] [Server thread/INFO]: [TotalmenteGamer: Set dudanq's game mode to Survival Mode]
-[15:59:44] [Server thread/INFO]: [TotalmenteGamer: Set atiradorfgsa's game mode to Survival Mode]
-[15:59:45] [Server thread/INFO]: dudanq issued server command: /gamemode 0
-[15:59:45] [Server thread/INFO]: [dudanq: Set own game mode to Survival Mode]
-[15:59:47] [Server thread/INFO]: atiradorfgsa fell from a high place
-[15:59:49] [Server thread/INFO]: false
-[15:59:51] [Server thread/INFO]: TotalmenteGamer issued server command: /clear @a
-[15:59:51] [Server thread/INFO]: [TotalmenteGamer: Cleared the inventory of TotalmenteGamer, removing 1 items]
-[15:59:51] [Server thread/INFO]: [TotalmenteGamer: Could not clear the inventory of atiradorfgsa, no items to remove]
-[15:59:51] [Server thread/INFO]: [TotalmenteGamer: Cleared the inventory of dudanq, removing 4 items]
-[15:59:57] [Server thread/INFO]: TotalmenteGamer issued server command: /tp atiradorfgsa TotalmenteGamer
-[15:59:57] [Server thread/INFO]: [TotalmenteGamer: Teleported atiradorfgsa to TotalmenteGamer]
-[15:59:58] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> serio isso vei para[m
-[16:00:02] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa[m
-[16:00:08] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> perdi meus itens tudo[m
-[16:00:09] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa[m
-[16:00:10] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa[m
-[16:00:10] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa[m
-[16:00:14] [Server thread/INFO]: true
-[16:00:15] [Server thread/INFO]: true
-[16:00:21] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> foda[m
-[16:00:49] [Server thread/INFO]: TotalmenteGamer issued server command: /sw start
-[16:00:52] [Server thread/INFO]: TotalmenteGamer issued server command: /sw start
-[16:00:57] [Server thread/INFO]: dudanq issued server command: /sw start
-[16:01:06] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> espera[m
-[16:01:26] [Server thread/INFO]: atiradorfgsa issued server command: /fly
-[16:02:38] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> mano quando eu começa a gravar nesse servidor vai ser top[m
-[16:02:40] [Thread-24/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:02:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ba3b2a5[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29454): You are not whitelisted on this server!
-[16:02:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ba3b2a5[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29454) lost connection: You are not whitelisted on this server!
-[16:02:44] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> ne[m
-[16:02:49] [Thread-25/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:02:49] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@f2c7f6[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29591): You are not whitelisted on this server!
-[16:02:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@f2c7f6[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29591) lost connection: You are not whitelisted on this server!
-[16:02:54] [Thread-26/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:02:54] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2b038f7e[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29354): You are not whitelisted on this server!
-[16:02:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@2b038f7e[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29354) lost connection: You are not whitelisted on this server!
-[16:02:59] [Server thread/INFO]: atiradorfgsa issued server command: /effect dudanq 1 500 500
-[16:02:59] [Server thread/INFO]: [atiradorfgsa: The number you have entered (500) is too big, it must be at most 255]
-[16:03:00] [Server thread/INFO]: TotalmenteGamer issued server command: /unban rukia
-[16:03:00] [Server thread/INFO]: [0;31;1mO Jogador rukia foi desbanido por TotalmenteGamer[m
-[16:03:06] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:03:06] [Thread-27/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:03:06] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@26930952[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29318): You are not whitelisted on this server!
-[16:03:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@26930952[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29318) lost connection: You are not whitelisted on this server!
-[16:03:10] [Server thread/INFO]: atiradorfgsa issued server command: /effect dudanq 1 500 500
-[16:03:10] [Server thread/INFO]: [atiradorfgsa: The number you have entered (500) is too big, it must be at most 255]
-[16:03:11] [Server thread/INFO]: TotalmenteGamer issued server command: /unban rukia
-[16:03:11] [Server thread/INFO]: [0;31;1mO Jogador rukia foi desbanido por TotalmenteGamer[m
-[16:03:19] [Server thread/INFO]: TotalmenteGamer issued server command: /clear atiradorfgsa
-[16:03:19] [Server thread/INFO]: [TotalmenteGamer: Cleared the inventory of atiradorfgsa, removing 4 items]
-[16:03:22] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:03:22] [Thread-28/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:03:22] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2ad2b30d[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29222): You are not whitelisted on this server!
-[16:03:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@2ad2b30d[id=e5ca2bd3-8916-332b-911d-438f6a098559,name=rukia,properties={},legacy=false] (/138.59.120.207:29222) lost connection: You are not whitelisted on this server!
-[16:03:38] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> se ta de brincadeira ne[m
-[16:03:39] [Craft Scheduler Thread - 20/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[16:03:42] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> isso e abusar de staff[m
-[16:03:53] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> abuse e vc que ta pegando itens[m
-[16:03:53] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> isso e abusar dos comandos[m
-[16:03:57] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> abuse e vc que ta pegando itens[m
-[16:03:58] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> n to[m
-[16:04:00] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> sei[m
-[16:04:05] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> eu sei ler ok[m
-[16:04:10] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> mds tem raio x agora[m
-[16:04:24] [Thread-29/INFO]: UUID of player overkill is e3e44a0d-f7de-33d4-b52f-ee1970af0f0e
-[16:04:24] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@176281d7[id=e3e44a0d-f7de-33d4-b52f-ee1970af0f0e,name=overkill,properties={},legacy=false] (/138.59.120.207:29590): You are not whitelisted on this server!
-[16:04:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@176281d7[id=e3e44a0d-f7de-33d4-b52f-ee1970af0f0e,name=overkill,properties={},legacy=false] (/138.59.120.207:29590) lost connection: You are not whitelisted on this server!
-[16:04:33] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> mano tu tem o console ?[m
-[16:04:42] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> quer porra e isso?[m
-[16:04:42] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> quer porra e isso?[m
-[16:04:57] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> staff n sabe oq e console mds[m
-[16:05:04] [Thread-30/INFO]: UUID of player asdadasd is 5acd59b0-cd1f-317c-a514-4afdda50b1cb
-[16:05:04] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1273a253[id=5acd59b0-cd1f-317c-a514-4afdda50b1cb,name=asdadasd,properties={},legacy=false] (/138.59.120.207:29826): You are not whitelisted on this server!
-[16:05:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@1273a253[id=5acd59b0-cd1f-317c-a514-4afdda50b1cb,name=asdadasd,properties={},legacy=false] (/138.59.120.207:29826) lost connection: You are not whitelisted on this server!
-[16:05:06] [Thread-31/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[16:05:06] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@494dfafa[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:53334): You are not whitelisted on this server!
-[16:05:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@494dfafa[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:53334) lost connection: You are not whitelisted on this server!
-[16:05:10] [Thread-32/INFO]: UUID of player asdadasd is 5acd59b0-cd1f-317c-a514-4afdda50b1cb
-[16:05:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@48c6259b[id=5acd59b0-cd1f-317c-a514-4afdda50b1cb,name=asdadasd,properties={},legacy=false] (/138.59.120.207:29215): You are not whitelisted on this server!
-[16:05:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@48c6259b[id=5acd59b0-cd1f-317c-a514-4afdda50b1cb,name=asdadasd,properties={},legacy=false] (/138.59.120.207:29215) lost connection: You are not whitelisted on this server!
-[16:05:11] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> eu nao sou staff[m
-[16:05:18] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist of
-[16:05:18] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> tu e oq intao ?/[m
-[16:05:20] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist off
-[16:05:20] [Server thread/INFO]: [TotalmenteGamer: Turned off the whitelist]
-[16:05:27] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> SubDono[m
-[16:05:41] [Thread-33/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[16:05:41] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@320e2152[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27791): §4The same username is already playing on the server!
-[16:05:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@320e2152[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27791) lost connection: §4The same username is already playing on the server!
-[16:05:48] [Thread-34/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[16:05:48] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4f01e0ee[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27792): §4The same username is already playing on the server!
-[16:05:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f01e0ee[id=c4894f17-3edf-37fe-9943-defe2e75885b,name=atiradorfgsa,properties={},legacy=false] (/143.208.247.216:27792) lost connection: §4The same username is already playing on the server!
-[16:05:48] [Server thread/INFO]: atiradorfgsa lost connection: Timed out
-[16:05:48] [Server thread/INFO]: [MinigamesLib] atiradorfgsa quit while in arena Pantanal.
-[16:05:48] [Server thread/INFO]: true
-[16:05:48] [Server thread/INFO]: atiradorfgsa left the game.
-[16:05:54] [Thread-35/INFO]: UUID of player atiradorfgsa is c4894f17-3edf-37fe-9943-defe2e75885b
-[16:05:55] [Server thread/INFO]: atiradorfgsa[/143.208.247.216:27803] logged in with entity id 105 at ([world]222.27615280739596, 195.0, 260.699999988079)
-[16:05:58] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> mds[m
-[16:06:02] [Thread-36/INFO]: UUID of player asdadasd is 5acd59b0-cd1f-317c-a514-4afdda50b1cb
-[16:06:02] [Server thread/INFO]: asdadasd[/138.59.120.207:29664] logged in with entity id 120 at ([world]227.5, 195.0, 252.5)
-[16:06:06] [Craft Scheduler Thread - 22/INFO]: [AuthMe] atiradorfgsa logged in!
-[16:06:24] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player TotalmenteGamer &1[SubDono]
-[16:06:30] [Server thread/INFO]: asdadasd lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
-[16:06:30] [Server thread/INFO]: asdadasd left the game.
-[16:06:32] [Server thread/INFO]: atiradorfgsa issued server command: /clear TotalmenteGamer
-[16:06:32] [Server thread/INFO]: [atiradorfgsa: Cleared the inventory of TotalmenteGamer, removing 4 items]
-[16:06:34] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player TotalmenteGamer &1&l[SubDono]
-[16:06:38] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player TotalmenteGamer &1&l[SubDono]
-[16:06:45] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> fdp[m
-[16:06:45] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> kd a placa ?[m
-[16:06:49] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> cm vou volta[m
-[16:06:52] [Server thread/INFO]: TotalmenteGamer lost connection: Disconnected
-[16:06:52] [Server thread/INFO]: [MinigamesLib] TotalmenteGamer quit while in arena Pantanal.
-[16:06:52] [Server thread/INFO]: true
-[16:06:52] [Server thread/INFO]: TotalmenteGamer left the game.
-[16:06:57] [Thread-37/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
-[16:06:58] [Server thread/INFO]: TotalmenteGamer[/191.250.209.168:27356] logged in with entity id 121 at ([world]222.27615280739596, 195.0, 260.699999988079)
-[16:07:06] [Craft Scheduler Thread - 23/INFO]: [AuthMe] TotalmenteGamer logged in!
-[16:07:13] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:07:13] [Thread-38/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:07:13] [Server thread/INFO]: rukia[/138.59.120.207:29496] logged in with entity id 122 at ([world]440.27273786838686, 144.0, 437.1378008953325)
-[16:07:16] [Server thread/INFO]: atiradorfgsa issued server command: /ban TotalmenteGamer ABusando
-[16:07:16] [Server thread/INFO]: [0;37;22m=------------==-----------=[m
-[16:07:16] [Server thread/INFO]:            [0;31;1m[21mBAN:[m
-[16:07:16] [Server thread/INFO]: [m
-[16:07:16] [Server thread/INFO]: [0;37;1mJogador Banido: [0;31;1mTotalmenteGamer[m
-[16:07:16] [Server thread/INFO]: [m
-[16:07:16] [Server thread/INFO]: [0;37;1mMotivo: [0;32;1mABusando[m
-[16:07:16] [Server thread/INFO]: [m
-[16:07:16] [Server thread/INFO]: [0;37;1mPor: [0;32;1matiradorfgsa[m
-[16:07:17] [Server thread/INFO]: [m
-[16:07:17] [Server thread/INFO]: [0;37;22m=------------==-----------=[m
-[16:07:17] [Server thread/INFO]: TotalmenteGamer lost connection: §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§eStaff
-[16:07:17] [Server thread/INFO]: TotalmenteGamer left the game.
-[16:07:17] [Server thread/WARN]: handleDisconnection() called twice
-[16:07:31] [Thread-39/INFO]: UUID of player polocao is 396bd448-69c8-3d44-9dea-9acbd78e5da6
-[16:07:31] [Server thread/INFO]: polocao[/191.33.28.182:53399] logged in with entity id 123 at ([world]228.5, 195.0, 254.5)
-[16:07:43] [Server thread/INFO]: rukia lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:07:43] [Server thread/INFO]: rukia left the game.
-[16:07:43] [Server thread/WARN]: handleDisconnection() called twice
-[16:07:47] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:07:47] [Thread-40/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:07:47] [Server thread/INFO]: rukia[/138.59.120.207:29729] logged in with entity id 124 at ([world]440.2198327005488, 144.0, 437.25226225165295)
-[16:07:52] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> dudanq ta ai[m
-[16:08:01] [Server thread/INFO]: polocao lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:08:01] [Server thread/INFO]: polocao left the game.
-[16:08:01] [Server thread/WARN]: handleDisconnection() called twice
-[16:08:06] [Server thread/INFO]: atiradorfgsa issued server command: /tp dudanq
-[16:08:06] [Server thread/INFO]: [atiradorfgsa: Teleported atiradorfgsa to dudanq]
-[16:08:07] [Thread-41/INFO]: Disconnecting com.mojang.authlib.GameProfile@797fd6e9[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27395): §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@797fd6e9[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27395) lost connection: §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:14] [Thread-42/INFO]: UUID of player polocao is 396bd448-69c8-3d44-9dea-9acbd78e5da6
-[16:08:14] [Server thread/INFO]: polocao[/191.33.28.182:53423] logged in with entity id 125 at ([world]220.66166630219465, 63.0, 258.45241105754167)
-[16:08:17] [Server thread/INFO]: rukia lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:08:17] [Server thread/INFO]: rukia left the game.
-[16:08:17] [Server thread/WARN]: handleDisconnection() called twice
-[16:08:21] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:08:21] [Thread-43/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:08:21] [Server thread/INFO]: rukia[/138.59.120.207:29392] logged in with entity id 126 at ([world]440.2196344354009, 144.0, 437.2529676264652)
-[16:08:30] [Thread-44/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[16:08:30] [Server thread/INFO]: hackvips[/191.33.28.182:53446] logged in with entity id 127 at ([skywars]2.0624674962968386, 65.0, -0.9045291930813282)
-[16:08:41] [Craft Scheduler Thread - 25/INFO]: [AuthMe] hackvips used the wrong password
-[16:08:41] [Server thread/INFO]: hackvips lost connection: §cWrong password!
-[16:08:41] [Server thread/INFO]: hackvips left the game.
-[16:08:41] [Server thread/WARN]: handleDisconnection() called twice
-[16:08:42] [Server thread/INFO]: atiradorfgsa issued server command: /admin
-[16:08:44] [Server thread/INFO]: polocao lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:08:44] [Server thread/INFO]: polocao left the game.
-[16:08:44] [Server thread/WARN]: handleDisconnection() called twice
-[16:08:46] [Thread-45/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[16:08:46] [Server thread/INFO]: hackvips[/191.33.28.182:53462] logged in with entity id 128 at ([skywars]2.062228786527547, 65.0, -0.9048104384562639)
-[16:08:46] [Thread-46/INFO]: Disconnecting com.mojang.authlib.GameProfile@27233fb5[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27426): §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@27233fb5[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27426) lost connection: §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:51] [Craft Scheduler Thread - 25/INFO]: [AuthMe] hackvips logged in!
-[16:08:51] [Thread-47/INFO]: Disconnecting com.mojang.authlib.GameProfile@17c7f15d[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27438): §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@17c7f15d[id=66406033-f81f-309d-bc6e-24fd42195503,name=TotalmenteGamer,properties={},legacy=false] (/191.250.209.168:27438) lost connection: §cSua UUID/Conta foi banida do servidor! 
- Motivo: ABusando
- §cPor: §7atiradorfgsa
- §cNo Dia: §716/4/2017 §7As 16:7:17
- §cErramos a te banir? 
- §cEnvie sua Justificaçao para 
-§esuportcatugames@gmail.com
-[16:08:51] [Server thread/INFO]: rukia lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:08:51] [Server thread/INFO]: rukia left the game.
-[16:08:51] [Server thread/WARN]: handleDisconnection() called twice
-[16:09:26] [Thread-48/INFO]: UUID of player polocao is 396bd448-69c8-3d44-9dea-9acbd78e5da6
-[16:09:26] [Server thread/INFO]: polocao[/191.33.28.182:53478] logged in with entity id 129 at ([world]220.66166630219465, 63.0, 258.45241105754167)
-[16:09:36] [Server thread/INFO]: dudanq issued server command: /unban TotalmenteGamer
-[16:09:36] [Server thread/INFO]: [0;31;1mO Jogador TotalmenteGamer foi desbanido por dudanq[m
-[16:09:37] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:09:37] [Thread-49/INFO]: UUID of player TotalmenteGamer is 66406033-f81f-309d-bc6e-24fd42195503
-[16:09:37] [Server thread/INFO]: TotalmenteGamer[/191.250.209.168:27466] logged in with entity id 144 at ([world]217.78164204521272, 195.0, 261.7912043597466)
-[16:09:46] [Craft Scheduler Thread - 24/INFO]: [AuthMe] TotalmenteGamer logged in!
-[16:09:51] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> boa[m
-[16:09:53] [Server thread/INFO]: TotalmenteGamer issued server command: /deop atiradorfgsa
-[16:09:53] [Server thread/INFO]: [TotalmenteGamer: De-opped atiradorfgsa]
-[16:09:54] [Server thread/INFO]: polocao lost connection: Disconnected
-[16:09:54] [Server thread/INFO]: polocao left the game.
-[16:10:03] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0 atiradorfgsa
-[16:10:03] [Server thread/INFO]: [TotalmenteGamer: Set atiradorfgsa's game mode to Survival Mode]
-[16:10:03] [Server thread/ERROR]: Could not pass event PlayerPreLoginEvent to CBBan v0.1
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:258) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.LoginListener$LoginHandler$1.evaluate(LoginListener.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.util.Waitable.run(Waitable.java:24) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:729) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at me.catubr.Bans.Eventos.banimentos(Eventos.java:57) ~[?:?]
-	at me.catubr.Bans.AoEntrar.ban(AoEntrar.java:48) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 11 more
-[16:10:03] [Thread-50/INFO]: UUID of player rukia is e5ca2bd3-8916-332b-911d-438f6a098559
-[16:10:03] [Server thread/INFO]: rukia[/138.59.120.207:29845] logged in with entity id 145 at ([world]440.2196344354009, 144.0, 437.2529676264652)
-[16:10:06] [Server thread/INFO]: true
-[16:10:22] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player atiradorfgsa Membro
-[16:10:29] [Server thread/INFO]: atiradorfgsa issued server command: /gamemode 1
-[16:10:34] [Server thread/INFO]: rukia lost connection: §4Login timeout exceeded, you have been kicked from the server, please try again!
-[16:10:34] [Server thread/INFO]: rukia left the game.
-[16:10:34] [Server thread/WARN]: handleDisconnection() called twice
-[16:10:36] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> deu serto[m
-[16:10:41] [Server thread/INFO]: true
-[16:10:49] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> rsrsrs[m
-[16:10:52] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<atiradorfgsa> para[m
-[16:11:20] [Server thread/INFO]: dudanq issued server command: /sw leave
-[16:11:20] [Server thread/INFO]: true
-[16:11:21] [Server thread/INFO]: TotalmenteGamer issued server command: /tp @a TotalmenteGamer
-[16:11:21] [Server thread/INFO]: [TotalmenteGamer: Teleported TotalmenteGamer to TotalmenteGamer]
-[16:11:21] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[16:11:21] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:11:21] [Server thread/INFO]: [TotalmenteGamer: Teleported atiradorfgsa to TotalmenteGamer]
-[16:11:26] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa[m
-[16:11:30] [Server thread/INFO]: true
-[16:11:35] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> aperta na placa krl[m
-[16:11:37] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> tudo errado[m
-[16:11:47] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> com butao direito[m
-[16:11:48] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> nao da[m
-[16:11:58] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> TotalmenteGamer n[m
-[16:12:07] [Server thread/INFO]: atiradorfgsa died
-[16:12:14] [Server thread/INFO]: hackvips died
-[16:12:20] [Server thread/INFO]: atiradorfgsa issued server command: /effect 20 300 300
-[16:12:24] [Server thread/INFO]: true
-[16:12:32] [Server thread/INFO]: dudanq issued server command: /sw start
-[16:12:36] [Server thread/INFO]: dudanq issued server command: /sw
-[16:12:43] [Server thread/INFO]: hackvips issued server command: /sw join
-[16:12:43] [Server thread/INFO]: true
-[16:12:59] [Server thread/INFO]: dudanq issued server command: /sw start Pantanal
-[16:13:09] [Server thread/INFO]: true
-[16:13:18] [Server thread/INFO]: hackvips
-[16:13:18] [Server thread/INFO]: Failed playing fakebed effect: Can not set net.minecraft.server.v1_8_R3.BlockPosition field net.minecraft.server.v1_8_R3.PacketPlayOutBed.b to java.lang.Integer
-[16:13:18] [Server thread/INFO]: Failed playing fakebed effect: Can not set net.minecraft.server.v1_8_R3.BlockPosition field net.minecraft.server.v1_8_R3.PacketPlayOutBed.b to java.lang.Integer
-[16:13:18] [Server thread/INFO]: Failed playing fakebed effect: Can not set net.minecraft.server.v1_8_R3.BlockPosition field net.minecraft.server.v1_8_R3.PacketPlayOutBed.b to java.lang.Integer
-[16:13:20] [Server thread/INFO]: TotalmenteGamer fell from a high place
-[16:13:24] [Server thread/INFO]: atiradorfgsa issued server command: /ban TotalmenteGamer
-[16:13:35] [Server thread/INFO]: true
-[16:13:37] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> xau[m
-[16:13:38] [Server thread/INFO]: true
-[16:13:38] [Server thread/INFO]: true
-[16:13:38] [Server thread/INFO]: 2 to reset for arena Pantanal.
-[16:13:38] [Server thread/INFO]: 0 to redo.
-[16:13:38] [Server thread/INFO]: Done.
-[16:13:38] [Server thread/INFO]: true
-[16:13:39] [Server thread/INFO]: 0 to reset for arena Pantanal.
-[16:13:39] [Server thread/INFO]: 0 to redo.
-[16:13:39] [Server thread/INFO]: Done.
-[16:13:39] [Server thread/INFO]: true
-[16:13:39] [Craft Scheduler Thread - 27/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[16:13:45] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> kk[m
-[16:13:50] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> n quero mais jogar subdono[m
-[16:13:55] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> trolç[m
-[16:13:58] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> troll[m
-[16:13:58] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> vc nao e mais nd do serve agora[m
-[16:14:02] [Server thread/INFO]: true
-[16:14:06] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> quem[m
-[16:14:09] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> tem mais servidores em q eu sou DONO[m
-[16:14:11] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> lixo[m
-[16:14:15] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> fdp[m
-[16:14:16] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> entao vai[m
-[16:14:26] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> tuda mae filho da puta[m
-[16:14:26] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> T[m
-[16:14:27] [Server thread/INFO]: hackvips fell from a high place
-[16:14:31] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> fdp[m
-[16:14:40] [Server thread/INFO]: hackvips issued server command: /sw join
-[16:14:40] [Server thread/INFO]: true
-[16:14:51] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> Vo hackear teu pc blz ? fica ai quetinho[m
-[16:14:51] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> total ta falando comigo[m
-[16:15:01] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<atiradorfgsa> lixo[m
-[16:15:04] [Server thread/INFO]: atiradorfgsa lost connection: Disconnected
-[16:15:04] [Server thread/INFO]: atiradorfgsa left the game.
-[16:15:04] [Server thread/INFO]: TotalmenteGamer issued server command: /banip atiradorfgsa Ofença a membro
-[16:15:12] [Server thread/INFO]: TotalmenteGamer issued server command: /ban atiradorfgsa Ofença a membro
-[16:15:12] [Server thread/INFO]: [0;37;22m=------------==-----------=[m
-[16:15:12] [Server thread/INFO]:            [0;31;1m[21mBAN:[m
-[16:15:12] [Server thread/INFO]: [m
-[16:15:12] [Server thread/INFO]: [0;37;1mJogador Banido: [0;31;1matiradorfgsa[m
-[16:15:12] [Server thread/INFO]: [m
-[16:15:12] [Server thread/INFO]: [0;37;1mMotivo: [0;32;1mOfença a membro[m
-[16:15:12] [Server thread/INFO]: [m
-[16:15:12] [Server thread/INFO]: [0;37;1mPor: [0;32;1mTotalmenteGamer[m
-[16:15:12] [Server thread/INFO]: [m
-[16:15:12] [Server thread/INFO]: [0;37;22m=------------==-----------=[m
-[16:15:18] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 1
-[16:15:18] [Server thread/INFO]: [TotalmenteGamer: Set own game mode to Creative Mode]
-[16:15:23] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> total[m
-[16:15:25] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> oi[m
-[16:15:32] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> ja viu[m
-[16:15:36] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> oq?[m
-[16:15:38] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> oformulario[m
-[16:15:41] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> perai[m
-[16:15:44] [Server thread/INFO]: true
-[16:15:49] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> ve logo[m
-[16:15:58] [Server thread/INFO]: dudanq issued server command: /sw start Pantanal
-[16:16:08] [Server thread/INFO]: true
-[16:16:17] [Server thread/INFO]: Failed playing fakebed effect: Can not set net.minecraft.server.v1_8_R3.BlockPosition field net.minecraft.server.v1_8_R3.PacketPlayOutBed.b to java.lang.Integer
-[16:16:17] [Server thread/INFO]: Failed playing fakebed effect: Can not set net.minecraft.server.v1_8_R3.BlockPosition field net.minecraft.server.v1_8_R3.PacketPlayOutBed.b to java.lang.Integer
-[16:16:26] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> que que isso[m
-[16:16:30] [Server thread/INFO]: TotalmenteGamer fell from a high place
-[16:16:39] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> What[m
-[16:16:50] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> ai[m
-[16:16:51] [Server thread/INFO]: dudanq issued server command: /sw leave
-[16:16:51] [Server thread/INFO]: true
-[16:16:52] [Server thread/INFO]: true
-[16:16:52] [Server thread/INFO]: 2 to reset for arena Pantanal.
-[16:16:52] [Server thread/INFO]: 0 to redo.
-[16:16:52] [Server thread/INFO]: Done.
-[16:16:52] [Server thread/INFO]: true
-[16:16:52] [Server thread/INFO]: Failed sending title packet: net.minecraft.server.v1_8_R3.ChatSerializer
-[16:16:53] [Server thread/INFO]: 0 to reset for arena Pantanal.
-[16:16:53] [Server thread/INFO]: 0 to redo.
-[16:16:53] [Server thread/INFO]: Done.
-[16:16:53] [Server thread/INFO]: true
-[16:17:04] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerInteractManager.interact(PlayerInteractManager.java:463) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:759) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 17 more
-[16:17:05] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerInteractManager.interact(PlayerInteractManager.java:463) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:759) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 17 more
-[16:17:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:191) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:717) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 18 more
-[16:17:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerInteractManager.interact(PlayerInteractManager.java:463) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:759) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 17 more
-[16:17:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:191) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:717) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 18 more
-[16:17:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:191) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:717) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 18 more
-[16:17:06] [Server thread/INFO]: dudanq fell from a high place
-[16:17:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MGSkyWars v1.5.2
-org.bukkit.event.EventException
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:228) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:191) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:717) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:52) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
-	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
-Caused by: java.lang.NullPointerException
-	at com.comze_instancelabs.minigamesapi.util.IconMenu.open(IconMenu.java:66) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.SpectatorManager.openSpectatorGUI(SpectatorManager.java:105) ~[?:?]
-	at com.comze_instancelabs.minigamesapi.ArenaListener.onSignUse(ArenaListener.java:764) ~[?:?]
-	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
-	... 18 more
-[16:17:13] [Server thread/INFO]: hackvips lost connection: Disconnected
-[16:17:13] [Server thread/INFO]: [MinigamesLib] hackvips quit while in arena Pantanal.
-[16:17:13] [Server thread/INFO]: true
-[16:17:13] [Server thread/INFO]: hackvips left the game.
-[16:17:18] [Thread-51/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[16:17:19] [Server thread/INFO]: hackvips[/191.33.28.182:53851] logged in with entity id 223 at ([skywars]250.51828889036284, 150.0, 69.79242294717093)
-[16:17:23] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> sai ele vai apaga[m
-[16:17:28] [Craft Scheduler Thread - 27/INFO]: [AuthMe] hackvips logged in!
-[16:17:42] [Server thread/INFO]: hackvips issued server command: /sw join
-[16:17:42] [Server thread/INFO]: true
-[16:18:04] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[16:18:22] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> total[m
-[16:18:29] [Server thread/INFO]: TotalmenteGamer issued server command: /tp hackvips TotalmenteGamer
-[16:18:29] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:18:41] [Server thread/INFO]: TotalmenteGamer issued server command: /kill hackvips
-[16:18:41] [Server thread/INFO]: [TotalmenteGamer: Killed hackvips]
-[16:18:46] [Server thread/INFO]: TotalmenteGamer issued server command: /tp hackvips TotalmenteGamer
-[16:18:46] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:18:52] [Server thread/INFO]: TotalmenteGamer issued server command: /gamemode 0 hackvips
-[16:18:52] [Server thread/INFO]: [TotalmenteGamer: Set hackvips's game mode to Survival Mode]
-[16:18:52] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> eu to lagado[m
-[16:18:56] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> ata[m
-[16:19:07] [Server thread/INFO]: TotalmenteGamer issued server command: /tp hackvips TotalmenteGamer
-[16:19:07] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:19:13] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<TotalmenteGamer> dislagou?[m
-[16:19:18] [Server thread/INFO]: hackvips issued server command: /gamemode 1
-[16:19:28] [Server thread/INFO]: hackvips issued server command: /leave
-[16:19:28] [Server thread/INFO]: true
-[16:19:36] [Server thread/INFO]: [[0;37;1mworld[0;37;1m]<hackvips> voutou[m
-[16:19:43] [Server thread/INFO]: dudanq fell out of the world
-[16:19:51] [Server thread/INFO]: dudanq issued server command: /mv list
-[16:19:57] [Server thread/INFO]: dudanq issued server command: /mv
-[16:20:01] [Server thread/INFO]: hackvips issued server command: /leave
-[16:20:05] [Server thread/INFO]: hackvips issued server command: /sw join
-[16:20:05] [Server thread/INFO]: true
-[16:20:09] [Server thread/INFO]: dudanq issued server command: /mv 2
-[16:20:17] [Server thread/INFO]: dudanq issued server command: /mv 3
-[16:20:23] [Server thread/INFO]: TotalmenteGamer issued server command: /invwarp
-[16:20:40] [Server thread/INFO]: TotalmenteGamer issued server command: /tp hackvips TotalmenteGamer
-[16:20:40] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:20:40] [Server thread/INFO]: dudanq issued server command: /mv delete word
-[16:20:48] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:20:53] [Server thread/INFO]: dudanq issued server command: /mv delete word
-[16:20:55] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:20:56] [Thread-52/INFO]: UUID of player EvinhoGamesBr is 0d807489-c843-3219-a42b-ece58ff5427c
-[16:20:56] [Server thread/INFO]: EvinhoGamesBr[/177.137.12.22:27585] logged in with entity id 229 at ([skywars]20.57609115776434, 108.40739540236494, 183.3947921431132)
-[16:21:00] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> :D eu tava no world[m
-[16:21:02] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:21:04] [Craft Scheduler Thread - 27/INFO]: [AuthMe] EvinhoGamesBr logged in!
-[16:21:08] [Server thread/INFO]: TotalmenteGamer issued server command: /tp EvinhoGamesBr TotalmenteGamer
-[16:21:08] [Server thread/INFO]: [TotalmenteGamer: Teleported EvinhoGamesBr to TotalmenteGamer]
-[16:21:11] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> fica ai[m
-[16:21:14] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> nao sai[m
-[16:21:17] [Server thread/INFO]: dudanq issued server command: /mv tp skywars
-[16:21:18] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<EvinhoGamesBr> s[m
-[16:21:22] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> ja viu o form[m
-[16:21:28] [Server thread/INFO]: dudanq issued server command: /mv delete word
-[16:21:31] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:21:36] [Server thread/INFO]: TotalmenteGamer issued server command: /tp dudanq TotalmenteGamer
-[16:21:36] [Server thread/INFO]: [TotalmenteGamer: Teleported dudanq to TotalmenteGamer]
-[16:21:40] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:21:45] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> vou ver agora[m
-[16:21:49] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> blz[m
-[16:21:50] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:22:01] [Server thread/INFO]: dudanq issued server command: /mv remove word
-[16:22:01] [Server thread/INFO]: [Multiverse-Core] Multiverse does not know about word and it's not loaded by Bukkit.
-[16:22:15] [Server thread/INFO]: dudanq issued server command: /mv list
-[16:22:26] [Server thread/INFO]: dudanq issued server command: /mv world delete
-[16:22:33] [Server thread/INFO]: dudanq issued server command: /mv world delete
-[16:22:39] [Server thread/INFO]: dudanq issued server command: /mv list
-[16:22:48] [Server thread/INFO]: dudanq issued server command: /mv delete world
-[16:22:49] [Server thread/INFO]: EvinhoGamesBr issued server command: /gamemode 1
-[16:22:49] [Server thread/INFO]: [EvinhoGamesBr: Set own game mode to Creative Mode]
-[16:22:53] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:22:53] [Server thread/WARN]: [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
-[16:23:03] [Server thread/INFO]: TotalmenteGamer issued server command: /ctags player dudanq &5&l[Dona]
-[16:23:07] [Server thread/INFO]: EvinhoGamesBr issued server command: /fly
-[16:23:22] [Server thread/INFO]: TotalmenteGamer issued server command: /tp hackvips TotalmenteGamer
-[16:23:22] [Server thread/INFO]: [TotalmenteGamer: Teleported hackvips to TotalmenteGamer]
-[16:23:32] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> nestante eu vejo so vou fazer 1 coisa[m
-[16:23:36] [Server thread/INFO]: dudanq issued server command: /mvconfirn
-[16:23:40] [Craft Scheduler Thread - 31/INFO]: [0;37;22m[[0;36;1mSkywars[0;37;22m] Players stats have been saved![m
-[16:23:42] [Server thread/INFO]: dudanq issued server command: /mv delete world
-[16:23:50] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:23:50] [Server thread/WARN]: [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
-[16:23:56] [Server thread/INFO]: dudanq issued server command: /mvconvirm
-[16:23:59] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> oxe[m
-[16:24:02] [Server thread/INFO]: dudanq issued server command: /mv list
-[16:24:19] [Server thread/INFO]: dudanq issued server command: /mv delete TotalmenteGamer
-[16:24:23] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:24:23] [Server thread/INFO]: [Multiverse-Core] World 'TotalmenteGamer' was unloaded from memory.
-[16:24:23] [Server thread/INFO]: [Multiverse-Core] World 'TotalmenteGamer' was removed from config.yml
-[16:24:23] [Server thread/INFO]: [Multiverse-Core] World TotalmenteGamer was DELETED.
-[16:24:29] [Server thread/INFO]: TotalmenteGamer issued server command: /tell hackvips nao passou faz de nv
-[16:24:40] [Craft Scheduler Thread - 27/WARN]: TotalmenteGamer has had time setting removed. This is because it may not exist.
-[16:24:40] [Craft Scheduler Thread - 27/WARN]: TotalmenteGamer has had weather setting removed. This is because it may not exist.
-[16:24:41] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<EvinhoGamesBr> minha tag[m
-[16:24:42] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> que[m
-[16:24:45] [Server thread/INFO]: dudanq issued server command: /mv tp world
-[16:24:49] [Server thread/INFO]: TotalmenteGamer issued server command: /deltwarp Spawn
-[16:24:52] [Server thread/INFO]: dudanq issued server command: /sw
-[16:24:55] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> ta errado[m
-[16:25:03] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> oque[m
-[16:25:07] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> erre pelo menos 1 ai vc passa[m
-[16:25:20] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> errei guantas[m
-[16:25:23] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> 5[m
-[16:25:32] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> autosop[m
-[16:25:37] [Server thread/INFO]: dudanq issued server command: /se reload
-[16:25:39] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<hackvips> valeu[m
-[16:25:39] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<TotalmenteGamer> FastBow[m
-[16:25:41] [Server thread/INFO]: hackvips lost connection: Disconnected
-[16:25:41] [Server thread/INFO]: [MinigamesLib] hackvips quit while in arena Pantanal.
-[16:25:41] [Server thread/INFO]: true
-[16:25:41] [Server thread/INFO]: hackvips left the game.
-[16:25:43] [Server thread/INFO]: dudanq issued server command: /sw reload
-[16:25:43] [Server thread/INFO]: true
-[16:26:48] [Server thread/INFO]: dudanq issued server command: /sw stop Pantanal
-[16:26:48] [Server thread/INFO]: 0 to reset for arena Pantanal.
-[16:26:48] [Server thread/INFO]: 0 to redo.
-[16:26:48] [Server thread/INFO]: Done.
-[16:26:48] [Server thread/INFO]: true
-[16:27:02] [Server thread/INFO]: dudanq issued server command: /sw
-[16:27:25] [Server thread/INFO]: dudanq issued server command: /mv
-[16:27:37] [Server thread/INFO]: dudanq issued server command: /mv list
-[16:27:47] [Server thread/INFO]: dudanq issued server command: /mv world delete
-[16:27:58] [Server thread/INFO]: dudanq issued server command: /mv delete world
-[16:27:59] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist on
-[16:27:59] [Server thread/INFO]: [TotalmenteGamer: Turned on the whitelist]
-[16:28:04] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:28:04] [Server thread/WARN]: [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
-[16:28:08] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:28:14] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add TotalmenteGamer
-[16:28:14] [Server thread/INFO]: [TotalmenteGamer: Added TotalmenteGamer to the whitelist]
-[16:28:17] [Server thread/INFO]: dudanq issued server command: /mvconfirm
-[16:28:18] [Thread-53/INFO]: UUID of player hackvips is aa21604d-43b0-35fe-ba19-11adb7ae8174
-[16:28:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2ee24be6[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:54327): You are not whitelisted on this server!
-[16:28:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@2ee24be6[id=aa21604d-43b0-35fe-ba19-11adb7ae8174,name=hackvips,properties={},legacy=false] (/191.33.28.182:54327) lost connection: You are not whitelisted on this server!
-[16:28:19] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add dudanq
-[16:28:19] [Server thread/INFO]: [TotalmenteGamer: Added dudanq to the whitelist]
-[16:28:42] [Server thread/INFO]: TotalmenteGamer issued server command: /whitelist add evinhogamesbr
-[16:28:42] [Server thread/INFO]: [TotalmenteGamer: Added evinhogamesbr to the whitelist]
-[16:29:07] [Server thread/INFO]: [[0;37;1mskywars[0;37;1m]<EvinhoGamesBr> add kall[m
-[16:30:38] [Thread-4/INFO]: Stopping server
+[19:32:43] [Server thread/INFO]: [[0;37;1mlobby[0;37;1m][0;37;22mdudanq [0;31;1m[21m>>[m [0;37;1msd[m
+[19:33:05] [Server thread/INFO]: dudanq issued server command: /tag
+[19:33:13] [Server thread/INFO]: dudanq lost connection: Disconnected
+[19:33:13] [Server thread/INFO]: dudanq left the game.

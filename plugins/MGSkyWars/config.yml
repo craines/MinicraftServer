@@ -117,23 +117,3 @@ mysql:
   user: root
   pw: root
   database: mcminigames
-temp:
-  left_players:
-    hackvips:
-      name: hackvips
-      plugin: MGSkyWars
-      items:
-        6674COMPASS:
-          ==: org.bukkit.inventory.ItemStack
-          type: COMPASS
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            display-name: §4Players
-        367REDSTONE_BLOCK:
-          ==: org.bukkit.inventory.ItemStack
-          type: REDSTONE_BLOCK
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            display-name: §4Leave the game

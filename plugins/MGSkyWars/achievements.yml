@@ -50,7 +50,3 @@ config:
         econ_reward_amount: 30
         command_reward: false
         cmd: tell <player> Good job!
-players:
-  TotalmenteGamer:
-    first_blood:
-      done: true

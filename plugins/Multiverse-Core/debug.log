@@ -215,3 +215,69 @@
 2017-04-16 16:24:23 [INFO] [Multiverse-Core] World 'TotalmenteGamer' was removed from config.yml
 2017-04-16 16:24:23 [INFO] [Multiverse-Core] World TotalmenteGamer was DELETED.
 2017-04-16 16:28:04 [WARNING] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
+2017-04-16 18:03:08 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 18:03:08 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 18:03:08 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 18:03:09 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 18:07:33 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 18:07:33 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 18:07:33 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 18:07:34 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 18:14:32 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 18:14:33 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 18:14:33 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 18:14:33 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 18:28:49 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+2017-04-16 18:30:43 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was unloaded from memory.
+2017-04-16 18:30:43 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was removed from config.yml
+2017-04-16 18:30:43 [INFORMAÇÕES] [Multiverse-Core] World lobby was DELETED.
+2017-04-16 18:33:49 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 18:33:49 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 18:33:49 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 18:33:49 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 18:34:52 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+2017-04-16 18:37:42 [ADVERTÊNCIA] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
+2017-04-16 18:45:15 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 18:45:16 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 18:45:17 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 18:45:17 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: FLAT & seed: 27594263
+2017-04-16 18:45:17 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 19:01:26 [ADVERTÊNCIA] [Multiverse-Core] World 'lobby' could not be unloaded. Is it a default world?
+2017-04-16 19:02:07 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 19:02:07 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 19:02:07 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 19:02:08 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: FLAT & seed: 27594263
+2017-04-16 19:02:09 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 19:03:03 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was unloaded from memory.
+2017-04-16 19:03:03 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was removed from config.yml
+2017-04-16 19:03:03 [INFORMAÇÕES] [Multiverse-Core] World lobby was DELETED.
+2017-04-16 19:04:42 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 19:04:42 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 19:04:42 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 19:04:43 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 19:05:25 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+2017-04-16 19:24:07 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 19:24:08 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 19:24:08 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 19:24:09 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: NORMAL & seed: 903771821948872433
+2017-04-16 19:24:09 [ADVERTÊNCIA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-04-16 19:24:09 [ADVERTÊNCIA] [Multiverse-Core] Original Location: X: -76 Y: 5 Z: -43 P: 0 Y: 0 
+2017-04-16 19:24:09 [INFORMAÇÕES] [Multiverse-Core] New Spawn for 'lobby' is Located at: lobby:-77,50,5,00,-39,50:0,00:0,00
+2017-04-16 19:24:09 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 19:25:33 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was unloaded from memory.
+2017-04-16 19:25:33 [INFORMAÇÕES] [Multiverse-Core] World 'lobby' was removed from config.yml
+2017-04-16 19:25:33 [INFORMAÇÕES] [Multiverse-Core] World lobby was DELETED.
+2017-04-16 19:26:36 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 19:26:36 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 19:26:36 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 19:26:37 [INFORMAÇÕES] [Multiverse-Core] 2 - World(s) loaded.
+2017-04-16 19:27:24 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: null
+2017-04-16 19:27:24 [ADVERTÊNCIA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-04-16 19:27:24 [ADVERTÊNCIA] [Multiverse-Core] Original Location: X: -76 Y: 5 Z: -43 P: 0 Y: 0 
+2017-04-16 19:27:24 [INFORMAÇÕES] [Multiverse-Core] New Spawn for 'lobby' is Located at: lobby:-77,50,5,00,-39,50:0,00:0,00
+2017-04-16 19:28:52 [ADVERTÊNCIA] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
+2017-04-16 19:31:54 [INFORMAÇÕES] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 19:31:54 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 19:31:56 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 19:31:56 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: FLAT & seed: 0
+2017-04-16 19:31:56 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.

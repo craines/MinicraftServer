@@ -70,3 +70,38 @@ worlds:
       world: skywars
     autoload: true
     bedrespawn: true
+  lobby:
+    seed: 0
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: false
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -134.64624206038283
+      y: 9.0625
+      z: -33.69257715870908
+      pitch: 74.69999
+      yaw: 1.499928
+      world: lobby
+    autoload: true
+    bedrespawn: true
