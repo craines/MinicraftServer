@@ -200,3 +200,13 @@
 [04-16 19:31:58]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
 [04-16 19:31:58]: [INFO] AuthMe 5.2 build n.1542 correctly enabled!
 [04-16 19:32:21]: [FINE] dudanq logged in!
+[04-16 19:42:27]: [INFO] SQLite driver loaded
+[04-16 19:42:27]: [INFO] SQLite Setup finished
+[04-16 19:42:27]: [INFO] Hooked into PermissionsEx!
+[04-16 19:42:27]: [INFO] Hooked successfully into Multiverse-Core
+[04-16 19:42:27]: [INFO] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-16 19:42:28]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-16 19:42:28]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-16 19:42:28]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-16 19:42:28]: [INFO] AuthMe 5.2 build n.1542 correctly enabled!
+[04-16 19:42:44]: [FINE] dudanq logged in!
