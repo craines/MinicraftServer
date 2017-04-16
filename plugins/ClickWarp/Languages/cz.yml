@@ -36,5 +36,5 @@ Delay:
 Various:
   PluginReloaded: '&7[&6ClickWarp&7] Plugin znovu nacten.'
   ErrorFileSaving: '&cError pri ukladani, zkontroluj konzoli!'
-  NoPermission: "&cNa tohle nem\xc3\xa1s pr\xc3\xa1vo!"
+  NoPermission: '&cNa tohle nemÃ¡s prÃ¡vo!'
   OnlyPlayers: '&cJenom hrac muze vykonat tuhle akci.'

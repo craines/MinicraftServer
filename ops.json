@@ -24,12 +24,6 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "c4894f17-3edf-37fe-9943-defe2e75885b",
-    "name": "atiradorfgsa",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "ea1f76d2-9e4d-3f54-af75-15eaebe11be2",
     "name": "Teste",
     "level": 4,
@@ -84,14 +78,14 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "66406033-f81f-309d-bc6e-24fd42195503",
-    "name": "TotalmenteGamer",
+    "uuid": "97ddef75-cc5b-330d-9cd7-9f4127683c74",
+    "name": "extreme_pvp_br",
     "level": 4,
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "97ddef75-cc5b-330d-9cd7-9f4127683c74",
-    "name": "extreme_pvp_br",
+    "uuid": "66406033-f81f-309d-bc6e-24fd42195503",
+    "name": "TotalmenteGamer",
     "level": 4,
     "bypassesPlayerLimit": false
   },

@@ -70,38 +70,3 @@ worlds:
       world: skywars
     autoload: true
     bedrespawn: true
-  TotalmenteGamer:
-    seed: 9188147237864160582
-    environment: THE_END
-    type: NORMAL
-    hidden: false
-    alias:
-      name: ''
-      color: WHITE
-    pvp: true
-    scale: 1.0
-    respawnworld: ''
-    allowweather: true
-    difficulty: EASY
-    animals:
-      spawn: true
-    monsters:
-      spawn: true
-    entryfee:
-      currency: -1
-      price: 0.0
-    hunger: true
-    autoheal: true
-    adjustspawn: true
-    portalform: ALL
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: 0.0
-      y: 62.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
-      world: TotalmenteGamer
-    autoload: true
-    bedrespawn: true

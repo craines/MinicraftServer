@@ -198,3 +198,20 @@
 2017-04-16 10:26:49 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
 2017-04-16 10:26:54 [INFORMAÇÕES] [Multiverse-Core] Loading World & Settings - 'TotalmenteGamer' - Env: THE_END - Type: NORMAL & seed: 9188147237864160582
 2017-04-16 10:26:59 [INFORMAÇÕES] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 14:39:21 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 14:39:21 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 14:39:21 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 14:39:22 [INFO] [Multiverse-Core] Loading World & Settings - 'TotalmenteGamer' - Env: THE_END - Type: NORMAL & seed: 9188147237864160582
+2017-04-16 14:39:22 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 15:23:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-04-16 15:23:34 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -2835611764693024549
+2017-04-16 15:23:34 [INFO] [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+2017-04-16 15:23:35 [INFO] [Multiverse-Core] Loading World & Settings - 'TotalmenteGamer' - Env: THE_END - Type: NORMAL & seed: 9188147237864160582
+2017-04-16 15:23:36 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2017-04-16 16:22:01 [INFO] [Multiverse-Core] Multiverse does not know about word and it's not loaded by Bukkit.
+2017-04-16 16:22:53 [WARNING] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
+2017-04-16 16:23:50 [WARNING] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?
+2017-04-16 16:24:23 [INFO] [Multiverse-Core] World 'TotalmenteGamer' was unloaded from memory.
+2017-04-16 16:24:23 [INFO] [Multiverse-Core] World 'TotalmenteGamer' was removed from config.yml
+2017-04-16 16:24:23 [INFO] [Multiverse-Core] World TotalmenteGamer was DELETED.
+2017-04-16 16:28:04 [WARNING] [Multiverse-Core] World 'world' could not be unloaded. Is it a default world?

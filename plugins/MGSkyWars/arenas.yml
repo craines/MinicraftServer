@@ -1,0 +1,113 @@
+# Used for saving arena details.
+arenas:
+  Summer:
+    enabled: true
+  Pantanal:
+    spawns:
+      spawn0:
+        world: skywars
+        location:
+          x: 250.5
+          y: 157.0
+          z: 69.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn1:
+        world: skywars
+        location:
+          x: 230.5
+          y: 157.0
+          z: 61.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn2:
+        world: skywars
+        location:
+          x: 220.5
+          y: 157.0
+          z: 39.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn3:
+        world: skywars
+        location:
+          x: 229.5
+          y: 157.0
+          z: 18.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn4:
+        world: skywars
+        location:
+          x: 250.5
+          y: 157.0
+          z: 9.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn5:
+        world: skywars
+        location:
+          x: 271.5
+          y: 157.0
+          z: 18.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn6:
+        world: skywars
+        location:
+          x: 280.5
+          y: 157.0
+          z: 39.5
+          yaw: 0.0
+          pitch: 0.0
+      spawn7:
+        world: skywars
+        location:
+          x: 271.5
+          y: 157.0
+          z: 59.5
+          yaw: 0.0
+          pitch: 0.0
+    lobby:
+      world: skywars
+      location:
+        x: 0.8986955869910751
+        y: 65.0
+        z: -0.4010627047508119
+        yaw: 61.254364
+        pitch: 78.31824
+    bounds:
+      high:
+        world: skywars
+        location:
+          x: 250.45215320632525
+          y: 180.0
+          z: 40.61947775765642
+          yaw: -94.09924
+          pitch: 81.74994
+      low:
+        world: skywars
+        location:
+          x: 223.54781107843056
+          y: 91.0
+          z: 25.305628168185514
+          yaw: 285.2505
+          pitch: 52.800003
+    max_players: 8
+    min_players: 4
+    displayname: Pantanal
+    is_vip: false
+    sign:
+      world: world
+      loc:
+        x: 217
+        y: 196
+        z: 261
+mainlobby:
+  world: world
+  location:
+    x: 222.27615280739596
+    y: 195.0
+    z: 260.699999988079
+    yaw: 123.76668
+    pitch: 24.511019
