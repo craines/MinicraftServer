@@ -17,6 +17,3 @@ mod: '&f[&aMod&f] '
 admin: '&f[&cAdmin&f] <name> &4[**]'
 Os_Admins: TotalmenteGamer
 '[Equipe]': TotalmenteGamer TotalmenteGamer TotalmenteGamer
-Donos: TotalmenteGamer dudanq
-'&4[Donos]': TotalmenteGamer
-add: dudanq

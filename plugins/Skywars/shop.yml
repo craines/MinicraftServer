@@ -1,0 +1,130 @@
+# Format: 'Slot: Item'
+
+Shops:
+  '&cKits #1':
+    '10': Griefer
+    '11': Miner
+    '12': Armorer
+    '13': Trainer
+    '14': Builder
+    '15': Tactician
+    '16': Hunter
+    '19': Snowman
+    '20': Smith
+    '21': Necromancer
+    '22': Enchanter
+    '23': Cannoneer
+    '24': Armorer+
+    '25': Miner+
+    '28': Hunter+
+    '29': Lumberjack
+    '30': Fisherman
+    '31': Troll
+    '32': Pyro
+    '33': Blaze
+    '34': Knight
+    '37': Farmer
+  '&9Cages #1':
+    '10': Brown Cage
+    '11': Wood Cage
+    '12': Grass Cage
+    '13': Orange Cage
+    '14': Log Cage
+    '15': Purple Cage
+    '16': Lime Cage
+    '19': Yellow Cage
+    '20': Gray Cage
+    '21': Magenta Cage
+    '22': Dirt Cage
+    '23': Melon Cage
+    '24': Brick Cage
+    '25': White Cage
+    '28': Stone Cage
+    '29': Cyan Cage
+    '30': Sandstone Cage
+    '31': Red Cage
+    '32': Cobblestone Cage
+    '33': Green Cage
+    '34': Black Cage
+    '37': Pink Cage
+    '38': Snow Cage
+    '39': Sponge Cage
+    '40': Blue Cage
+    '41': Yellow+ Cage
+    '42': Pink+ Cage
+    '43': Furnace Cage
+  '&9Cages #2':
+    '10': Bookshelf Cage
+    '11': Workbench Cage
+    '12': Green+ Cage
+    '13': White+ Cage
+    '14': Ice Cage
+    '15': Brown+ Cage
+    '16': Cyan+ Cage
+    '19': Lime+ Cage
+    '20': Purple+ Cage
+    '21': Black+ Cage
+    '22': Obsidian Cage
+    '23': Gray+ Cage
+    '24': Pumpkin Cage
+    '25': Orange+ Cage
+    '28': Blue+ Cage
+    '29': Magenta+ Cage
+    '30': Red+ Cage
+    '31': Tnt Cage
+    '32': Diamond Cage
+    '33': Emerald Cage
+    '34': Glowstone Cage
+    '37': Redstone Cage
+  '&eTrails #1':
+    '10': Green Trail
+    '11': White Trail
+    '12': Lime Trail
+    '13': Dirt Trail
+    '14': Melon Trail
+    '15': Brown Trail
+    '16': Blue Trail
+    '19': Orange Trail
+    '20': Brick Trail
+    '21': Magenta Trail
+    '22': Yellow Trail
+    '23': Pink Trail
+    '24': Sandstone Trail
+    '25': Red Trail
+    '28': Wood Trail
+    '29': Purple Trail
+    '30': Gray Trail
+    '31': Black Trail
+    '32': Snow Trail
+    '33': Cobblestone Trail
+    '34': Grass Trail
+    '37': Stone Trail
+    '38': Cyan Trail
+    '39': Sponge Trail
+    '40': Log Trail
+    '41': Magenta+ Trail
+    '42': Orange+ Trail
+    '43': Green+ Trail
+  '&eTrails #2':
+    '10': Purple+ Trail
+    '11': Pink+ Trail
+    '12': Workbench Trail
+    '13': Ice Trail
+    '14': Obsidian Trail
+    '15': Red+ Trail
+    '16': Lime+ Trail
+    '19': Blue+ Trail
+    '20': Black+ Trail
+    '21': Bookshelf Trail
+    '22': Pumpkin Trail
+    '23': White+ Trail
+    '24': Furnace Trail
+    '25': Yellow+ Trail
+    '28': Cyan+ Trail
+    '29': Brown+ Trail
+    '30': Gray+ Trail
+    '31': Redstone Trail
+    '32': Diamond Trail
+    '33': Emerald Trail
+    '34': Tnt Trail
+    '37': Glowstone Trail
