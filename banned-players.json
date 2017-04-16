@@ -1,8 +1,16 @@
 [
   {
-    "uuid": "e5414fac-a855-36f3-8816-bf5e0fdae1e5",
-    "name": "CreepeGames500",
-    "created": "2017-04-09 16:37:41 -0400",
+    "uuid": "2ceaac48-a948-3b98-a129-34aa5fa7fe53",
+    "name": "joaovitor",
+    "created": "2017-04-15 15:04:58 -0400",
+    "source": "TotalmenteGamer",
+    "expires": "forever",
+    "reason": "Hacker/Fly"
+  },
+  {
+    "uuid": "884a0d8c-27fa-4824-b3ef-94f50ea94b5f",
+    "name": "list",
+    "created": "2017-04-15 15:20:04 -0400",
     "source": "TotalmenteGamer",
     "expires": "forever",
     "reason": "Banned by an operator."

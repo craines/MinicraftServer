@@ -1,7 +1,19 @@
 [
   {
+    "uuid": "34fdb918-2992-33d7-a984-e3c850081c8d",
+    "name": "Florzinha_BR",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "2ea3c97a-dc9c-31d0-81a0-1b6efd4f886c",
     "name": "MrPers202",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2523e552-b218-37f0-83ca-3e7eee41867d",
+    "name": "basel44",
     "level": 4,
     "bypassesPlayerLimit": false
   },
@@ -18,14 +30,14 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "e5ca2bd3-8916-332b-911d-438f6a098559",
-    "name": "rukia",
+    "uuid": "ea1f76d2-9e4d-3f54-af75-15eaebe11be2",
+    "name": "Teste",
     "level": 4,
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "ea1f76d2-9e4d-3f54-af75-15eaebe11be2",
-    "name": "Teste",
+    "uuid": "2a265289-d006-34d2-b1d8-881a137fab22",
+    "name": "ANGEL_GAMERYT",
     "level": 4,
     "bypassesPlayerLimit": false
   },
@@ -60,6 +72,18 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "3bb56705-a783-3e49-a41d-c091e67f7fa2",
+    "name": "LE_GAMEPLAYS",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4bc48f2a-826d-3852-9d94-8b65a38ff7b6",
+    "name": "Kamos_PvP",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "66406033-f81f-309d-bc6e-24fd42195503",
     "name": "TotalmenteGamer",
     "level": 4,
@@ -78,8 +102,8 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "b3d0390d-c374-3048-a078-f90d60a144f8",
-    "name": "Rukia",
+    "uuid": "0d807489-c843-3219-a42b-ece58ff5427c",
+    "name": "EvinhoGamesBr",
     "level": 4,
     "bypassesPlayerLimit": false
   }
