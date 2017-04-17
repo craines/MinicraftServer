@@ -1,0 +1,8 @@
+# MinigamesAPI Config #
+# If you want bugfree versions, turn this to true:
+# NO USE TRUE MODE!
+config:
+  auto_updating: false
+  party_command_enabled: true
+  debug: false
+signs_updating_time: 20

@@ -1,15 +1,715 @@
-[21:25:43] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[21:25:43] [Server thread/INFO]: Loading properties
-[21:25:43] [Server thread/INFO]: Default game type: SURVIVAL
-[21:25:44] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[21:25:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:25:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:25:44] [Server thread/INFO]: Debug logging is disabled
-[21:25:44] [Server thread/INFO]: Generating keypair
-[21:25:44] [Server thread/INFO]: Starting Minecraft server on 192.99.70.193:25565
-[21:25:44] [Server thread/INFO]: Using epoll channel type
-[21:25:45] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[21:25:45] [Server thread/WARN]: The exception was: java.io.IOException: Error during bind(...): Address already in use
-[21:25:45] [Server thread/WARN]: Perhaps a server is already running on that port?
-[21:25:45] [Server thread/INFO]: Stopping server
-[21:25:45] [Server thread/INFO]: Saving players
+[01:22:39] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[01:22:39] [Server thread/INFO]: Loading properties
+[01:22:39] [Server thread/INFO]: Default game type: SURVIVAL
+[01:22:40] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[01:22:40] [Server thread/INFO]: Debug logging is disabled
+[01:22:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:22:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:22:40] [Server thread/INFO]: Generating keypair
+[01:22:40] [Server thread/INFO]: Starting Minecraft server on 192.168.0.101:25565
+[01:22:40] [Server thread/INFO]: Using default channel type
+[01:22:40] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:22:40] [Server thread/INFO]: [INFO][NoCheatPlus] Mon Apr 17 01:22:40 BRT 2017
+[01:22:40] [Server thread/INFO]: Player instances are stored for efficiency.
+[01:22:41] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[01:22:41] [Server thread/INFO]: [AlwaysDay] Loading AlwaysDay v2.2.8
+[01:22:41] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[01:22:41] [Server thread/INFO]: [MaxBans] Loading MaxBans v2.7
+[01:22:41] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.0
+[01:22:41] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.3
+[01:22:41] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[01:22:41] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[01:22:41] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[01:22:41] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v2.2.1
+[01:22:41] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[01:22:41] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[01:22:41] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.2.1
+[01:22:41] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[01:22:41] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[01:22:41] [Server thread/INFO]: onLoad: Early set up of static API, configuration, logging.
+[01:22:41] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[01:22:41] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.8.8
+[01:22:41] [Server thread/INFO]: [ClickWarp] Loading ClickWarp v1.3.5
+[01:22:41] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.3
+[01:22:41] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.2-b1542
+[01:22:41] [Server thread/INFO]: [ChangeSkin] Loading ChangeSkin v2.3.2
+[01:22:41] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.5
+[01:22:41] [Server thread/INFO]: [MinigamesLib] Loading MinigamesLib v1.14.7
+[01:22:41] [Server thread/INFO]: [MGSkyWars] Loading MGSkyWars v1.5.3
+[01:22:41] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
+[01:22:41] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[01:22:41] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0
+[01:22:41] [Server thread/INFO]: VoidGenerator has been enabled!
+[01:22:41] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[01:22:41] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[01:22:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:22:41] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[01:22:41] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[01:22:41] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.2.1
+[01:22:41] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[01:22:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:22:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:22:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:22:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:22:41] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:22:41] [Server thread/INFO]: Preparing level "lobby"
+[01:22:41] [Server thread/INFO]: -------- World Settings For [lobby] --------
+[01:22:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:22:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:22:41] [Server thread/INFO]: Mob Spawn Range: 4
+[01:22:41] [Server thread/INFO]: Anti X-Ray: true
+[01:22:41] [Server thread/INFO]: 	Engine Mode: 1
+[01:22:41] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:22:41] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:22:41] [Server thread/INFO]: Random Lighting Updates: false
+[01:22:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:22:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:22:41] [Server thread/INFO]: Structure Info Saving: true
+[01:22:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:22:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:22:41] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:22:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:22:41] [Server thread/INFO]: Max TNT Explosions: 100
+[01:22:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:22:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:22:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:22:41] [Server thread/INFO]: View Distance: 10
+[01:22:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:22:41] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:22:41] [Server thread/INFO]: Clear tick list: false
+[01:22:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:22:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:22:41] [Server thread/INFO]: Max Entity Collisions: 8
+[01:22:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[01:22:42] [Server thread/INFO]: [AlwaysDay] Enabling AlwaysDay v2.2.8
+[01:22:42] [Server thread/INFO]: [AlwaysDay] AlwaysDay v2.2.8 is now enabled.
+[01:22:42] [Server thread/INFO]: Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+[01:22:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[01:22:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:22:43] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[01:22:43] [Server thread/INFO]: [MaxBans] Enabling MaxBans v2.7
+[01:22:43] [Server thread/INFO]: [MaxBans] Using SQLite
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading from DB...
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading bans
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading ipbans
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading mutes
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading player names...
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading IP History
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading warn history...
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading chat commands...
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading history...
+[01:22:43] [Server thread/INFO]: [MaxBans] Starting DNS blacklist
+[01:22:43] [Server thread/INFO]: [MaxBans] Loading proxys...
+[01:22:43] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.3
+[01:22:43] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:22:43] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:22:43] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:22:43] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:22:43] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group default initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group dono initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group admin initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group vip initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group moderador initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group youtube initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group sub_dono initialized
+[01:22:43] [Server thread/INFO]: [PermissionsEx] Group staff initialized
+[01:22:43] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[01:22:43] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[01:22:43] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[01:22:43] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[01:22:43] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v2.2.1
+[01:22:43] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[01:22:43] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[01:22:43] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[01:22:43] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'skywars' - Env: NORMAL - Type: NORMAL & seed: 7508262552445591995 & generator: VoidGenerator
+[01:22:43] [Server thread/INFO]: -------- World Settings For [skywars] --------
+[01:22:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:22:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:22:43] [Server thread/INFO]: Mob Spawn Range: 4
+[01:22:43] [Server thread/INFO]: Anti X-Ray: true
+[01:22:43] [Server thread/INFO]: 	Engine Mode: 1
+[01:22:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:22:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:22:43] [Server thread/INFO]: Random Lighting Updates: false
+[01:22:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:22:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[01:22:43] [Server thread/INFO]: Structure Info Saving: true
+[01:22:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:22:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:22:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:22:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:22:43] [Server thread/INFO]: Max TNT Explosions: 100
+[01:22:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:22:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:22:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:22:43] [Server thread/INFO]: View Distance: 10
+[01:22:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:22:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:22:43] [Server thread/INFO]: Clear tick list: false
+[01:22:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:22:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:22:43] [Server thread/INFO]: Max Entity Collisions: 8
+[01:22:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7508262552445591995)
+[01:22:44] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lobby' - Env: NORMAL - Type: FLAT & seed: 0
+[01:22:44] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[01:22:44] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[01:22:44] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is blocked.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[01:22:44] [Server thread/INFO]: [WorldGuard] (skywars) TNT ignition is PERMITTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (skywars) Lighters are PERMITTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (skywars) Lava fire is blocked.
+[01:22:44] [Server thread/INFO]: [WorldGuard] (skywars) Fire spread is UNRESTRICTED.
+[01:22:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skywars'
+[01:22:44] [Server thread/INFO]: [WorldGuard] Loading region data...
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.13.7-RC-sMD5NET-b925
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[01:22:44] [Server thread/INFO]: [NoCheatPlus] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+[01:22:44] [Server thread/INFO]: [ClickWarp] Enabling ClickWarp v1.3.5
+[01:22:45] [Server thread/INFO]: [ClickWarp] Metrics started!
+[01:22:45] [Server thread/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer enabled.
+[01:22:45] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.3
+[01:22:45] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.2-b1542
+[01:22:45] [Server thread/INFO]: [AuthMe] SQLite driver loaded
+[01:22:45] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:22:45] [Server thread/INFO]: [AuthMe] Hooked into PermissionsEx!
+[01:22:45] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[01:22:45] [Server thread/INFO]: [AuthMe] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[01:22:45] [Server thread/WARN]: [AuthMe] WARNING!!! By disabling ForceSingleSession, your server protection is inadequate!
+[01:22:45] [Server thread/INFO]: [AuthMe] Development builds are available on our jenkins, thanks to f14stelt.
+[01:22:45] [Server thread/INFO]: [AuthMe] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[01:22:45] [Server thread/INFO]: [AuthMe] AuthMe 5.2 build n.1542 correctly enabled!
+[01:22:45] [Server thread/INFO]: [ChangeSkin] Enabling ChangeSkin v2.3.2
+[01:22:45] [Server thread/INFO]: HikariPool-1 - Started.
+[01:22:45] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (org.sqlite.Conn.getNetworkTimeout()I)
+[01:22:45] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.5
+[01:22:45] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[01:22:45] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[01:22:45] [Server thread/INFO]: [MinigamesLib] Enabling MinigamesLib v1.14.7
+[01:22:45] [Server thread/INFO]: [0;31;1m[21mLoaded MinigamesAPI. We're on v1_8_R3.[m
+[01:22:45] [Server thread/ERROR]: [MinigamesLib] [MinigamesLib] - No Economy (Vault) dependency found! Disabling Economy.
+[01:22:45] [Server thread/INFO]: [MGSkyWars] Enabling MGSkyWars v1.5.3
+[01:22:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:22:46] [Server thread/INFO]: Done (4,429s)! For help, type "help" or "?"
+[01:22:46] [Craft Scheduler Thread - 2/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[01:22:46] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[01:22:46] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[01:22:46] [Craft Scheduler Thread - 12/INFO]: [Vault] Checking for Updates ... 
+[01:22:48] [Server thread/INFO]: Found 0 arenas.
+[01:22:49] [pool-7-thread-1/WARN]: [Fatal Error] :1:1: Fim prematuro do arquivo.
+
+[01:22:49] [pool-7-thread-1/WARN]: [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
+[01:22:51] [Server thread/INFO]: Plugins (21): [0;32;1mCleanroomGenerator[0;37;1m, [0;32;1mAlwaysDay[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mMaxBans[0;37;1m, [0;32;1mVoidGenerator[0;37;1m, [0;32;1mClearLag[0;37;1m, [0;32;1mPermissionsEx[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mSetSpawn[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mMultiverse-Core[0;37;1m, [0;32;1mProtocolLib[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mNoCheatPlus[0;37;1m, [0;32;1mClickWarp[0;37;1m, [0;32;1mColoredTags[0;37;1m, [0;32;1mAuthMe[0;37;1m, [0;32;1mChangeSkin[0;37;1m, [0;32;1mHolographicDisplays[0;37;1m, [0;32;1mMinigamesLib[0;37;1m, [0;32;1mMGSkyWars[m
+[01:22:51] [Thread-9/INFO]: [ClearLag] No updates found!
+[01:22:51] [Craft Scheduler Thread - 12/INFO]: [Vault] No new version available
+[01:23:02] [Thread-15/INFO]: [PermissionsEx] User f3a912d4-db2d-377a-9682-5a88e41f0c5d initialized
+[01:23:02] [Thread-15/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[01:23:02] [Server thread/INFO]: [PermissionsEx] Permissions handler for dudanq successfully injected
+[01:23:02] [Server thread/INFO]: [PermissionsEx] Updating superperms for player dudanq
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.bypassdenylogin', regex-matched a value of true from * (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.relog', regex-matched a value of true from nocheatplus.checks.chat.relog (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.logins', regex-matched a value of true from nocheatplus.checks.chat.logins (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] Updating superperms for player dudanq
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.notify', regex-matched a value of true from nocheatplus.notify (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.notify', regex-matched a value of true from cache.
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.rei.cave', regex-matched a value of true from nocheatplus.mods.rei.cave (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.rei.radar', regex-matched a value of true from nocheatplus.mods.rei.radar (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.noclip', regex-matched a value of true from nocheatplus.mods.zombe.noclip (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.fly', regex-matched a value of true from nocheatplus.mods.zombe.fly (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.cheat', regex-matched a value of true from nocheatplus.mods.zombe.cheat (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.climbing', regex-matched a value of true from nocheatplus.mods.smartmoving.climbing (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.swimming', regex-matched a value of true from nocheatplus.mods.smartmoving.swimming (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.crawling', regex-matched a value of true from nocheatplus.mods.smartmoving.crawling (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.sliding', regex-matched a value of true from nocheatplus.mods.smartmoving.sliding (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.jumping', regex-matched a value of true from nocheatplus.mods.smartmoving.jumping (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.flying', regex-matched a value of true from nocheatplus.mods.smartmoving.flying (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.fly', regex-matched a value of true from nocheatplus.mods.cjb.fly (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.xray', regex-matched a value of true from nocheatplus.mods.cjb.xray (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.radar', regex-matched a value of true from nocheatplus.mods.cjb.radar (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.ores', regex-matched a value of true from nocheatplus.mods.minecraftautomap.ores (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.cave', regex-matched a value of true from nocheatplus.mods.minecraftautomap.cave (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.radar', regex-matched a value of true from nocheatplus.mods.minecraftautomap.radar (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.journey.radar', regex-matched a value of true from nocheatplus.mods.journey.radar (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.journey.cavemap', regex-matched a value of true from nocheatplus.mods.journey.cavemap (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] Updating superperms metadata for player dudanq
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'mv.bypass.gamemode.lobby', regex-matched a value of true from * (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'vault.update', regex-matched a value of true from vault.update (CACHE MISS)
+[01:23:02] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of true from * (CACHE MISS)
+[01:23:02] [Server thread/INFO]: dudanq[/192.168.0.101:55304] logged in with entity id 85 at ([lobby]-175.69999998807907, 4.0, 20.30000001192093)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User f3a912d4-db2d-377a-9682-5a88e41f0c5d checked for "worldguard.region.bypass.lobby", no permission found
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut.bypass', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut.cheater', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus', regex-matched a value of undefined from cache.
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.color', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.commands', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'authme.player.login', regex-matched a value of true from authme.player.login (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.color', regex-matched a value of undefined from cache.
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.text', no match found (CACHE MISS)
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:23:09] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.captcha', no match found (CACHE MISS)
+[01:23:09] [Craft Scheduler Thread - 7/INFO]: [AuthMe] dudanq logged in!
+[01:23:22] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[01:23:31] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.json', regex-matched a value of true from * (CACHE MISS)
+[01:23:31] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.regular', regex-matched a value of true from * (CACHE MISS)
+[01:23:38] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[01:23:42] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[01:23:46] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+[01:23:46] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+[01:23:46] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+[01:23:46] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+[01:24:04] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+[01:24:04] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+[01:24:04] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+[01:24:04] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+[01:24:11] [Server thread/INFO]: [0;33;1m----------[m Help: page 2/6  [0;33;1m--------------------[m[m
+[01:24:11] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/cycler: [mBlock data cycler tool[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//cyl: [mGenerates a cylinder.[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//deform: [mDeforms a selected region with an expression[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/delchunks: [mDelete chunks that your selection includes[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/deltree: [mFloating tree remover tool[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/descend: [mGo down a floor[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//distr: [mGet the distribution of blocks in the selection[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//drain: [mDrain a pool[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//ex: [mExtinguish nearby fire[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//expand: [mExpand the selection area[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//faces: [mBuild the walls, ceiling, and floor of a selection[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/farwand: [mWand at a distance tool[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//fast: [mToggle fast mode[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//fill: [mFill a hole[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//fillr: [mFill a hole recursively[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//fixlava: [mFix lava to be stationary[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//fixwater: [mFix water to be stationary[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//flip: [mFlip the contents of the clipboard[m
+[01:24:11] [Server thread/INFO]: [0;33;22m/floodfill: [mFlood fill tool[m
+[01:24:11] [Server thread/INFO]: [0;33;22m//flora: [mMake flora within the region[m
+[01:24:16] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.regular', regex-matched a value of true from cache.
+[01:24:16] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.json', regex-matched a value of true from cache.
+[01:24:22] [Server thread/INFO]: [0;33;1m---------[m Help: page 32/6  [0;33;1m-------------------[m[m
+[01:24:22] [Server thread/INFO]: [0;31;1mThere is no page 32 (total number of pages is 6).[m
+[01:24:25] [Server thread/INFO]: [0;33;1m----------[m Help: page 3/6  [0;33;1m--------------------[m[m
+[01:24:25] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//forest: [mMake a forest within the region[m
+[01:24:25] [Server thread/INFO]: [0;33;22m/forestgen: [mGenerate a forest[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//generate: [mGenerates a shape according to a formula.[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//generatebiome: [mSets biome according to a formula.[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//gmask: [mSet the global mask[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//green: [mGreens the area[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hcyl: [mGenerates a hollow cylinder.[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//help: [mDisplays help for WorldEdit commands[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hollow: [mHollows out the object contained in this selection[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hpos1: [mSet position 1 to targeted block[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hpos2: [mSet position 2 to targeted block[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hpyramid: [mGenerate a hollow pyramid[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//hsphere: [mGenerates a hollow sphere.[m
+[01:24:25] [Server thread/INFO]: [0;33;22m/info: [mBlock information tool[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//inset: [mInset the selection area[m
+[01:24:25] [Server thread/INFO]: [0;33;22m/jumpto: [mTeleport to a location[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//limit: [mModify block change limit[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//line: [mDraws a line segment between cuboid selection corners[m
+[01:24:25] [Server thread/INFO]: [0;33;22m/listchunks: [mList chunks that your selection includes[m
+[01:24:25] [Server thread/INFO]: [0;33;22m//load: [mLoad a schematic into your clipboard[m
+[01:24:42] [Server thread/INFO]: [0;33;1m----------[m Help: page 4/6  [0;33;1m--------------------[m[m
+[01:24:42] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/lrbuild: [mLong-range building tool[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/mask: [mSet the brush mask[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/mat: [mSet the brush material[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//move: [mMove the contents of the selection[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//naturalize: [m3 layers of dirt on top then rock below[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/none: [mUnbind a bound tool from your current item[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//outset: [mOutset the selection area[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//overlay: [mSet a block on top of blocks in the region[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//paste: [mPaste the clipboard's contents[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//pos1: [mSet position 1[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//pos2: [mSet position 2[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/pumpkins: [mGenerate pumpkin patches[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//pyramid: [mGenerate a filled pyramid[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/range: [mSet the brush range[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//redo: [mRedoes the last action (from history)[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//regen: [mRegenerates the contents of the selection[m
+[01:24:42] [Server thread/INFO]: [0;33;22m/remove: [mRemove all entities of a type[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//removeabove: [mRemove blocks above your head.[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//removebelow: [mRemove blocks below you.[m
+[01:24:42] [Server thread/INFO]: [0;33;22m//removenear: [mRemove blocks near you.[m
+[01:24:52] [Server thread/INFO]: [0;33;1m----------[m Help: page 5/6  [0;33;1m--------------------[m[m
+[01:24:52] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/repl: [mBlock replacer tool[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//replace: [mReplace all blocks in the selection with another[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//replacenear: [mReplace nearby blocks[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/restore: [mRestore the selection from a snapshot[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//rotate: [mRotate the contents of the clipboard[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//save: [mSave a schematic into your clipboard[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/schematic: [mSchematic commands for saving/loading areas[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//searchitem: [mSearch for an item[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//sel: [mChoose a region selector[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//set: [mSet all the blocks inside the selection to a block[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//setbiome: [mSets the biome of the player's current block or region.[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//shift: [mShift the selection area[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/size: [mSet the brush size[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//size: [mGet information about the selection[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//smooth: [mSmooth the elevation in the selection[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/snapshot: [mSchematic commands for saving/loading areas[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//snow: [mSimulates snow[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//sphere: [mGenerates a filled sphere.[m
+[01:24:52] [Server thread/INFO]: [0;33;22m//stack: [mRepeat the contents of the selection[m
+[01:24:52] [Server thread/INFO]: [0;33;22m/superpickaxe: [mSuper-pickaxe commands[m
+[01:25:01] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.json', regex-matched a value of true from cache.
+[01:25:01] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.regular', regex-matched a value of true from cache.
+[01:25:05] [Server thread/INFO]: [0;33;1m----------[m Help: page 6/6  [0;33;1m--------------------[m[m
+[01:25:05] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:25:05] [Server thread/INFO]: [0;33;22m//thaw: [mThaws the area[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/thru: [mPassthrough walls[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/toggleeditwand: [mToggle functionality of the edit wand[m
+[01:25:05] [Server thread/INFO]: [0;33;22m//toggleplace: [mSwitch between your position and pos1 for placement[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/tool: [mBind functions to held items[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/tree: [mTree generator tool[m
+[01:25:05] [Server thread/INFO]: [0;33;22m//undo: [mUndoes the last action[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/unstuck: [mEscape from being stuck inside a block[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/up: [mGo upwards some distance[m
+[01:25:05] [Server thread/INFO]: [0;33;22m//walls: [mBuild the four sides of the selection[m
+[01:25:05] [Server thread/INFO]: [0;33;22m//wand: [mGet the wand object[m
+[01:25:05] [Server thread/INFO]: [0;33;22m/worldedit: [mWorldEdit commands[m
+[01:25:46] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.regular', regex-matched a value of true from cache.
+[01:25:46] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.json', regex-matched a value of true from cache.
+[01:26:31] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.json', regex-matched a value of true from cache.
+[01:26:31] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'automessage.receive.regular', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from nocheatplus.checks.moving.survivalfly (CACHE MISS)
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from nocheatplus.checks.moving.creativefly (CACHE MISS)
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from nocheatplus.checks.moving.passable (CACHE MISS)
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from nocheatplus.checks.moving.morepackets (CACHE MISS)
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:26:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:26:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of true from * (CACHE MISS)
+[01:26:38] [Server thread/INFO]: dudanq lost connection: §fYou're banned!
+ Reason: §a'Atoa'§f
+By §aconsole§f.
+No appeal website set :(
+[01:26:38] [Server thread/INFO]: [PermissionsEx] Updating superperms metadata for player dudanq
+[01:26:38] [Server thread/INFO]: [PermissionsEx] Permissions handler for dudanq successfully uninjected
+[01:26:38] [Server thread/INFO]: dudanq left the game.
+[01:26:38] [Server thread/INFO]: [0;32;1mConsole[0;37;1m banned [0;32;1mdudanq[0;37;1m for [0;32;1m'Atoa'[0;37;1m.[m
+[01:26:39] [Server thread/WARN]: handleDisconnection() called twice
+[01:26:39] [Server thread/INFO]: [PermissionsEx] User f3a912d4-db2d-377a-9682-5a88e41f0c5d initialized
+[01:26:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[01:26:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[01:27:14] [Server thread/INFO]: [0;33;1m----------[m Help: page 1/6  [0;33;1m--------------------[m[m
+[01:27:14] [Server thread/INFO]: [0;37;22mType [0;36;1m//help <command> [<page>][0;37;22m for more information.[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//: [mToggle the super pickaxe function[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/.s: [mExecute last CraftScript[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/ascend: [mGo up a floor[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/biomeinfo: [mGet the biome of the targeted block.[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/biomelist: [mGets all biomes available.[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/brush: [mBrushing commands[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/butcher: [mKill all or nearby mobs[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//calc: [mEvaluate a mathematical expression[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/ceil: [mGo to the celing[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//center: [mSet the center block(s)[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//chunk: [mSet the selection to your current chunk.[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/chunkinfo: [mGet information about the chunk that you are inside[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/clearclipboard: [mClear your clipboard[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//clearhistory: [mClear your history[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//contract: [mContract the selection area[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//copy: [mCopy the selection to the clipboard[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//count: [mCounts the number of a certain type of block[m
+[01:27:14] [Server thread/INFO]: [0;33;22m/cs: [mExecute a CraftScript[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//curve: [mDraws a spline through selected points[m
+[01:27:14] [Server thread/INFO]: [0;33;22m//cut: [mCut the selection to the clipboard[m
+[01:27:31] [Server thread/INFO]: [0;32;1mConsole[0;37;1m unbanned [0;32;1mdudanq[0;37;1m[m
+[01:27:35] [Thread-18/INFO]: UUID of player dudanq is f3a912d4-db2d-377a-9682-5a88e41f0c5d
+[01:27:35] [Server thread/INFO]: [PermissionsEx] Permissions handler for dudanq successfully injected
+[01:27:35] [Server thread/INFO]: [PermissionsEx] Updating superperms for player dudanq
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.bypassdenylogin', regex-matched a value of true from * (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.relog', regex-matched a value of true from nocheatplus.checks.chat.relog (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.logins', regex-matched a value of true from nocheatplus.checks.chat.logins (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] Updating superperms for player dudanq
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.notify', regex-matched a value of true from nocheatplus.notify (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.notify', regex-matched a value of true from cache.
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.rei.cave', regex-matched a value of true from nocheatplus.mods.rei.cave (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.rei.radar', regex-matched a value of true from nocheatplus.mods.rei.radar (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.noclip', regex-matched a value of true from nocheatplus.mods.zombe.noclip (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.fly', regex-matched a value of true from nocheatplus.mods.zombe.fly (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.zombe.cheat', regex-matched a value of true from nocheatplus.mods.zombe.cheat (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.climbing', regex-matched a value of true from nocheatplus.mods.smartmoving.climbing (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.swimming', regex-matched a value of true from nocheatplus.mods.smartmoving.swimming (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.crawling', regex-matched a value of true from nocheatplus.mods.smartmoving.crawling (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.sliding', regex-matched a value of true from nocheatplus.mods.smartmoving.sliding (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.jumping', regex-matched a value of true from nocheatplus.mods.smartmoving.jumping (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.smartmoving.flying', regex-matched a value of true from nocheatplus.mods.smartmoving.flying (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.fly', regex-matched a value of true from nocheatplus.mods.cjb.fly (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.xray', regex-matched a value of true from nocheatplus.mods.cjb.xray (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.cjb.radar', regex-matched a value of true from nocheatplus.mods.cjb.radar (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.ores', regex-matched a value of true from nocheatplus.mods.minecraftautomap.ores (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.cave', regex-matched a value of true from nocheatplus.mods.minecraftautomap.cave (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.minecraftautomap.radar', regex-matched a value of true from nocheatplus.mods.minecraftautomap.radar (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.journey.radar', regex-matched a value of true from nocheatplus.mods.journey.radar (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.mods.journey.cavemap', regex-matched a value of true from nocheatplus.mods.journey.cavemap (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] Updating superperms metadata for player dudanq
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'mv.bypass.gamemode.lobby', regex-matched a value of true from * (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'vault.update', regex-matched a value of true from vault.update (CACHE MISS)
+[01:27:35] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of true from * (CACHE MISS)
+[01:27:35] [Server thread/INFO]: dudanq[/192.168.0.101:55423] logged in with entity id 262 at ([lobby]-173.87122380044377, 4.0, 21.39050973059075)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut.bypass', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.shortcut.cheater', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus', regex-matched a value of undefined from cache.
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving', regex-matched a value of undefined from cache.
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving', regex-matched a value of undefined from cache.
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving', regex-matched a value of undefined from cache.
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', no match found (CACHE MISS)
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving', regex-matched a value of undefined from cache.
+[01:27:36] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', no match found (CACHE MISS)
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly.speeding', no match found (CACHE MISS)
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', no match found (CACHE MISS)
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly.speeding', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:37] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly.speeding', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.inventory.open', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:38] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.nofall', regex-matched a value of undefined from cache.
+[01:27:39] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User f3a912d4-db2d-377a-9682-5a88e41f0c5d checked for "worldguard.region.bypass.lobby", no permission found
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', no match found (CACHE MISS)
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.color', no match found (CACHE MISS)
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.commands', no match found (CACHE MISS)
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'authme.player.login', regex-matched a value of true from authme.player.login (CACHE MISS)
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.color', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.text', no match found (CACHE MISS)
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat', regex-matched a value of undefined from cache.
+[01:27:44] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.chat.captcha', no match found (CACHE MISS)
+[01:27:44] [Craft Scheduler Thread - 7/INFO]: [AuthMe] dudanq logged in!
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from nocheatplus.checks.moving.survivalfly (CACHE MISS)
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from nocheatplus.checks.moving.creativefly (CACHE MISS)
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from nocheatplus.checks.moving.passable (CACHE MISS)
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from nocheatplus.checks.moving.morepackets (CACHE MISS)
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.survivalfly', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.creativefly', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.passable', regex-matched a value of true from cache.
+[01:27:45] [Server thread/INFO]: [PermissionsEx] User dudanq checked for permission 'nocheatplus.checks.moving.morepackets', regex-matched a value of true from cache.
+[01:27:47] [Server thread/INFO]: dudanq lost connection: Internal Exception: java.io.IOException: Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[01:27:47] [Server thread/INFO]: [PermissionsEx] Updating superperms metadata for player dudanq
+[01:27:47] [Server thread/INFO]: [PermissionsEx] Permissions handler for dudanq successfully uninjected
+[01:27:47] [Server thread/INFO]: dudanq left the game.
+[01:27:47] [Server thread/INFO]: [PermissionsEx] User f3a912d4-db2d-377a-9682-5a88e41f0c5d initialized
+[01:29:26] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[01:30:07] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[01:30:27] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m

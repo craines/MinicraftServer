@@ -25,5 +25,7 @@ users:
     options:
       group: dono
       name: dudanq
+      last-login-time: '1492403255'
+      last-logout-time: '1492403267'
     group:
     - dono
