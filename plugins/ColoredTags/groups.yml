@@ -15,5 +15,7 @@
 user: '&f[&9User&f] '
 mod: '&f[&aMod&f] '
 admin: '&f[&cAdmin&f] <name> &4[**]'
-Os_Admins: TotalmenteGamer
-'[Equipe]': TotalmenteGamer TotalmenteGamer TotalmenteGamer
+dono: '&f[&4Dono&f] <name>'
+'&4You&fTube': <name>
+youtube: '&fYou&4Tube&f <name>'
+staff: '&f[&eStaff&f] <name>'

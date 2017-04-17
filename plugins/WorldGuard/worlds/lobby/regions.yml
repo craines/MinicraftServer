@@ -9,4 +9,12 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    lobby:
+        min: {x: -207.0, y: 0.0, z: -110.0}
+        max: {x: -63.0, y: 255.0, z: 36.0}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0

@@ -1,39 +1,4 @@
 worlds:
-  world:
-    seed: -2835611764693024549
-    environment: NORMAL
-    type: NORMAL
-    hidden: false
-    alias:
-      name: ''
-      color: WHITE
-    pvp: true
-    scale: 1.0
-    respawnworld: ''
-    allowweather: true
-    difficulty: EASY
-    animals:
-      spawn: false
-    monsters:
-      spawn: false
-    entryfee:
-      currency: -1
-      price: 0.0
-    hunger: true
-    autoheal: true
-    adjustspawn: true
-    portalform: ALL
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: 220.66166630219465
-      y: 63.0
-      z: 258.45241105754167
-      pitch: -4.5907035
-      yaw: -272.05823
-      world: world
-    autoload: true
-    bedrespawn: true
   skywars:
     generator: VoidGenerator
     seed: 7508262552445591995
@@ -97,11 +62,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -134.64624206038283
+      x: -133.63419692086973
       y: 9.0625
-      z: -33.69257715870908
-      pitch: 74.69999
-      yaw: 1.499928
+      z: -34.45649287673645
+      pitch: 45.45017
+      yaw: 262.50513
       world: lobby
     autoload: true
     bedrespawn: true

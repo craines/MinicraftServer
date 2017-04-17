@@ -1,10 +1,10 @@
 multiserver:
   use-netevents: true
 permissions:
-  debug: false
-  allowOps: false
-  user-add-groups-last: false
-  log-players: false
+  debug: true
+  allowOps: true
+  user-add-groups-last: true
+  log-players: true
   createUserRecords: false
   backend: file
   informplayers:

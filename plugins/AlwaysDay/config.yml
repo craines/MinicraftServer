@@ -1,12 +1,12 @@
 enabled: true
 worlds:
   day:
-  - world
   - skywars
+  - lobby
   night: []
   calm:
-  - world
   - skywars
+  - lobby
   storm: []
 updates:
   autoupdate: true

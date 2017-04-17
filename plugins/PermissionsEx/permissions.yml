@@ -4,4 +4,26 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+  dono:
+    options:
+      prefix: '&f[&4Dono&f]'
+      suffix: '&f[&4Dono&f]'
+    permissions:
+    - essencials.spawn
+  admin: {}
+  vip: {}
+  moderador: {}
+  youtube: {}
+  sub_dono: {}
+  staff: {}
 schema-version: 1
+users:
+  66406033-f81f-309d-bc6e-24fd42195503:
+    group:
+    - dono
+  f3a912d4-db2d-377a-9682-5a88e41f0c5d:
+    options:
+      group: dono
+      name: dudanq
+    group:
+    - dono
