@@ -451,3 +451,13 @@
 [04-17 00:51:40]: [FINE] dudanq logged in!
 [04-17 01:45:12]: [FINE] dudanq logged in!
 [04-17 02:13:34]: [INFO] AuthMe 5.2-b1542 disabled!
+[04-17 12:18:25]: [INFO] SQLite driver loaded
+[04-17 12:18:25]: [INFO] SQLite Setup finished
+[04-17 12:18:25]: [INFO] Hooked into PermissionsEx!
+[04-17 12:18:25]: [INFO] Hooked successfully into Multiverse-Core
+[04-17 12:18:25]: [INFO] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-17 12:18:25]: [WARN] WARNING!!! By disabling ForceSingleSession, your server protection is inadequate!
+[04-17 12:18:25]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[04-17 12:18:25]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-17 12:18:25]: [INFO] AuthMe 5.2 build n.1542 correctly enabled!
+[04-17 12:18:49]: [FINE] dudanq logged in!

@@ -1,0 +1,15 @@
+{
+  "group": "dono",
+  "location": {
+    "world": "lobby",
+    "x": -138.03085363044292,
+    "y": 9.0625,
+    "z": -42.34500220673162,
+    "yaw": -196.94794,
+    "pitch": -3.8155253
+  },
+  "operator": true,
+  "can-fly": true,
+  "walk-speed": 0.2,
+  "fly-speed": 0.2
+}
