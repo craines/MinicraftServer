@@ -1,0 +1,15 @@
+{
+  "group": "youtube",
+  "location": {
+    "world": "skywars",
+    "x": -15.89004220104199,
+    "y": 89.41678998687462,
+    "z": -3.605236743119757,
+    "yaw": -11.952098,
+    "pitch": -7.1825643
+  },
+  "operator": true,
+  "can-fly": true,
+  "walk-speed": 0.2,
+  "fly-speed": 0.2
+}

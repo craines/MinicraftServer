@@ -1,0 +1,15 @@
+{
+  "group": "default",
+  "location": {
+    "world": "skywars",
+    "x": 1.9522144077543113,
+    "y": 85.75825043958922,
+    "z": 2.592793852630085,
+    "yaw": 268.6291,
+    "pitch": 41.627552
+  },
+  "operator": true,
+  "can-fly": true,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}

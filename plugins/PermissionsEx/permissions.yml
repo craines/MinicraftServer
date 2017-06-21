@@ -13,7 +13,9 @@ groups:
   admin: {}
   vip: {}
   moderador: {}
-  youtube: {}
+  youtube:
+    permissions:
+    - filipegaara
   sub_dono: {}
   staff: {}
 schema-version: 1
@@ -25,7 +27,31 @@ users:
     options:
       group: dono
       name: dudanq
-      last-login-time: '1492442318'
-      last-logout-time: '1492442353'
+      last-login-time: '1498065655'
+      last-logout-time: '1498066239'
     group:
     - dono
+  125d39d3-ffd5-3522-bc05-dc4e866f48e9:
+    group:
+    - admin
+    options:
+      name: kendricklamar99
+      last-logout-time: '1498071932'
+      last-login-time: '1498071882'
+  b8a4d654-88c3-323b-b7df-dd348d838a0f:
+    group:
+    - youtube
+    options:
+      name: Zpkn_Lobinho292
+      last-login-time: '1497619808'
+      last-logout-time: '1497620777'
+  77fbfd7c-53bb-36ee-bc1b-9eaea493a304:
+    group:
+    - youtube
+    options:
+      name: filipegaara
+      last-logout-time: '1497991588'
+      last-login-time: '1497991571'
+  group:
+    permissions:
+    - youtube

@@ -1,0 +1,15 @@
+{
+  "group": "admin",
+  "location": {
+    "world": "skywars",
+    "x": 6.7056954965237505,
+    "y": 65.0,
+    "z": -12.576760363485743,
+    "yaw": 138.45026,
+    "pitch": 18.749962
+  },
+  "operator": true,
+  "can-fly": true,
+  "walk-speed": 0.2,
+  "fly-speed": 0.2
+}

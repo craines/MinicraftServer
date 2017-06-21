@@ -16,5 +16,6 @@ user: '&f[&9User&f] '
 mod: '&f[&aMod&f] '
 admin: '&f[&cAdmin&f] <name> &4[**]'
 dono: '&f[&4Dono&f] <name> <3'
-youtube: '&fYou&4Tube&f <name>'
+youtube: '[&fYou&4Tube&f] <name>'
 staff: '&f[&eStaff&f] <name>'
+adminprefix: siffix kendricklamar99

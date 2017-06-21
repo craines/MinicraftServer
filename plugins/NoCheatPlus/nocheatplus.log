@@ -356,3 +356,171 @@ Features:
 Hooks: AllViolations~NCP~ 1.0
 #### Related Plugins ####
 ProtocolLib v4.2.1
+17-06-16 07:03:44 [INFORMAÇÕES] Logger started.
+17-06-16 07:03:44 [INFORMAÇÕES] Logging system initialized.
+17-06-16 07:03:44 [INFORMAÇÕES] Detected Minecraft version: 1.8.8
+17-06-16 07:03:49 [INFORMAÇÕES] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+17-06-16 07:03:49 [INFORMAÇÕES] Added block-info for Minecraft 1.5 blocks.
+17-06-16 07:03:49 [INFORMAÇÕES] Added block-info for Minecraft 1.6.1 blocks.
+17-06-16 07:03:49 [INFORMAÇÕES] Added block-info for Minecraft 1.7.2 blocks.
+17-06-16 07:03:49 [INFORMAÇÕES] Added block-info for Minecraft 1.8 blocks.
+17-06-16 07:03:49 [INFORMAÇÕES] Inventory checks: FastConsume is available, disabled InstantEat.
+17-06-16 07:03:49 [INFORMAÇÕES] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+17-06-16 07:03:49 [INFORMAÇÕES] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+17-06-16 07:03:49 [INFORMAÇÕES] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+17-06-16 07:03:51 [INFORMAÇÕES] Added hook: AllViolations(NCP) [1.0].
+17-06-16 07:03:51 [INFORMAÇÕES] Post-enable running...
+17-06-16 07:03:51 [INFORMAÇÕES] Post-enable finished.
+17-06-16 07:03:51 [INFORMAÇÕES] ---- Version information ----
+#### Server ####
+git-Spigot-21fe707-e1ebe52 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.1
+17-06-16 08:38:49 [INFORMAÇÕES] Dpool failed SurvivalFly: tried to move unexpectedly. VL 37.
+17-06-16 08:52:11 [INFORMAÇÕES] Dpool failed SurvivalFly: tried to move unexpectedly. VL 50.
+17-06-16 09:44:41 [INFORMAÇÕES] craines failed SurvivalFly: tried to move unexpectedly. VL 6.
+17-06-16 09:47:45 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (2) from 4.13, 65.00, 4.04 to 4.13, 64.51, 4.04 distance 0.49 . VL 10.
+17-06-16 10:01:48 [INFORMAÇÕES] filipegaara failed Direction: tried to interact with a block out of their line of sight. VL 11.
+17-06-16 10:02:08 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (18) from -14.61, 88.00, -0.38 to -14.61, 87.75, -0.38 distance 0.25 . VL 11.
+17-06-16 10:02:34 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (12) from 251.60, 140.00, 41.90 to 251.60, 139.90, 41.90 distance 0.10 . VL 14.
+17-06-16 10:03:15 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (2) from 21.29, 119.00, -160.24 to 21.29, 118.90, -160.24 distance 0.10 . VL 24.
+17-06-16 10:03:53 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (89) from -237.62, 139.00, -127.56 to -237.67, 138.90, -127.61 distance 0.12 . VL 25.
+17-06-16 10:04:36 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 127.
+17-06-16 10:05:26 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (20) from 33.83, 143.00, -380.70 to 33.83, 142.51, -380.70 distance 0.49 . VL 11.
+17-06-16 10:05:41 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 53.
+17-06-16 10:05:45 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 389.
+17-06-16 10:05:49 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move from -31.30, 154.77, -831.67 to -30.35, 160.00, -833.39 over a distance of 5.58 block(s). VL 681.
+17-06-16 10:05:54 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move from -31.30, 154.77, -831.67 to -31.51, 155.00, -831.30 over a distance of 0.49 block(s). VL 695.
+17-06-16 10:06:01 [INFORMAÇÕES] filipegaara failed Direction: tried to interact with a block out of their line of sight. VL 11.
+17-06-16 10:06:13 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 24.
+17-06-16 10:06:23 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 57.
+17-06-16 10:07:16 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 72.
+17-06-16 10:07:16 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 101.
+17-06-16 10:07:23 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move from -59.19, 157.01, -833.05 to -59.19, 159.71, -833.05 over a distance of 2.69 block(s). VL 551.
+17-06-16 10:07:52 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 159.
+17-06-16 10:08:47 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (5) from -58.78, 157.00, -834.53 to -58.78, 156.90, -834.53 distance 0.10 . VL 15.
+17-06-16 10:08:52 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (49) from 20.21, 149.00, -1018.48 to 20.21, 148.51, -1018.48 distance 0.49 . VL 38.
+17-06-16 10:08:54 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (49) from 20.21, 149.00, -1018.48 to 20.21, 148.61, -1018.48 distance 0.39 . VL 50.
+17-06-16 10:09:13 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (49) from 20.21, 149.00, -1018.48 to 20.21, 148.90, -1018.48 distance 0.10 . VL 80.
+17-06-16 11:23:06 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (54) from 26.40, 147.88, -1019.59 to 26.40, 147.78, -1019.59 distance 0.10 . VL 80.
+17-06-16 11:25:31 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 301.
+17-06-16 11:27:14 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (5) from 70.37, 68.25, 29.29 to 70.30, 68.61, 28.89 distance 0.54 . VL 54.
+17-06-16 11:28:19 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 60.
+17-06-16 11:28:21 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 106.
+17-06-16 11:28:23 [INFORMAÇÕES] filipegaara failed Direction: tried to hit an entity out of line of sight. VL 5.
+17-06-16 11:30:19 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 154.
+17-06-16 11:31:37 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 241.
+17-06-16 11:31:43 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 12.
+17-06-16 11:31:44 [INFORMAÇÕES] filipegaara failed Direction: tried to hit an entity out of line of sight. VL 5.
+17-06-16 11:31:49 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 192.
+17-06-16 11:32:34 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 189.
+17-06-16 11:33:14 [INFORMAÇÕES] filipegaara failed KeepAliveFrequency: spams keep-alive packets (god/freecam?). VL 10.
+17-06-16 11:34:28 [INFORMAÇÕES] filipegaara failed SurvivalFly: tried to move unexpectedly. VL 160.
+17-06-16 11:35:30 [INFORMAÇÕES] filipegaara failed Passable: moved into a block (159) from 15.70, 104.00, 183.34 to 15.70, 103.61, 183.34 distance 0.39 . VL 10.
+17-06-17 12:35:33 [INFORMAÇÕES] natanaelc4d failed SurvivalFly: tried to move unexpectedly. VL 22.
+17-06-21 14:31:55 [INFORMAÇÕES] _SrCraft_ failed SurvivalFly: tried to move unexpectedly. VL 93.
+17-06-21 14:31:55 [INFORMAÇÕES] _SrCraft_ failed SurvivalFly: tried to move unexpectedly. VL 116.
+17-06-21 14:32:05 [INFORMAÇÕES] _SrCraft_ failed SurvivalFly: tried to move unexpectedly. VL 184.
+17-06-21 14:51:10 [INFORMAÇÕES] Logger started.
+17-06-21 14:51:10 [INFORMAÇÕES] Logging system initialized.
+17-06-21 14:51:10 [INFORMAÇÕES] Detected Minecraft version: 1.8.8
+17-06-21 14:51:16 [INFORMAÇÕES] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+17-06-21 14:51:16 [INFORMAÇÕES] Added block-info for Minecraft 1.5 blocks.
+17-06-21 14:51:16 [INFORMAÇÕES] Added block-info for Minecraft 1.6.1 blocks.
+17-06-21 14:51:16 [INFORMAÇÕES] Added block-info for Minecraft 1.7.2 blocks.
+17-06-21 14:51:16 [INFORMAÇÕES] Added block-info for Minecraft 1.8 blocks.
+17-06-21 14:51:16 [INFORMAÇÕES] Inventory checks: FastConsume is available, disabled InstantEat.
+17-06-21 14:51:16 [INFORMAÇÕES] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+17-06-21 14:51:16 [INFORMAÇÕES] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+17-06-21 14:51:16 [INFORMAÇÕES] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+17-06-21 14:51:18 [INFORMAÇÕES] Added hook: AllViolations(NCP) [1.0].
+17-06-21 14:51:18 [INFORMAÇÕES] Post-enable running...
+17-06-21 14:51:18 [INFORMAÇÕES] Post-enable finished.
+17-06-21 14:51:18 [INFORMAÇÕES] ---- Version information ----
+#### Server ####
+git-Spigot-21fe707-e1ebe52 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.1
+17-06-21 15:01:16 [INFORMAÇÕES] Removed hook: AllViolations(NCP) [1.0].
+17-06-21 15:01:16 [DETALHADO] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 4460 (4460/0) | event.player.move.handled.pos 1564 (1564/0) | event.player.move.handled.look 130 (130/0) | event.player.move.handled.pos_look 2765 (2765/0) | packet.flying.nullplayer 0 | packet.flying.handled 12965 (0/12965) | packet.flying.asynchronous 12965 (0/12965) | packet.outgoing_position.untracked 0 | packet.sound.cancel 0 |
+17-06-21 15:01:17 [INFORMAÇÕES] Logger started.
+17-06-21 15:01:17 [INFORMAÇÕES] Logging system initialized.
+17-06-21 15:01:17 [INFORMAÇÕES] Detected Minecraft version: 1.8.8
+17-06-21 15:01:20 [INFORMAÇÕES] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+17-06-21 15:01:20 [INFORMAÇÕES] Added block-info for Minecraft 1.5 blocks.
+17-06-21 15:01:20 [INFORMAÇÕES] Added block-info for Minecraft 1.6.1 blocks.
+17-06-21 15:01:20 [INFORMAÇÕES] Added block-info for Minecraft 1.7.2 blocks.
+17-06-21 15:01:20 [INFORMAÇÕES] Added block-info for Minecraft 1.8 blocks.
+17-06-21 15:01:20 [INFORMAÇÕES] Inventory checks: FastConsume is available, disabled InstantEat.
+17-06-21 15:01:20 [INFORMAÇÕES] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+17-06-21 15:01:20 [INFORMAÇÕES] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+17-06-21 15:01:20 [INFORMAÇÕES] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+17-06-21 15:01:22 [INFORMAÇÕES] Added hook: AllViolations(NCP) [1.0].
+17-06-21 15:01:22 [INFORMAÇÕES] Post-enable running...
+17-06-21 15:01:22 [INFORMAÇÕES] Updated data for 2 players (post-enable).
+17-06-21 15:01:22 [INFORMAÇÕES] Post-enable finished.
+17-06-21 15:01:22 [INFORMAÇÕES] ---- Version information ----
+#### Server ####
+git-Spigot-21fe707-e1ebe52 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.1
+17-06-21 15:04:20 [INFORMAÇÕES] Logger started.
+17-06-21 15:04:20 [INFORMAÇÕES] Logging system initialized.
+17-06-21 15:04:20 [INFORMAÇÕES] Detected Minecraft version: 1.8.8
+17-06-21 15:04:25 [INFORMAÇÕES] McAccess set to: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+17-06-21 15:04:25 [INFORMAÇÕES] Added block-info for Minecraft 1.5 blocks.
+17-06-21 15:04:25 [INFORMAÇÕES] Added block-info for Minecraft 1.6.1 blocks.
+17-06-21 15:04:25 [INFORMAÇÕES] Added block-info for Minecraft 1.7.2 blocks.
+17-06-21 15:04:25 [INFORMAÇÕES] Added block-info for Minecraft 1.8 blocks.
+17-06-21 15:04:25 [INFORMAÇÕES] Inventory checks: FastConsume is available, disabled InstantEat.
+17-06-21 15:04:25 [INFORMAÇÕES] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+17-06-21 15:04:25 [INFORMAÇÕES] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+17-06-21 15:04:26 [INFORMAÇÕES] Version 3.13.7-RC-sMD5NET-b925 is enabled.
+17-06-21 15:04:27 [INFORMAÇÕES] Added hook: AllViolations(NCP) [1.0].
+17-06-21 15:04:27 [INFORMAÇÕES] Post-enable running...
+17-06-21 15:04:27 [INFORMAÇÕES] Post-enable finished.
+17-06-21 15:04:27 [INFORMAÇÕES] ---- Version information ----
+#### Server ####
+git-Spigot-21fe707-e1ebe52 ~MC: 1.8.8~
+  detected: 1.8.8
+#### NoCheatPlus ####
+Plugin: 3.13.7-RC-sMD5NET-b925
+MCAccess: 1.8.4-1.8.8 / Spigot-CB-1.8_R3
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  defaults: pvpKnockBackVelocity
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.2.1

@@ -36,7 +36,5 @@ Delay:
 Various:
   PluginReloaded: '&7[&6ClickWarp&7] Plugin znovu nacten.'
   ErrorFileSaving: '&cError pri ukladani, zkontroluj konzoli!'
-  NoPermission: "&cNa tohle nem\xc3\u0192\xc6\u2019\xc3\u2020\xe2\u20ac\u2122\xc3\u0192\
-    \xe2\u20ac\u0161\xc3\u201a\xc2\xa1s pr\xc3\u0192\xc6\u2019\xc3\u2020\xe2\u20ac\
-    \u2122\xc3\u0192\xe2\u20ac\u0161\xc3\u201a\xc2\xa1vo!"
+  NoPermission: '&cNa tohle nemÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡s prÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡vo!'
   OnlyPlayers: '&cJenom hrac muze vykonat tuhle akci.'
